@@ -1,0 +1,148 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 32
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "52": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 54
+  },
+  "Values": {
+    "15,16": "页面连接已断开",
+    "18,16": "由于您长时间没有操作页面，连接已经断开，如需继续使用请刷新页面。",
+    "22,21": "重新加载页面"
+  },
+  "AttachInfos": {
+    "4,16": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImageSizeMode": 0,
+        "ImagePath": "fgc_built_in_page_disconnected.png"
+      }
+    },
+    "22,21": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "重新加载页面",
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "ReloadPage_Button"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 34.666666666666664,
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "Formatter": 5,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 25",
+        "Center",
+        "Top",
+        "Text 1 50",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "4,16": 0,
+      "15,16": 1,
+      "18,16": 2,
+      "22,21": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "4,16,10,22",
+    "15,16,3,22",
+    "18,16,3,22",
+    "22,21,2,12"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_连接已断开_手机版",
+    "Title": "连接已断开",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//JIh6bljzbCsgJmvCgeak4Gc8n8lWva8opq8CGu/IVedzroO2JjBXVsU4Lmo66a8HsueZOVQv3KkD51VAUZAuBNkg7ecqNocxZ6ZWasTf5OatIQIc0bZZtWlANlert2D0i3wOEGFgp3NqEdFPnsjvilvj2GEjCptzPqgIjUj7bwk5gelg89LTb1gwSpv0zxHFBH1wJEhjhNZO1czswTywWgvkVmC/1KkfIKYhuh1FbXHJD5XblQc6dPrkTdz5fje8q38YE6Qqn5i5QX5W2Xds8RnkOF/a90YibM3q2pZ3dtW2cCOgkej/38454GQAeWay7YKUPivTWOnR4R9uVxbOcJN6yuzeN3/eeIjGa6uNTq7QPkUOtYRb0lg5Qr9i9bfHznhth333ck0DuPky3a0687MVkcbg9fz62E/4mRYj6eWPcUTfhWPZs9AuODcCmZ17yqfYgcDz7pNBRQlX4qMtJU5NHxdbNBvIJO73rl6UY9caNd0nAYVPNxHe+XWpkcai/5nIAxKVa8jdSNAL+DTu0zVbX0soIehBLUIXtOJHaG4EmkXsGvXF1y3RW33hTocM4mJsul3lJgWcsxKZOaQGCFY6prG/3zFB3p5TZgBU1outTIOovcs9zm+KcdNySh7K8B2MZRUt/Ob3KxC18RVl8praRP04q7ep/at91LPOLWuOsG63UpfRRCnthsegF73yuv0Fcy17t2dmbIvsqSF8SFFrSJRuXzvI+bLizR8wBATSHIQxXga9lQe1kl5NofUIDYsfcQS9WNT2PD7zql+eDa1E29WTHPUJT/fzUx2cGrP0fNLyrmYP3t9G3nIsVVtod0b+9XeuuHEdv5IPwU9/F59xmSVcH2zn1LgVx/21FQMGWJFPH/RAlsW7dOCzYEi+ETC2Od5xztCIXS4xyrVBnA==|920

@@ -1,0 +1,156 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "15,2": "页面连接已断开",
+    "18,2": "由于您长时间没有操作页面，连接已经断开，如需继续使用请刷新页面。",
+    "22,5": "重新加载页面"
+  },
+  "AttachInfos": {
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImageSizeMode": 0,
+        "ImagePath": "fgc_built_in_page_disconnected.png"
+      }
+    },
+    "22,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "重新加载页面",
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "ReloadPage_Button"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 5,
+        "Formatter": 6,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Underline": false,
+        "Strikethrough": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "Center",
+        "Top",
+        "Text 1 50",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "4,1": 0,
+      "15,2": 1,
+      "18,2": 2,
+      "22,5": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "4,1,10,17",
+    "15,2,3,15",
+    "18,2,3,15",
+    "22,5,2,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "连接已断开",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//zg4Z3j2WuW2xPUX7+QcFtwawQAlYiUBXgqHTOIn3SYBjP1YJlVotYh6XJtc0y7/GpSM1ue62/FXbq+O6W9Ory2f+q4jsacdtJaLXNBUPhUsUs/GSwFTmjSVWzyUaD17Za3cy3Nj7XhlnzIXQk1lul2Y/j0vKkMuabQpvwGUO12hqv+AUF3wxYTCvHc4L+uUmVu4A8MSNsKHZPyVp2kQkEKIN9Cg5JZG7YgYHcnAyEnaXafFSOxo9OzT19gsYyI9bjCC0peXCUiwz+xc4cPW1RcicEcf0CRBr2RDoI3A4VOr/C3A8n7BbC2aBi8BmS3i/Yq4RiveuEogxhm2451JCySxhU4HiC66An9DrZE/Eeu3ZBT0kJfPkz8CgK4Z2S4T8FYsoSnawC4PjxuGNqEJszLC8jAKpQZ/4Q2x/kFzNYD4Gw24ZRnTENbWsGfJmQAK8GNd5lbTgTgrg50iDnkCXM8p9drgoMSXrfot/fdwCgKw4GEpPOZEKS5ztDyJxDVe+kx6Px1/fCRKI1kAXkxaD1tjlOaIxAPY9o0gSLFm61o64w26eiw9RX3AbphafZPVA6Z0J12HShLpo64/tdC/37pApxvjL0F9334KTe15e+AIVsqgHfnh+/SpGsPS/ExplfYr8Ei/TTfgvV/4xP6J04/zXDeh4+wJXhza6p+01kBMPPzfjahau2cYdmJbMSI17B/dH/S6AdAOj8krW7mtfu9Uo2/XqZnoLw5Hc+o0+swS4yE5IJ0vtmgvDefeXJpVfOrRkE0HBx9zHmdSqGbdYNQQvG5k9tdvnrTOlWTBT57H8leaGNN9tnv3FtTl6dZXIMKLN2EFkwf2U9BqOc3P6g7ZVTbuRjpqEGNlfk9AJhBrVQIOgQS/3dPY1nbQ02unpUxgX4gFxL6fhJmFG1RHcDQ==|920
