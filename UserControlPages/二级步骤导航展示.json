@@ -1,0 +1,129 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 134.0,
+          "Mode": 1
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 134.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 134.0
+  },
+  "Values": {
+    "0,1": ">"
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.CallUserControlPageCommand, ServerDesignerCommon",
+            "CommandName": "一级标题点击命令"
+          }
+        ],
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main"
+      },
+      "TemplateCellSource": "一级标题"
+    },
+    "0,2": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main"
+      },
+      "TemplateCellSource": "二级标题"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Underline": true
+      },
+      {
+        "FontWeight": 0,
+        "HorizontalAlignment": 1
+      },
+      {
+        "HorizontalAlignment": 2
+      },
+      {
+        "HorizontalAlignment": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Left",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,2": 0
+    },
+    "ColStyles": {
+      "0": 1,
+      "1": 2,
+      "2": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [
+      {
+        "Name": "一级标题"
+      },
+      {
+        "Name": "二级标题"
+      }
+    ],
+    "CommandDefinitions": [
+      {
+        "Name": "一级标题点击命令"
+      }
+    ],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//hrmn2aqBz0VqopSV78xQVK0o/hwUSKSE80S1+NwIfV/2heXPj/Z0CJSYsHYq1T0sG/8mhskIkzk1plIHS5TBfMvRM8I2U7HtjvCwB5DhyiDKIW17rWBmSpYUqQEedg+PSljZUs+C7e316V9H1KDd0LmovHf0IUUmNB9Zkm3VwBhGSG8JW+y0gPkHo47Soy+a/y5FBECvbVdCt9ZrjYY9/gWYhTpgdRnajZ+WFFuHfhWw2EmJ12T7mjTrqytMykJw9TrTe7AWA8ZEuSM9z3G36M+jax7RJwroYTKOEN2rLbtxP+dXny0JXWhqjBURxGdebgX2fm5k+kLJw5Map9pfU8yz8kKEh1ZaDghX12CbMnSYRZU88W48XwTK13teebFFaEpftC1RG620xqi4X5QX4bRXedjsGCUcDieSNe4mEkQHsqwY8JQXTK60HoWU1ghBQWd4vdwa8e5f24BL1G7HtEyD+GWFzZuO99VCSzNuAvkZeCx1sUi+ZKyNo5OiwbHX4m2XlJi4fzSGaPaqEo77nPbQDNsl4OjtfEoojLUtZRUb8NY0sjtOh6nY6SBx9ZH+BHvfUoZtsfRCuFine/p5QhzOIVIK5sLTJq00MfQ6eHJq9h/E/BNcJVpjxGW6XItJIm+fFZH3QN/z9D22staBrZqaxSU98vSgPQyRNXdlG/c1qod032H1M6aMD/nS4jOglcYJhNyUTh/H85ByRNv8ZwniYUbAqciL2pJXEkU/Bu5pjgMTGbbgCZ+ZT19HdJh/ZECPtAB9wEwKCCcAGeYoKCElBWKCJwqVYMddgJ7WhYoDhKPJPx4k7BKNx80CC1dlSB4QruwBZZHJxpLnN0ELljPBHIat+g1VLEcmNVqV+TyXBNXAfSloers/zw4AUOl3vJVyUjfrAIeW8l+ptxOjaA==|920

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Colors>
-    <Dark1>#333333</Dark1>
-    <Dark2>#042531</Dark2>
+    <Dark1>#000000</Dark1>
+    <Dark2>#646B86</Dark2>
     <Light1>#FFFFFF</Light1>
-    <Light2>#EAEBDE</Light2>
-    <Accent1>#3076A9</Accent1>
-    <Accent2>#8BB73D</Accent2>
-    <Accent3>#EBC54B</Accent3>
-    <Accent4>#EA772A</Accent4>
-    <Accent5>#D03736</Accent5>
-    <Accent6>#904DA0</Accent6>
+    <Light2>#C5D1D7</Light2>
+    <Accent1>#D16349</Accent1>
+    <Accent2>#CCB400</Accent2>
+    <Accent3>#8CADAE</Accent3>
+    <Accent4>#8C7B70</Accent4>
+    <Accent5>#8FB08C</Accent5>
+    <Accent6>#D19049</Accent6>
     <Hyperlink>#FFFFFF</Hyperlink>
     <HyperlinkFollowed>#FFFFFF</HyperlinkFollowed>
   </Colors>

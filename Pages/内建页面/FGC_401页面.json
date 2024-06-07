@@ -1,0 +1,250 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 32
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "52": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 54
+  },
+  "Values": {
+    "15,16": "页面未授权",
+    "18,16": "您没有权限访问目标页面，有可能目标页面只有特定用户组的用户才能访问。",
+    "20,16": "解决方法：",
+    "22,16": "1.",
+    "22,17": "登出，并使用其他账号重新登录",
+    "24,16": "2.",
+    "24,17": "单击浏览器的后退按钮跳转到前一个页面，再选择其他链接浏览",
+    "26,16": "3.",
+    "26,17": "联系网站管理员申请权限"
+  },
+  "AttachInfos": {
+    "4,22": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_built-in-page-401.png"
+      }
+    },
+    "22,17": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "登出，并使用其他账号重新登录",
+        "TemplateKey": "_RS_Main",
+        "ForguncyAttribute": "401Login"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 34.666666666666664,
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "Formatter": 5,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "FontWeight": 7,
+        "Foreground": 1,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 3,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 25",
+        "Center",
+        "Top",
+        "Text 1 50",
+        "[AUTO]General",
+        "Left",
+        "Bold"
+      ]
+    },
+    "CellStyles": {
+      "15,16": 0,
+      "18,16": 1,
+      "20,16": 2,
+      "22,16": 3,
+      "22,17": 4,
+      "24,16": 3,
+      "24,17": 5,
+      "26,16": 3,
+      "26,17": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "Underline": false,
+      "Strikethrough": false,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "4,22,10,10",
+    "15,16,3,22",
+    "18,16,2,22",
+    "20,16,2,22",
+    "22,16,2,1",
+    "22,17,2,21",
+    "24,16,2,1",
+    "24,17,2,21",
+    "26,17,1,21"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MobilePageName": "FGC_401页面_手机版",
+    "Title": "401页面",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//9dHLYvYbKcKF5SnBk5WJXN3kcDV8knc4wcOkC4ff+p9wOyredvdRzDbBQ9Tx+zAoYBNE1KrGiRBt4YoU3dw6tJRzy+0RcIosUcFlc5UKd1xPVlXnRSnXkfXZtjWGt3yDritnnM89ubLNAOSDVV8L+7FuSqwkl8eCA3OrYMlM9rrA7gsbSJb31wmh9Z+1XAENXZF1aYgty34D5p/d86rqMi0Wgb+gZwXSbmFeWX1u8k06VJX1E1cpBk06PV5SD2PEI9X6ZfbP6Sfgn7m1z/sVzUIJwRfubF8CBSfyhF7ahI80n3uuUXitdooJiDSY6w7TWo03+VUV9Q8cJEhsaTCNZwZsqihVn2FM7TX3jIGjQKBQwdRY25oszMCJMB+OcAFUcKk3h1tlzVYoro8isCW+CtskQF42Fxs8uWnljajwAPR4QcgM7Ow9YdYA6oQqDrH0qqz3S1oniUJj5OIZYbM7F3y7y14CgLHLLCMU4LWWjlwCRhdWQ7KdBFi1cfvdNhnwXGIgNENRQ2zpiD1qPlyU5CN7sL0yQdWcXiXAkdYnSRs5mH4SStalgwRxk3UZh/mwJLaAnytdgF6MMTVqUbKb85cOJlFuvvR5uMOttSVU/pRtdcbinWAa2onopPEtrD/n+R/lw5csm/dEOZHfNRbupy56OqMYIwviPNVrBxolFwKvVQZl/8tuN7nZhRDXulAKKA+IO4m9O16ltAQQ1lcmffuV1q8CnlhzeHcErkNikSzRUCvc/ZLt9X0cVHu3yI5N599m2EYEW+GkXJR4TmJM3Mt3NsDR4Lsn0fvx1jIzGdMFcVzKCnE2Dv+qmLrA0URagcFsz6gvSylRYoltelaAy3y2HtcKnVZpCvExsXuMfINFU4x8oGMazVu36ikxvu++ZRjEirhRdQcQOxWa3MNJjA==|920

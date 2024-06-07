@@ -1,3 +1,5 @@
 {
-  "DefaultCellTypeStyleNames": {}
+  "DefaultCellTypeStyleNames": {
+    "Forguncy.ImageCellTypeStyleTemplateSupportAttribute": "样式1"
+  }
 }
