@@ -1,4 +1,11 @@
 {
-  "UserJSFileList": [],
+  "UserJSFileList": [
+    {
+      "Name": "AddFuction.js"
+    },
+    {
+      "Name": "ga.js"
+    }
+  ],
   "UserCSSFileList": []
 }

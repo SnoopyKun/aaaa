@@ -155,31 +155,51 @@
         "Foreground": 2,
         "Formatter": 3,
         "HorizontalAlignment": 4,
-        "VerticalAlignment": 5
+        "VerticalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "Foreground": 6,
         "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 14.666666984558105,
         "Foreground": 7,
-        "Formatter": 3
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 14.666666666666666,
         "Foreground": 8,
-        "Formatter": 9
+        "Formatter": 9,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 16.0,
         "Foreground": null,
-        "Formatter": 3
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
@@ -187,7 +207,11 @@
         "Foreground": null,
         "Formatter": 3,
         "HorizontalAlignment": 10,
-        "Underline": false
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -223,20 +247,38 @@
     "SheetStyle": {
       "FontFamily": 0,
       "FontSize": 13.333333015441895,
-      "Foreground": 11
+      "Foreground": 11,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
     "5,3,2,14",
-    "22,3,2,14",
-    "25,3,1,14",
-    "18,3,2,14",
+    "10,3,2,14",
     "14,3,2,14",
-    "10,3,2,14"
+    "18,3,2,14",
+    "22,3,2,14",
+    "25,3,1,14"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "修改密码",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -248,7 +290,7 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "469b2a00-3c73-4c59-bcf4-8ed45845ba8b.png",
+      "Name": "b47ab291-83ae-4f82-9362-9368ed786738",
       "StyleInfo": {
         "CornerRadius": 20.0,
         "Fill": "#FFF6F6F8",
@@ -262,4 +304,4 @@
       "Size": "340,500"
     }
   ]
-}//jFGA+gDGOXybfj2ZJ9z1UeE3Y56kHDpsmQWEbAZCHoflixKoW7SZBWyS+HRr7rMnaVX1Oa0lL1yavbCZQFMhEQBLTEtlL27VJu3TEh1DXvNZ/A+VX7AyuAzpnoc/nRijieD06B1ABvvDJpjBioCj/Vp/NrMa6JSb52sxngglLTnxOnF4VtOqp+9q9428LUNWTOLr5m5jtRtBdAB4H+86C1yG1WcFfT3icTgRb/8ajCeCP3sSByrtrgkfkBiRjUaCI4bI9MzfgIs6CaVL54BN2wNoSWdgeEEgpaLZOsBy1urdB7WhR1r3twuvbGBBCQV9NH4ZNkkx+hB7nchKROnLUpI5xLuy+WBpmy/4QxYo6W1kvYFh16qvEYS+Y+P+djfNFPmPSqUmLheiD5tAshRZuBa7CUxIulPHDMsGpn2CeEqGhINVxoPcDsbZTsqRvFQXT09H4015uSqw0/BUbPVF/nM1w+0kU/dyfOFguiWyXV2POKszdGo6tPsJeNexbdbFBmQKLSd0eCCvyUVeB/P+I8nodzJOdjk7ySJnSd9j5mDrGAbn4ycucT/cKSy90UoVTOvfVizkX7bWfvYuvB+VhBfzweiVaFy6uHLxfAOWfXDOSdId9s/rkQFdjPtggTNFTN/+kg0qvYFwLHcXRriZaNT1Pp5MXzGbKu+HJBSFE6Tu5xixECD7Qv47F5zaSiltrtobAKOPMs61/6nyXLt4/fDJFIzuZz+zGHEmXpDLO5Ak0epBVloOsjcAjXqBf6NAt3hk43gtZIBy0TjPFsqSOIi28spFt/+U82sCCIw8eXc6mSEuOTPEEgA6Wz673JfyZd/kmawx4D481YzS0pX/pjfHmOMKJw5o7W5R2esQLYWyPKObABWhmgxTGlCwRI9EG6xNHMH9RWPk6yUaU47JiQ==|920
+}//pqKqqLqPGi6lud7QucNJirBKuIqnKmPIKwpoUvrSabv0bsgFuvvx7Bl99Nx9PFN2XkJ44SB0AMnL4fkmtJPdGMcKOyFQJInh5jVnGZOEOK8NOuk1XiCi524akVWjQRz3T8rxnAlFcK0Jc05+4gveZ42P1pe4uZgmr5ScTy1JT81qlLCNFtJAugy19f0+dq/4jmqJK+b8VNimQ0ZgKH+gr4rOCsewSh6CtiHS6xAH6I9GHBs0BqOMNIsjVH+Ym4O+u5KUvWY+DY7if35wr3olINYSnMtY9LqnVm/v6635OMdwOcoLez/tT2gTPtQdNmdxEQCtD1mpIyL4FwZFoG+VQVO8Jx8CpW7yG6jWUOWIeYM3U0C8mAcJJwhj4XbyE/8ymsFUBnb9yD9HfYyQCOn4AWhvuDFUpWrHHwZwRIBH6TwFDsTQzdLh5zheIKnDvZFxesXwYruKaNeKFZEeLYr30F4hAI09JJjkgd+t8WDKX3YbQqcylP/xYcILQPdroIhFkwbbEOxCXa+gq+SIk1PpaBBSBHhkp7Fhnc6NxF0IR3oJRPUiFUNdpe6juOjX9Hlvz/M37YZ2wIT8YlI6SDMh99m1xZXMutk47OQFXJdpwlyoKOjikiVBMT3RN5j7AP+Bt2+zLgvZgLAGSpLl0/caQ/93+KD5tVHO41AGoMOmvjjs12VYYaHeGTJtwyD8oO0CqIUuqnw2q5JFPmjDLuPcTd4ZlfwQqZIg++pvG1ONi2VqdalkT7QEmrFYxRZBlNFauopA//vdsYPMu+0NYzl67f+LMNK48fcXqukxCpf0209M0w0pxwbFOA1F+J3iM403paYfZd+UTgxgqk0KsiU3Diqs5IsVChVnW1FnEiMnm9496bLncw2OVHdYZMllNBInmJ2OedGlufV8WuI5yv/PoA==|920

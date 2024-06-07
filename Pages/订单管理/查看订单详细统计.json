@@ -1,0 +1,5150 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 40.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 44.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 36
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "42": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "53": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "56": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "IsHidden": true
+        }
+      },
+      "57": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "IsHidden": true
+        }
+      },
+      "58": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "IsHidden": true
+        }
+      },
+      "59": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 80.0,
+          "IsHidden": true
+        }
+      },
+      "60": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 90.0,
+          "IsHidden": true
+        }
+      },
+      "61": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      25,
+      56,
+      57,
+      58,
+      59,
+      60
+    ],
+    "Count": 62
+  },
+  "Values": {
+    "2,1": "订单信息",
+    "5,2": "名称",
+    "5,18": "签订时间",
+    "5,40": "客户",
+    "7,2": "期限",
+    "7,15": "天",
+    "7,18": "预计完成时间",
+    "7,40": "备注",
+    "11,1": "订单项目详情",
+    "14,3": "一级编码",
+    "14,8": "二级编码",
+    "14,13": "材料(三级编码)",
+    "14,14": "材料(三级编码)",
+    "14,28": "用量",
+    "14,30": "用量",
+    "14,35": "单位",
+    "14,44": "面积",
+    "14,48": "周长",
+    "14,49": "周长",
+    "14,52": "重量",
+    "14,56": "用量公式",
+    "14,57": "面积公式",
+    "14,58": "周长公式",
+    "14,59": "重量公式",
+    "26,1": "订单项目统计",
+    "28,18": "材料小计",
+    "29,18": 0.0,
+    "29,56": "A-材料价格",
+    "29,57": 0.0,
+    "30,56": "B-人工",
+    "30,57": 0.0,
+    "31,56": "C-外购价格",
+    "31,57": 0.0,
+    "32,56": "D-表面处理",
+    "32,57": 0.0,
+    "33,56": "E-利润",
+    "33,57": 0.0,
+    "34,39": "采购总计",
+    "34,43": 0.0
+  },
+  "Formulas": {
+    "15,52": "CALCULATE(BH16,T16,V16,X16,AA16,AK16)",
+    "31,57": "SUMIF(Z30,\"WG-*\",S30)",
+    "29,18": "G30*(1+O30)",
+    "30,57": "BF30*0.25",
+    "34,43": "BF30+BF31+BF32+BF33+BF34",
+    "29,57": "SUM(S30)-BF32-BF33",
+    "15,44": "CALCULATE(BF16,T16,V16,X16,AA16,AK16)",
+    "32,57": "SUMIF(Z30,\"BZ-*\",S30)",
+    "15,28": "CALCULATE(BE16,T16,V16,X16,AA16,AK16)",
+    "33,57": "(BF30+BF31)*0.2",
+    "15,48": "CALCULATE(BG16,T16,V16,X16,AA16,AK16)",
+    "15,40": "AH16*AK16"
+  },
+  "AttachInfos": {
+    "0,1": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "二级步骤导航展示",
+        "CommandHandlers": [
+          {
+            "CommandName": "一级标题点击命令",
+            "Commands": {
+              "Commands": [
+                {
+                  "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                  "PageName": "订单管理页面",
+                  "DeleteCachedQuery": true
+                }
+              ],
+              "ParamProperties": {}
+            }
+          }
+        ],
+        "PropertyValues": [
+          {
+            "Name": "一级标题",
+            "Value": "订单管理"
+          },
+          {
+            "Name": "二级标题",
+            "Value": "详细统计"
+          }
+        ]
+      }
+    },
+    "5,4": {
+      "BindingInfo": {
+        "TableName": "订单",
+        "ColumnName": "名称",
+        "GUID": "0be83b6c-96e3-474c-9ec4-42f43e77a254"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "ReadOnly": true
+      }
+    },
+    "5,23": {
+      "BindingInfo": {
+        "TableName": "订单",
+        "ColumnName": "签订时间",
+        "GUID": "5097954e-df5c-4b6c-995d-a55ab8d8d977"
+      },
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "DisplayFormat": null,
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "ReadOnly": true
+      }
+    },
+    "5,42": {
+      "BindingInfo": {
+        "TableName": "订单",
+        "ColumnName": "客户ID",
+        "GUID": "b04631f4-c776-4d61-ae0b-5b91bc39283e"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "IsBounding": true,
+        "DataSource": "客户",
+        "ValueColumnBindingInfo": {
+          "TableName": "客户",
+          "ColumnName": "ID",
+          "GUID": "4eeca7f5-4fb2-424a-9068-7939a16eeaa8"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "客户",
+          "ColumnName": "公司名称",
+          "GUID": "4fd63608-96bf-408e-a264-2a6c2084245d"
+        },
+        "ReadOnly": true
+      }
+    },
+    "7,4": {
+      "BindingInfo": {
+        "TableName": "订单",
+        "ColumnName": "期限",
+        "GUID": "e5a65cef-587b-4f45-88a8-dba9fbf58290"
+      },
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=查看订单详细统计!X8"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=查看订单详细统计!X6+查看订单详细统计!E8"
+                }
+              }
+            ]
+          }
+        ],
+        "ReadOnly": true
+      }
+    },
+    "7,23": {
+      "BindingInfo": {
+        "TableName": "订单",
+        "ColumnName": "预计完成时间",
+        "GUID": "f7b0411e-3e2b-44ed-92b0-33e6f99fca2c"
+      },
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "DisplayFormat": null,
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "ReadOnly": true
+      }
+    },
+    "7,42": {
+      "BindingInfo": {
+        "TableName": "订单",
+        "ColumnName": "备注",
+        "GUID": "95c14f8a-ef83-45d7-bef6-56573ccac2dc"
+      },
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "ReadOnly": true
+      }
+    },
+    "11,7": {
+      "CellType": {
+        "$type": "Forguncy.UserControlPageCellType, ServerDesignerCommon",
+        "UserControlPageName": "订单详情背景色说明"
+      }
+    },
+    "14,1": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "订单预算",
+        "RowIndex": 14,
+        "ColumnIndex": 1,
+        "RowCount": 10,
+        "ColumnCount": 60,
+        "DetailListViewInfo": {
+          "ColumnOfDetailTable": "订单ID",
+          "MasterTable": "订单",
+          "ColumnOfMasterTable": "ID",
+          "DataCommitType": 2
+        },
+        "TopCondition": {
+          "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
+          "TopCount": 500
+        },
+        "ListViewStyleName": "_RS_NewFashionStripedStyle1",
+        "ShowColumnHeaderInDesigner": true,
+        "SelectionMode": 1,
+        "DisableAutoSelectRow": true,
+        "ColumnOperation": 2,
+        "CommitType": 1
+      }
+    },
+    "15,1": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "ID",
+        "GUID": "233ff7e8-63bf-4aac-8cc0-c78be5161ddb"
+      },
+      "RulesGuidList": [
+        "7461acac-59ce-4d15-b49a-1f1cfd17e442",
+        "c6f137b1-9ca4-4d52-9a24-a49e353e09cd",
+        "f00ff4c6-e44f-4354-b2d9-d06595311bd0"
+      ]
+    },
+    "15,3": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "一级编码ID",
+        "GUID": "15ae1755-9393-4450-9734-5d668dcfc483"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "DropdownButtonModeInListview": 3,
+        "IsBounding": true,
+        "DataSource": "一级编码",
+        "ValueColumnBindingInfo": {
+          "TableName": "一级编码",
+          "ColumnName": "ID",
+          "GUID": "ff5e8d23-36c5-4f41-a5d2-5a5346fe6277"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "一级编码",
+          "ColumnName": "名称",
+          "GUID": "ce01a98d-a990-404a-83e6-8946a502da68"
+        }
+      },
+      "RulesGuidList": [
+        "d12016f7-992c-4026-be03-b9b338fb3f5d",
+        "19a7015e-8194-4a0c-829e-24e4ffb57756",
+        "a4888ea7-0997-48ce-b3a6-26b9cfed917c"
+      ]
+    },
+    "15,8": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "二级编码ID",
+        "GUID": "d19c13f2-482d-4c82-8e6d-8099216d622e"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "DropdownButtonModeInListview": 3,
+        "IsBounding": true,
+        "DataSource": "二级编码",
+        "ValueColumnBindingInfo": {
+          "TableName": "二级编码",
+          "ColumnName": "ID",
+          "GUID": "882251e9-e6bc-47bd-a8b9-5d7e38cfe632"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "二级编码",
+          "ColumnName": "名称",
+          "GUID": "8f299805-808c-43aa-8724-41ec7b373710"
+        }
+      },
+      "RulesGuidList": [
+        "f2d62ce0-a903-4762-8e5b-359d2f06a918",
+        "3fc594d4-4ef7-4b1f-8507-f82d8cf8b1ee",
+        "e8ecaec0-03c7-4383-8f7d-5b36a86c2436"
+      ]
+    },
+    "15,13": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "材料ID",
+        "GUID": "f96e2a2a-a925-471e-90f3-cd9b64bcae81"
+      },
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "DropdownButtonModeInListview": 3,
+        "IsBounding": true,
+        "DataSource": "材料(三级编码)",
+        "ValueColumnBindingInfo": {
+          "TableName": "材料(三级编码)",
+          "ColumnName": "ID",
+          "GUID": "4b2456bd-e376-4d25-a4e0-0fdd11574e98"
+        },
+        "DisplayColumnBindingInfo": {
+          "TableName": "材料(三级编码)",
+          "ColumnName": "名称",
+          "GUID": "349200c3-36a3-471b-8c52-2d0af3ae9a56"
+        }
+      },
+      "RulesGuidList": [
+        "9d6b46ad-c83f-4452-8a27-a8cf99d2cb81",
+        "018e07ef-66be-41a8-8cbb-44e30a038da8",
+        "5fe034b3-4bac-44e3-9667-aa1db625770c"
+      ]
+    },
+    "15,19": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "长",
+        "GUID": "fbe88a2e-d363-4c79-a506-e5f852c97e94"
+      },
+      "RulesGuidList": [
+        "dbe7b96d-4562-40db-b394-e4363c83f458",
+        "4504998d-67fe-4193-8d27-f0750b0e918b",
+        "4a1be25c-837e-489d-8c83-9fb21a10db40"
+      ]
+    },
+    "15,21": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "宽",
+        "GUID": "bcdab21a-fa2b-491d-80b7-7ce86bd45c9c"
+      },
+      "RulesGuidList": [
+        "28672d5c-a889-47d4-8305-08a996b17749",
+        "b1551ae0-323f-47cb-a651-956e636355f1",
+        "0fea4e3a-f4bb-464a-a5bd-cdde62ad0be1"
+      ]
+    },
+    "15,23": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "高",
+        "GUID": "430111d7-9fc2-4743-ba0c-0d13ac312364"
+      },
+      "RulesGuidList": [
+        "f7ac5eaf-dc74-454a-85cb-c474a4546123",
+        "35c215f3-7280-43cb-ba6d-1d59f7b82601",
+        "baf0a33c-9995-42aa-adba-efad3508e68b"
+      ]
+    },
+    "15,25": {
+      "RulesGuidList": [
+        "b91d68cc-07db-416c-a7ae-35bc7ae3edb3"
+      ]
+    },
+    "15,26": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "厚",
+        "GUID": "6b1365a6-2c53-49d3-a1b2-ac821d0c4d9e"
+      },
+      "RulesGuidList": [
+        "61d8519d-24cd-43ee-838b-772a78b5c8e6",
+        "3a04e13d-2e7d-44fa-b920-b7f0aeafc209",
+        "70cd1407-7bed-4179-9937-cbc72b659363"
+      ]
+    },
+    "15,28": {
+      "RulesGuidList": [
+        "a1a8e445-f3fc-4ad9-916e-aa690f266cfa",
+        "e9ec9a28-af5c-4daa-9380-ffb1d0894191",
+        "757f8d68-2342-464f-9d48-c0a364206dd1"
+      ]
+    },
+    "15,31": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "材料ID",
+        "GUID": "a912d158-db19-4e14-aecc-6c3f790a1849",
+        "RelationBinding": {
+          "RelatedTable": "材料(三级编码)",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "单位"
+        }
+      },
+      "RulesGuidList": [
+        "bf551762-2ac8-4e24-a570-28c29e6e71d6",
+        "01c6bebf-29e5-471d-8762-65615f60a185",
+        "0264c5e7-f2eb-485b-930e-deff1da6bac2"
+      ]
+    },
+    "15,33": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "单位用量",
+        "GUID": "6299a55c-759d-4cbe-a01b-0eb2d82c584f"
+      },
+      "RulesGuidList": [
+        "30183efa-d3a1-44f8-985e-ad9049dbcd4f",
+        "e6f01fca-70f7-4bf5-8640-7410828e88bb",
+        "cc405263-160a-4373-9ad6-79afb8f2e893"
+      ]
+    },
+    "15,36": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "材料ID",
+        "GUID": "42f58701-3a3f-47ab-86c5-6ecaf073307e",
+        "RelationBinding": {
+          "RelatedTable": "材料(三级编码)",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "单价"
+        }
+      },
+      "RulesGuidList": [
+        "f340f1d7-afb6-4059-b581-e008ea128503",
+        "4322f682-8f81-40fd-b7c4-1949190cfa7a",
+        "3b545bec-2e96-413a-9787-4437d147bc59"
+      ]
+    },
+    "15,40": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "单套成本",
+        "GUID": "bb1bca69-8013-49c5-83e3-cb7c7d011462"
+      },
+      "RulesGuidList": [
+        "7ef20ad6-aef4-421a-9f00-693f6c2b8307",
+        "d5c18c19-bd58-46a6-b426-ce41db1e351f",
+        "1b176308-0fdd-4cb6-98a7-dc137f276657"
+      ]
+    },
+    "15,44": {
+      "RulesGuidList": [
+        "303fd8f3-b4b5-48c0-979c-fdacd4c930ec",
+        "c48d5ed7-b1a2-44ad-9d36-28540917df2f",
+        "487aa61f-b57a-4fca-99f9-b60aa13d7a22"
+      ]
+    },
+    "15,48": {
+      "RulesGuidList": [
+        "052e458f-12dd-4067-a434-ae7be1b3b009",
+        "17cac87c-2f8d-49a6-837a-92846ed7b398",
+        "d818dd37-9ec9-40f9-afcc-7d1dbbc7655e"
+      ]
+    },
+    "15,52": {
+      "RulesGuidList": [
+        "4a0f9eb7-8a8b-4e0f-ab02-5e34b8ab2ab0",
+        "d0de7bb7-d226-4370-8038-2c86c4f2942d",
+        "48b5c4ed-6920-48f2-abfc-3e2a358906c0"
+      ]
+    },
+    "15,56": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "材料ID",
+        "GUID": "e50897ae-d86b-4c79-bc44-4a3b951475b0",
+        "RelationBinding": {
+          "RelatedTable": "材料(三级编码)",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "用量公式"
+        }
+      },
+      "RulesGuidList": [
+        "ca93a32d-9944-4a7d-94eb-1a926e6026cb",
+        "d1bdd50a-817c-4b5d-a075-2698caf11bef",
+        "36ae1b00-be1a-44b3-ba55-586363ab1d36"
+      ]
+    },
+    "15,57": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "材料ID",
+        "GUID": "2b556ec6-7e74-4c8b-8ad6-09e9ab687ee4",
+        "RelationBinding": {
+          "RelatedTable": "材料(三级编码)",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "面积公式"
+        }
+      },
+      "RulesGuidList": [
+        "6102c75d-bdfb-4fa7-a53f-447b01db7c75",
+        "522c1112-5997-462e-ac55-3d4165031bc1",
+        "85022523-bf91-4c30-b431-00f93785ea08"
+      ]
+    },
+    "15,58": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "材料ID",
+        "GUID": "364706d7-c8b2-498a-9189-f7103d658f9d",
+        "RelationBinding": {
+          "RelatedTable": "材料(三级编码)",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "周长公式"
+        }
+      },
+      "RulesGuidList": [
+        "bca37a3e-3b78-45f0-8c5a-07d452615605",
+        "0c6375e7-4424-48c0-8b8f-649b0391197b",
+        "0edac402-b45d-4aa9-84ef-5bffe531badd"
+      ]
+    },
+    "15,59": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "材料ID",
+        "GUID": "c00b76f2-6d92-4939-94fd-776132f931a8",
+        "RelationBinding": {
+          "RelatedTable": "材料(三级编码)",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "重量公式"
+        }
+      },
+      "RulesGuidList": [
+        "cb2bc4a7-ba3d-4920-8961-c2197a30044b",
+        "35b0abe7-805a-4d8b-8851-f25069d2905a",
+        "b9c7311b-f80c-4a52-83de-2b616c09f13e"
+      ]
+    },
+    "15,60": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "一级编码ID",
+        "GUID": "ae7422f5-75d1-4dd8-8ea5-2f433cc31c0c",
+        "RelationBinding": {
+          "RelatedTable": "一级编码",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "编码全名"
+        }
+      },
+      "RulesGuidList": [
+        "85642b70-3452-49b1-acd0-9e41df57c705",
+        "b353c336-0d6b-4c7a-a74a-a3fe5c79748e",
+        "9fd440d8-ab01-4439-a0c8-de6c937d700d"
+      ]
+    },
+    "28,1": {
+      "ListViewInfo": {
+        "Name": "表格3",
+        "TableName": "订单预算",
+        "RowIndex": 28,
+        "ColumnIndex": 1,
+        "RowCount": 7,
+        "ColumnCount": 28,
+        "DetailListViewInfo": {
+          "ColumnOfDetailTable": "订单ID",
+          "MasterTable": "订单",
+          "ColumnOfMasterTable": "ID",
+          "DataCommitType": 2
+        },
+        "TopCondition": {
+          "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
+          "TopCount": 500
+        },
+        "ListViewStyleName": "_RS_NewFashionStripedStyle1",
+        "ShowColumnHeaderInDesigner": true,
+        "HideSelectionWhenLostFocus": true,
+        "SelectionMode": 1,
+        "ColumnOperation": 1,
+        "CommitType": 1
+      }
+    },
+    "29,1": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "一级编码ID",
+        "GUID": "e77fdb91-8b88-4ac4-86e1-45d445a41f57",
+        "RelationBinding": {
+          "RelatedTable": "一级编码",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "名称"
+        }
+      }
+    },
+    "29,6": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "材料价格分类",
+        "GUID": "c1666fc5-7721-4db7-83db-497e51193f44"
+      }
+    },
+    "29,14": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "一级编码ID",
+        "GUID": "ab7cead5-bec8-44d2-b5f2-b16a08249c85",
+        "RelationBinding": {
+          "RelatedTable": "一级编码",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "损耗"
+        }
+      }
+    },
+    "29,25": {
+      "BindingInfo": {
+        "TableName": "订单预算",
+        "ColumnName": "一级编码ID",
+        "GUID": "a598de77-2884-4519-a374-c648b4e0bd7d",
+        "RelationBinding": {
+          "RelatedTable": "一级编码",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "编码全名"
+        }
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 6,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 7,
+        "Foreground": 8,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": 8,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": 8,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": 8,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": 8,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": 8,
+        "Formatter": 2,
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 7,
+        "Foreground": 8,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": null,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "WordWrap": false,
+        "Underline": null,
+        "Strikethrough": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": null,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "WordWrap": false,
+        "Underline": null,
+        "Strikethrough": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": 9,
+        "Formatter": null,
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 4,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": 9,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": 9,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 9,
+        "HorizontalAlignment": 3,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "Foreground": 9,
+        "HorizontalAlignment": 3,
+        "WordWrap": true
+      },
+      {
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 9,
+        "Formatter": 2,
+        "HorizontalAlignment": 3,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": 9,
+        "Formatter": null,
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": 9,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": 9,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": 9,
+        "Formatter": 10,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": 9,
+        "Formatter": 11,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": 9,
+        "Formatter": 12,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 13,
+        "FontSize": 13.333333333333332,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": 9,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "Background": null,
+        "FontFamily": 13,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": null,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": null,
+        "Strikethrough": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 7,
+        "Foreground": 8,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": null,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": null,
+        "Strikethrough": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": null,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": null,
+        "Strikethrough": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 10,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 10,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": 2,
+        "TextIndent": 10,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": 2,
+        "TextIndent": 10,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": 11,
+        "TextIndent": 10,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 10,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "TextIndent": 10,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 13,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 10,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": null,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": 12,
+        "TextIndent": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": null,
+        "Strikethrough": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": null,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 4,
+        "WordWrap": false,
+        "Underline": null,
+        "Strikethrough": null
+      },
+      {
+        "VerticalAlignment": 14
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "微软雅黑",
+        "Normal",
+        "[AUTO]General",
+        "Left",
+        "Center",
+        "General",
+        "Text 1 50",
+        "Bold",
+        "Text 1 35",
+        "#FF000000",
+        "@",
+        "[$¥-411]#,##0.00;-[$¥-411]#,##0.00",
+        " ¥#,##0.00_);[Red] ¥(#,##0.00)",
+        "宋体",
+        "Bottom"
+      ]
+    },
+    "CellStyles": {
+      "0,1": 0,
+      "0,2": 1,
+      "0,3": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "0,6": 1,
+      "0,7": 1,
+      "0,8": 1,
+      "0,9": 1,
+      "0,10": 1,
+      "0,11": 1,
+      "0,12": 1,
+      "0,13": 1,
+      "0,14": 1,
+      "0,15": 1,
+      "0,16": 1,
+      "0,17": 1,
+      "0,18": 1,
+      "0,19": 1,
+      "0,20": 1,
+      "0,21": 1,
+      "0,26": 2,
+      "0,46": 2,
+      "0,47": 2,
+      "0,48": 2,
+      "0,49": 2,
+      "0,50": 2,
+      "0,51": 2,
+      "0,52": 2,
+      "0,55": 2,
+      "1,0": 2,
+      "1,1": 3,
+      "1,2": 2,
+      "1,3": 2,
+      "1,4": 2,
+      "1,5": 2,
+      "1,6": 2,
+      "1,7": 2,
+      "1,8": 2,
+      "1,9": 2,
+      "1,10": 2,
+      "1,11": 2,
+      "1,12": 2,
+      "1,13": 2,
+      "1,14": 2,
+      "1,15": 2,
+      "1,16": 2,
+      "1,17": 2,
+      "1,18": 2,
+      "1,19": 2,
+      "1,20": 2,
+      "1,21": 2,
+      "1,22": 2,
+      "1,23": 2,
+      "1,24": 2,
+      "1,26": 2,
+      "1,27": 2,
+      "1,28": 2,
+      "1,29": 2,
+      "1,30": 2,
+      "1,31": 2,
+      "1,32": 2,
+      "1,33": 2,
+      "1,34": 2,
+      "1,35": 2,
+      "1,36": 2,
+      "1,37": 2,
+      "1,38": 2,
+      "1,39": 2,
+      "1,40": 2,
+      "1,41": 2,
+      "1,42": 2,
+      "1,43": 2,
+      "1,44": 2,
+      "1,45": 2,
+      "1,46": 2,
+      "1,47": 2,
+      "1,48": 2,
+      "1,49": 2,
+      "1,50": 2,
+      "1,51": 2,
+      "1,52": 2,
+      "1,53": 2,
+      "1,54": 2,
+      "1,55": 2,
+      "1,56": 2,
+      "1,57": 2,
+      "1,58": 2,
+      "1,59": 2,
+      "1,60": 2,
+      "2,0": 4,
+      "2,1": 5,
+      "2,2": 5,
+      "2,3": 5,
+      "2,4": 6,
+      "2,5": 6,
+      "2,6": 6,
+      "2,7": 6,
+      "2,8": 6,
+      "2,9": 6,
+      "2,10": 6,
+      "2,11": 6,
+      "2,12": 6,
+      "2,13": 6,
+      "2,14": 6,
+      "2,15": 6,
+      "2,16": 6,
+      "2,17": 6,
+      "2,18": 6,
+      "2,19": 6,
+      "2,20": 6,
+      "2,21": 6,
+      "2,22": 6,
+      "2,23": 6,
+      "2,24": 6,
+      "2,25": 7,
+      "2,26": 6,
+      "2,27": 6,
+      "2,28": 6,
+      "2,29": 6,
+      "2,30": 6,
+      "2,31": 8,
+      "2,32": 6,
+      "2,33": 6,
+      "2,34": 6,
+      "2,35": 6,
+      "2,36": 6,
+      "2,37": 6,
+      "2,38": 4,
+      "2,39": 4,
+      "2,40": 4,
+      "2,41": 4,
+      "2,42": 4,
+      "2,43": 4,
+      "2,44": 4,
+      "2,45": 6,
+      "2,46": 6,
+      "2,47": 6,
+      "2,48": 6,
+      "2,49": 6,
+      "2,50": 6,
+      "2,51": 6,
+      "2,52": 6,
+      "2,53": 6,
+      "2,54": 6,
+      "2,55": 4,
+      "2,56": 4,
+      "2,57": 4,
+      "2,58": 4,
+      "2,59": 4,
+      "2,60": 6,
+      "2,61": 7,
+      "3,0": 9,
+      "3,1": 9,
+      "3,2": 9,
+      "3,3": 9,
+      "3,4": 9,
+      "3,5": 9,
+      "3,6": 9,
+      "3,7": 9,
+      "3,8": 9,
+      "3,9": 9,
+      "3,10": 9,
+      "3,11": 9,
+      "3,12": 9,
+      "3,13": 9,
+      "3,14": 9,
+      "3,15": 9,
+      "3,16": 9,
+      "3,17": 9,
+      "3,18": 9,
+      "3,19": 9,
+      "3,20": 9,
+      "3,21": 9,
+      "3,22": 9,
+      "3,23": 9,
+      "3,24": 9,
+      "3,25": 10,
+      "3,26": 9,
+      "3,27": 9,
+      "3,28": 9,
+      "3,29": 9,
+      "3,30": 9,
+      "3,31": 9,
+      "3,32": 9,
+      "3,33": 9,
+      "3,34": 9,
+      "3,35": 9,
+      "3,36": 9,
+      "3,37": 9,
+      "3,38": 9,
+      "3,39": 9,
+      "3,40": 9,
+      "3,41": 9,
+      "3,42": 9,
+      "3,43": 9,
+      "3,44": 9,
+      "3,45": 9,
+      "3,46": 9,
+      "3,47": 9,
+      "3,48": 9,
+      "3,49": 9,
+      "3,50": 9,
+      "3,51": 9,
+      "3,52": 9,
+      "3,53": 9,
+      "3,54": 9,
+      "3,55": 9,
+      "3,56": 9,
+      "3,57": 9,
+      "3,58": 9,
+      "3,59": 9,
+      "3,60": 11,
+      "3,61": 12,
+      "4,0": 9,
+      "4,1": 11,
+      "4,2": 11,
+      "4,3": 11,
+      "4,4": 11,
+      "4,5": 11,
+      "4,6": 11,
+      "4,7": 11,
+      "4,8": 11,
+      "4,9": 11,
+      "4,10": 11,
+      "4,11": 11,
+      "4,12": 11,
+      "4,13": 11,
+      "4,14": 11,
+      "4,15": 11,
+      "4,16": 11,
+      "4,17": 11,
+      "4,18": 11,
+      "4,19": 11,
+      "4,20": 11,
+      "4,21": 11,
+      "4,22": 11,
+      "4,23": 11,
+      "4,24": 11,
+      "4,25": 12,
+      "4,26": 11,
+      "4,27": 11,
+      "4,28": 11,
+      "4,29": 11,
+      "4,30": 11,
+      "4,31": 11,
+      "4,32": 11,
+      "4,33": 11,
+      "4,34": 11,
+      "4,35": 11,
+      "4,36": 11,
+      "4,37": 11,
+      "4,38": 11,
+      "4,39": 11,
+      "4,40": 11,
+      "4,41": 11,
+      "4,42": 11,
+      "4,43": 11,
+      "4,44": 11,
+      "4,45": 11,
+      "4,46": 11,
+      "4,47": 11,
+      "4,48": 11,
+      "4,49": 11,
+      "4,50": 11,
+      "4,51": 11,
+      "4,52": 11,
+      "4,53": 11,
+      "4,54": 11,
+      "4,55": 11,
+      "4,56": 11,
+      "4,57": 11,
+      "4,58": 11,
+      "4,59": 11,
+      "4,60": 11,
+      "4,61": 12,
+      "5,0": 9,
+      "5,1": 11,
+      "5,2": 13,
+      "5,3": 14,
+      "5,4": 15,
+      "5,5": 1,
+      "5,6": 1,
+      "5,7": 1,
+      "5,8": 1,
+      "5,9": 1,
+      "5,10": 1,
+      "5,11": 1,
+      "5,12": 1,
+      "5,13": 1,
+      "5,14": 1,
+      "5,17": 11,
+      "5,18": 16,
+      "5,19": 17,
+      "5,20": 17,
+      "5,21": 17,
+      "5,22": 17,
+      "5,23": 15,
+      "5,24": 1,
+      "5,26": 1,
+      "5,27": 1,
+      "5,28": 1,
+      "5,29": 1,
+      "5,30": 1,
+      "5,31": 1,
+      "5,32": 1,
+      "5,33": 1,
+      "5,34": 1,
+      "5,35": 1,
+      "5,40": 16,
+      "5,41": 17,
+      "5,42": 15,
+      "5,43": 1,
+      "5,44": 1,
+      "5,45": 1,
+      "5,46": 1,
+      "5,47": 1,
+      "5,48": 1,
+      "5,49": 1,
+      "5,50": 1,
+      "5,51": 1,
+      "5,52": 1,
+      "5,53": 1,
+      "5,57": 11,
+      "5,58": 11,
+      "5,59": 11,
+      "5,60": 11,
+      "5,61": 12,
+      "6,0": 9,
+      "6,1": 11,
+      "6,2": 14,
+      "6,3": 14,
+      "6,4": 11,
+      "6,5": 11,
+      "6,6": 11,
+      "6,7": 11,
+      "6,8": 11,
+      "6,9": 11,
+      "6,10": 11,
+      "6,11": 11,
+      "6,12": 11,
+      "6,13": 11,
+      "6,14": 11,
+      "6,15": 11,
+      "6,16": 11,
+      "6,17": 11,
+      "6,18": 14,
+      "6,19": 14,
+      "6,20": 14,
+      "6,21": 14,
+      "6,22": 14,
+      "6,23": 11,
+      "6,24": 11,
+      "6,25": 12,
+      "6,26": 11,
+      "6,27": 11,
+      "6,28": 11,
+      "6,29": 11,
+      "6,30": 11,
+      "6,31": 11,
+      "6,32": 11,
+      "6,33": 11,
+      "6,34": 11,
+      "6,35": 11,
+      "6,36": 11,
+      "6,37": 11,
+      "6,38": 11,
+      "6,39": 11,
+      "6,40": 14,
+      "6,41": 14,
+      "6,42": 11,
+      "6,43": 11,
+      "6,44": 11,
+      "6,45": 11,
+      "6,46": 11,
+      "6,47": 11,
+      "6,48": 11,
+      "6,49": 11,
+      "6,50": 11,
+      "6,51": 11,
+      "6,52": 11,
+      "6,53": 11,
+      "6,54": 11,
+      "6,55": 11,
+      "6,56": 11,
+      "6,57": 11,
+      "6,58": 11,
+      "6,59": 11,
+      "6,60": 11,
+      "6,61": 12,
+      "7,0": 9,
+      "7,1": 11,
+      "7,2": 16,
+      "7,3": 17,
+      "7,4": 18,
+      "7,15": 19,
+      "7,16": 1,
+      "7,18": 16,
+      "7,19": 17,
+      "7,20": 17,
+      "7,21": 17,
+      "7,22": 17,
+      "7,23": 15,
+      "7,24": 1,
+      "7,26": 1,
+      "7,27": 1,
+      "7,28": 1,
+      "7,29": 1,
+      "7,30": 1,
+      "7,31": 1,
+      "7,32": 1,
+      "7,33": 1,
+      "7,34": 1,
+      "7,35": 1,
+      "7,40": 16,
+      "7,41": 17,
+      "7,42": 15,
+      "7,43": 1,
+      "7,44": 1,
+      "7,45": 1,
+      "7,46": 1,
+      "7,47": 1,
+      "7,48": 1,
+      "7,49": 1,
+      "7,50": 1,
+      "7,51": 1,
+      "7,52": 1,
+      "7,53": 1,
+      "7,54": 11,
+      "7,55": 11,
+      "7,56": 11,
+      "7,57": 11,
+      "7,58": 11,
+      "7,59": 11,
+      "7,60": 11,
+      "7,61": 12,
+      "8,0": 9,
+      "8,1": 11,
+      "8,2": 11,
+      "8,3": 11,
+      "8,4": 11,
+      "8,5": 11,
+      "8,6": 11,
+      "8,7": 11,
+      "8,8": 11,
+      "8,9": 11,
+      "8,10": 11,
+      "8,11": 11,
+      "8,12": 11,
+      "8,13": 11,
+      "8,14": 11,
+      "8,15": 11,
+      "8,16": 11,
+      "8,17": 11,
+      "8,18": 11,
+      "8,19": 11,
+      "8,20": 11,
+      "8,21": 11,
+      "8,22": 11,
+      "8,23": 11,
+      "8,24": 11,
+      "8,25": 12,
+      "8,26": 11,
+      "8,27": 11,
+      "8,28": 11,
+      "8,29": 11,
+      "8,30": 11,
+      "8,31": 11,
+      "8,32": 11,
+      "8,33": 11,
+      "8,34": 11,
+      "8,35": 11,
+      "8,36": 11,
+      "8,37": 11,
+      "8,38": 11,
+      "8,39": 11,
+      "8,40": 11,
+      "8,41": 11,
+      "8,42": 11,
+      "8,43": 11,
+      "8,44": 11,
+      "8,45": 11,
+      "8,46": 11,
+      "8,47": 11,
+      "8,48": 11,
+      "8,49": 11,
+      "8,50": 11,
+      "8,51": 11,
+      "8,52": 11,
+      "8,53": 11,
+      "8,54": 11,
+      "8,55": 11,
+      "8,56": 11,
+      "8,57": 11,
+      "8,58": 11,
+      "8,59": 11,
+      "8,60": 11,
+      "8,61": 12,
+      "9,0": 11,
+      "9,1": 11,
+      "9,2": 11,
+      "9,3": 11,
+      "9,4": 11,
+      "9,5": 11,
+      "9,6": 11,
+      "9,7": 11,
+      "9,8": 11,
+      "9,9": 11,
+      "9,10": 11,
+      "9,11": 11,
+      "9,12": 11,
+      "9,13": 11,
+      "9,14": 11,
+      "9,15": 11,
+      "9,16": 11,
+      "9,17": 11,
+      "9,18": 11,
+      "9,19": 11,
+      "9,20": 11,
+      "9,21": 11,
+      "9,22": 11,
+      "9,23": 11,
+      "9,24": 11,
+      "9,25": 12,
+      "9,26": 11,
+      "9,27": 11,
+      "9,28": 11,
+      "9,29": 11,
+      "9,30": 11,
+      "9,31": 11,
+      "9,32": 11,
+      "9,33": 11,
+      "9,34": 11,
+      "9,35": 11,
+      "9,36": 11,
+      "9,37": 11,
+      "9,38": 11,
+      "9,39": 11,
+      "9,40": 11,
+      "9,41": 11,
+      "9,42": 11,
+      "9,43": 11,
+      "9,44": 11,
+      "9,45": 11,
+      "9,46": 11,
+      "9,47": 11,
+      "9,48": 11,
+      "9,49": 11,
+      "9,50": 11,
+      "9,51": 11,
+      "9,52": 11,
+      "9,53": 11,
+      "9,54": 11,
+      "9,55": 11,
+      "9,56": 11,
+      "9,57": 11,
+      "9,58": 11,
+      "9,59": 11,
+      "9,60": 11,
+      "9,61": 12,
+      "10,0": 12,
+      "10,1": 12,
+      "10,2": 12,
+      "10,3": 12,
+      "10,4": 12,
+      "10,5": 12,
+      "10,6": 12,
+      "10,7": 12,
+      "10,8": 12,
+      "10,9": 12,
+      "10,10": 12,
+      "10,11": 12,
+      "10,12": 12,
+      "10,13": 12,
+      "10,14": 12,
+      "10,15": 12,
+      "10,16": 12,
+      "10,17": 12,
+      "10,18": 12,
+      "10,19": 12,
+      "10,20": 12,
+      "10,21": 12,
+      "10,22": 12,
+      "10,23": 12,
+      "10,24": 12,
+      "10,25": 12,
+      "10,26": 12,
+      "10,27": 12,
+      "10,28": 12,
+      "10,29": 12,
+      "10,30": 12,
+      "10,31": 12,
+      "10,32": 12,
+      "10,33": 12,
+      "10,34": 12,
+      "10,35": 12,
+      "10,36": 12,
+      "10,37": 12,
+      "10,38": 12,
+      "10,39": 12,
+      "10,40": 12,
+      "10,41": 12,
+      "10,42": 12,
+      "10,43": 12,
+      "10,44": 12,
+      "10,45": 12,
+      "10,46": 12,
+      "10,47": 12,
+      "10,48": 12,
+      "10,49": 12,
+      "10,50": 12,
+      "10,51": 12,
+      "10,52": 12,
+      "10,53": 12,
+      "10,54": 12,
+      "10,55": 12,
+      "10,56": 12,
+      "10,57": 12,
+      "10,58": 12,
+      "10,59": 12,
+      "10,60": 12,
+      "10,61": 12,
+      "11,0": 6,
+      "11,1": 20,
+      "11,2": 5,
+      "11,3": 5,
+      "11,4": 5,
+      "11,5": 5,
+      "11,6": 21,
+      "11,7": 22,
+      "11,25": 7,
+      "11,26": 6,
+      "11,27": 6,
+      "11,28": 6,
+      "11,29": 6,
+      "11,30": 6,
+      "11,31": 6,
+      "11,32": 6,
+      "11,33": 6,
+      "11,34": 6,
+      "11,35": 6,
+      "11,36": 6,
+      "11,37": 6,
+      "11,38": 6,
+      "11,39": 6,
+      "11,40": 6,
+      "11,41": 6,
+      "11,42": 6,
+      "11,43": 6,
+      "11,44": 6,
+      "11,45": 6,
+      "11,46": 6,
+      "11,47": 6,
+      "11,48": 6,
+      "11,49": 6,
+      "11,50": 6,
+      "11,51": 6,
+      "11,52": 6,
+      "11,53": 6,
+      "11,54": 6,
+      "11,55": 6,
+      "11,56": 6,
+      "11,57": 6,
+      "11,58": 6,
+      "11,59": 6,
+      "11,60": 6,
+      "11,61": 7,
+      "12,0": 11,
+      "12,1": 11,
+      "12,2": 11,
+      "12,3": 11,
+      "12,4": 11,
+      "12,5": 11,
+      "12,6": 11,
+      "12,7": 11,
+      "12,8": 11,
+      "12,9": 11,
+      "12,10": 11,
+      "12,11": 11,
+      "12,12": 11,
+      "12,13": 11,
+      "12,14": 11,
+      "12,15": 11,
+      "12,16": 11,
+      "12,17": 11,
+      "12,18": 11,
+      "12,19": 11,
+      "12,20": 11,
+      "12,21": 11,
+      "12,22": 11,
+      "12,23": 11,
+      "12,24": 11,
+      "12,25": 12,
+      "12,26": 11,
+      "12,27": 11,
+      "12,28": 11,
+      "12,29": 11,
+      "12,30": 11,
+      "12,31": 11,
+      "12,32": 11,
+      "12,33": 11,
+      "12,34": 11,
+      "12,35": 11,
+      "12,36": 11,
+      "12,37": 11,
+      "12,38": 11,
+      "12,39": 11,
+      "12,40": 11,
+      "12,41": 11,
+      "12,42": 11,
+      "12,43": 11,
+      "12,44": 11,
+      "12,45": 11,
+      "12,46": 11,
+      "12,47": 11,
+      "12,48": 11,
+      "12,49": 11,
+      "12,50": 11,
+      "12,51": 11,
+      "12,52": 11,
+      "12,53": 11,
+      "12,54": 11,
+      "12,55": 11,
+      "12,56": 11,
+      "12,57": 11,
+      "12,58": 11,
+      "12,59": 11,
+      "12,60": 11,
+      "12,61": 12,
+      "13,0": 9,
+      "13,1": 23,
+      "13,2": 23,
+      "13,3": 23,
+      "13,4": 23,
+      "13,5": 23,
+      "13,6": 23,
+      "13,7": 23,
+      "13,8": 23,
+      "13,9": 23,
+      "13,10": 23,
+      "13,11": 23,
+      "13,12": 23,
+      "13,13": 23,
+      "13,14": 23,
+      "13,15": 23,
+      "13,16": 23,
+      "13,17": 23,
+      "13,18": 23,
+      "13,19": 23,
+      "13,20": 23,
+      "13,21": 23,
+      "13,22": 23,
+      "13,23": 23,
+      "13,24": 23,
+      "13,25": 12,
+      "13,26": 23,
+      "13,27": 23,
+      "13,28": 23,
+      "13,29": 23,
+      "13,30": 23,
+      "13,31": 23,
+      "13,32": 23,
+      "13,33": 23,
+      "13,34": 23,
+      "13,35": 23,
+      "13,36": 23,
+      "13,37": 23,
+      "13,38": 23,
+      "13,39": 23,
+      "13,40": 23,
+      "13,41": 23,
+      "13,42": 23,
+      "13,43": 23,
+      "13,44": 23,
+      "13,45": 23,
+      "13,46": 23,
+      "13,47": 23,
+      "13,48": 23,
+      "13,49": 23,
+      "13,50": 23,
+      "13,51": 23,
+      "13,52": 23,
+      "13,53": 23,
+      "13,54": 23,
+      "13,55": 23,
+      "13,56": 23,
+      "13,57": 23,
+      "13,58": 23,
+      "13,59": 23,
+      "13,60": 23,
+      "13,61": 12,
+      "14,0": 24,
+      "14,1": 25,
+      "14,2": 11,
+      "14,3": 26,
+      "14,4": 11,
+      "14,5": 11,
+      "14,6": 11,
+      "14,7": 11,
+      "14,8": 26,
+      "14,9": 2,
+      "14,10": 2,
+      "14,11": 2,
+      "14,12": 2,
+      "14,13": 27,
+      "14,14": 28,
+      "14,15": 11,
+      "14,16": 11,
+      "14,17": 11,
+      "14,18": 11,
+      "14,19": 27,
+      "14,20": 29,
+      "14,21": 30,
+      "14,22": 2,
+      "14,23": 31,
+      "14,26": 30,
+      "14,27": 32,
+      "14,28": 30,
+      "14,29": 33,
+      "14,30": 0,
+      "14,31": 30,
+      "14,32": 2,
+      "14,33": 27,
+      "14,34": 11,
+      "14,35": 28,
+      "14,36": 30,
+      "14,37": 2,
+      "14,38": 34,
+      "14,39": 2,
+      "14,40": 30,
+      "14,41": 2,
+      "14,42": 2,
+      "14,43": 2,
+      "14,44": 26,
+      "14,45": 2,
+      "14,46": 2,
+      "14,47": 2,
+      "14,48": 27,
+      "14,49": 0,
+      "14,50": 2,
+      "14,51": 2,
+      "14,52": 26,
+      "14,53": 2,
+      "14,54": 2,
+      "14,55": 2,
+      "14,56": 26,
+      "14,57": 26,
+      "14,58": 26,
+      "14,59": 26,
+      "14,60": 35,
+      "15,0": 36,
+      "15,1": 37,
+      "15,2": 38,
+      "15,3": 39,
+      "15,4": 38,
+      "15,5": 38,
+      "15,6": 38,
+      "15,7": 38,
+      "15,8": 40,
+      "15,13": 39,
+      "15,14": 41,
+      "15,15": 41,
+      "15,16": 41,
+      "15,17": 41,
+      "15,18": 41,
+      "15,19": 39,
+      "15,20": 41,
+      "15,21": 40,
+      "15,23": 40,
+      "15,26": 39,
+      "15,27": 41,
+      "15,28": 42,
+      "15,29": 41,
+      "15,30": 41,
+      "15,31": 39,
+      "15,32": 41,
+      "15,33": 39,
+      "15,34": 41,
+      "15,35": 41,
+      "15,36": 43,
+      "15,37": 41,
+      "15,38": 41,
+      "15,39": 41,
+      "15,40": 44,
+      "15,41": 41,
+      "15,42": 41,
+      "15,43": 41,
+      "15,44": 40,
+      "15,48": 39,
+      "15,49": 41,
+      "15,50": 41,
+      "15,51": 41,
+      "15,52": 40,
+      "15,56": 40,
+      "15,57": 40,
+      "15,58": 40,
+      "15,59": 40,
+      "15,60": 45,
+      "16,0": 36,
+      "16,1": 46,
+      "16,2": 47,
+      "16,3": 47,
+      "16,4": 47,
+      "16,5": 47,
+      "16,6": 47,
+      "16,7": 47,
+      "16,8": 47,
+      "16,9": 47,
+      "16,10": 47,
+      "16,11": 47,
+      "16,12": 47,
+      "16,13": 47,
+      "16,14": 47,
+      "16,15": 47,
+      "16,16": 47,
+      "16,17": 47,
+      "16,18": 47,
+      "16,19": 47,
+      "16,20": 47,
+      "16,21": 47,
+      "16,22": 47,
+      "16,23": 47,
+      "16,24": 47,
+      "16,25": 47,
+      "16,26": 47,
+      "16,27": 47,
+      "16,28": 47,
+      "16,29": 47,
+      "16,30": 47,
+      "16,31": 47,
+      "16,32": 47,
+      "16,33": 47,
+      "16,34": 47,
+      "16,35": 47,
+      "16,36": 47,
+      "16,37": 47,
+      "16,38": 47,
+      "16,39": 47,
+      "16,40": 47,
+      "16,41": 47,
+      "16,42": 47,
+      "16,43": 47,
+      "16,44": 47,
+      "16,45": 47,
+      "16,46": 47,
+      "16,47": 47,
+      "16,48": 47,
+      "16,49": 47,
+      "16,50": 47,
+      "16,51": 47,
+      "16,52": 47,
+      "16,53": 47,
+      "16,54": 47,
+      "16,55": 47,
+      "16,56": 47,
+      "16,57": 47,
+      "16,58": 47,
+      "16,59": 47,
+      "16,60": 47,
+      "17,0": 36,
+      "17,1": 47,
+      "17,2": 47,
+      "17,3": 47,
+      "17,4": 47,
+      "17,5": 47,
+      "17,6": 47,
+      "17,7": 47,
+      "17,8": 47,
+      "17,9": 47,
+      "17,10": 47,
+      "17,11": 47,
+      "17,12": 47,
+      "17,13": 47,
+      "17,14": 47,
+      "17,15": 47,
+      "17,16": 47,
+      "17,17": 47,
+      "17,18": 47,
+      "17,19": 47,
+      "17,20": 47,
+      "17,21": 47,
+      "17,22": 47,
+      "17,23": 47,
+      "17,24": 47,
+      "17,25": 47,
+      "17,26": 47,
+      "17,27": 47,
+      "17,28": 47,
+      "17,29": 47,
+      "17,30": 47,
+      "17,31": 47,
+      "17,32": 47,
+      "17,33": 47,
+      "17,34": 47,
+      "17,35": 47,
+      "17,36": 47,
+      "17,37": 47,
+      "17,38": 47,
+      "17,39": 47,
+      "17,40": 47,
+      "17,41": 47,
+      "17,42": 47,
+      "17,43": 47,
+      "17,44": 47,
+      "17,45": 47,
+      "17,46": 47,
+      "17,47": 47,
+      "17,48": 47,
+      "17,49": 47,
+      "17,50": 47,
+      "17,51": 47,
+      "17,52": 47,
+      "17,53": 47,
+      "17,54": 47,
+      "17,55": 47,
+      "17,56": 47,
+      "17,57": 47,
+      "17,58": 47,
+      "17,59": 47,
+      "17,60": 47,
+      "18,0": 36,
+      "18,1": 47,
+      "18,2": 47,
+      "18,3": 47,
+      "18,4": 47,
+      "18,5": 47,
+      "18,6": 47,
+      "18,7": 47,
+      "18,8": 47,
+      "18,9": 47,
+      "18,10": 47,
+      "18,11": 47,
+      "18,12": 47,
+      "18,13": 47,
+      "18,14": 47,
+      "18,15": 47,
+      "18,16": 47,
+      "18,17": 47,
+      "18,18": 47,
+      "18,19": 47,
+      "18,20": 47,
+      "18,21": 47,
+      "18,22": 47,
+      "18,23": 47,
+      "18,24": 47,
+      "18,25": 47,
+      "18,26": 47,
+      "18,27": 47,
+      "18,28": 47,
+      "18,29": 47,
+      "18,30": 47,
+      "18,31": 47,
+      "18,32": 47,
+      "18,33": 47,
+      "18,34": 47,
+      "18,35": 47,
+      "18,36": 47,
+      "18,37": 47,
+      "18,38": 47,
+      "18,39": 47,
+      "18,40": 47,
+      "18,41": 47,
+      "18,42": 47,
+      "18,43": 47,
+      "18,44": 47,
+      "18,45": 47,
+      "18,46": 47,
+      "18,47": 47,
+      "18,48": 47,
+      "18,49": 47,
+      "18,50": 47,
+      "18,51": 47,
+      "18,52": 47,
+      "18,53": 47,
+      "18,54": 47,
+      "18,55": 47,
+      "18,56": 47,
+      "18,57": 47,
+      "18,58": 47,
+      "18,59": 47,
+      "18,60": 47,
+      "19,0": 36,
+      "19,1": 47,
+      "19,2": 47,
+      "19,3": 47,
+      "19,4": 47,
+      "19,5": 47,
+      "19,6": 47,
+      "19,7": 47,
+      "19,8": 47,
+      "19,9": 47,
+      "19,10": 47,
+      "19,11": 47,
+      "19,12": 47,
+      "19,13": 47,
+      "19,14": 47,
+      "19,15": 47,
+      "19,16": 47,
+      "19,17": 47,
+      "19,18": 47,
+      "19,19": 47,
+      "19,20": 47,
+      "19,21": 47,
+      "19,22": 47,
+      "19,23": 47,
+      "19,24": 47,
+      "19,25": 47,
+      "19,26": 47,
+      "19,27": 47,
+      "19,28": 47,
+      "19,29": 47,
+      "19,30": 47,
+      "19,31": 47,
+      "19,32": 47,
+      "19,33": 47,
+      "19,34": 47,
+      "19,35": 47,
+      "19,36": 47,
+      "19,37": 47,
+      "19,38": 47,
+      "19,39": 47,
+      "19,40": 47,
+      "19,41": 47,
+      "19,42": 47,
+      "19,43": 47,
+      "19,44": 47,
+      "19,45": 47,
+      "19,46": 47,
+      "19,47": 47,
+      "19,48": 47,
+      "19,49": 47,
+      "19,50": 47,
+      "19,51": 47,
+      "19,52": 47,
+      "19,53": 47,
+      "19,54": 47,
+      "19,55": 47,
+      "19,56": 47,
+      "19,57": 47,
+      "19,58": 47,
+      "19,59": 47,
+      "19,60": 47,
+      "20,0": 36,
+      "20,1": 47,
+      "20,2": 47,
+      "20,3": 47,
+      "20,4": 47,
+      "20,5": 47,
+      "20,6": 47,
+      "20,7": 47,
+      "20,8": 47,
+      "20,9": 47,
+      "20,10": 47,
+      "20,11": 47,
+      "20,12": 47,
+      "20,13": 47,
+      "20,14": 47,
+      "20,15": 47,
+      "20,16": 47,
+      "20,17": 47,
+      "20,18": 47,
+      "20,19": 47,
+      "20,20": 47,
+      "20,21": 47,
+      "20,22": 47,
+      "20,23": 47,
+      "20,24": 47,
+      "20,25": 47,
+      "20,26": 47,
+      "20,27": 47,
+      "20,28": 47,
+      "20,29": 47,
+      "20,30": 47,
+      "20,31": 47,
+      "20,32": 47,
+      "20,33": 47,
+      "20,34": 47,
+      "20,35": 47,
+      "20,36": 47,
+      "20,37": 47,
+      "20,38": 47,
+      "20,39": 47,
+      "20,40": 47,
+      "20,41": 47,
+      "20,42": 47,
+      "20,43": 47,
+      "20,44": 47,
+      "20,45": 47,
+      "20,46": 47,
+      "20,47": 47,
+      "20,48": 47,
+      "20,49": 47,
+      "20,50": 47,
+      "20,51": 47,
+      "20,52": 47,
+      "20,53": 47,
+      "20,54": 47,
+      "20,55": 47,
+      "20,56": 47,
+      "20,57": 47,
+      "20,58": 47,
+      "20,59": 47,
+      "20,60": 47,
+      "21,0": 36,
+      "21,1": 47,
+      "21,2": 47,
+      "21,3": 47,
+      "21,4": 47,
+      "21,5": 47,
+      "21,6": 47,
+      "21,7": 47,
+      "21,8": 47,
+      "21,9": 47,
+      "21,10": 47,
+      "21,11": 47,
+      "21,12": 47,
+      "21,13": 47,
+      "21,14": 47,
+      "21,15": 47,
+      "21,16": 47,
+      "21,17": 47,
+      "21,18": 47,
+      "21,19": 47,
+      "21,20": 47,
+      "21,21": 47,
+      "21,22": 47,
+      "21,23": 47,
+      "21,24": 47,
+      "21,25": 47,
+      "21,26": 47,
+      "21,27": 47,
+      "21,28": 47,
+      "21,29": 47,
+      "21,30": 47,
+      "21,31": 47,
+      "21,32": 47,
+      "21,33": 47,
+      "21,34": 47,
+      "21,35": 47,
+      "21,36": 47,
+      "21,37": 47,
+      "21,38": 47,
+      "21,39": 47,
+      "21,40": 47,
+      "21,41": 47,
+      "21,42": 47,
+      "21,43": 47,
+      "21,44": 47,
+      "21,45": 47,
+      "21,46": 47,
+      "21,47": 47,
+      "21,48": 47,
+      "21,49": 47,
+      "21,50": 47,
+      "21,51": 47,
+      "21,52": 47,
+      "21,53": 47,
+      "21,54": 47,
+      "21,55": 47,
+      "21,56": 47,
+      "21,57": 47,
+      "21,58": 47,
+      "21,59": 47,
+      "21,60": 47,
+      "22,0": 36,
+      "22,1": 47,
+      "22,2": 47,
+      "22,3": 47,
+      "22,4": 47,
+      "22,5": 47,
+      "22,6": 47,
+      "22,7": 47,
+      "22,8": 47,
+      "22,9": 47,
+      "22,10": 47,
+      "22,11": 47,
+      "22,12": 47,
+      "22,13": 47,
+      "22,14": 47,
+      "22,15": 47,
+      "22,16": 47,
+      "22,17": 47,
+      "22,18": 47,
+      "22,19": 47,
+      "22,20": 47,
+      "22,21": 47,
+      "22,22": 47,
+      "22,23": 47,
+      "22,24": 47,
+      "22,25": 47,
+      "22,26": 47,
+      "22,27": 47,
+      "22,28": 47,
+      "22,29": 47,
+      "22,30": 47,
+      "22,31": 47,
+      "22,32": 47,
+      "22,33": 47,
+      "22,34": 47,
+      "22,35": 47,
+      "22,36": 47,
+      "22,37": 47,
+      "22,38": 47,
+      "22,39": 47,
+      "22,40": 47,
+      "22,41": 47,
+      "22,42": 47,
+      "22,43": 47,
+      "22,44": 47,
+      "22,45": 47,
+      "22,46": 47,
+      "22,47": 47,
+      "22,48": 47,
+      "22,49": 47,
+      "22,50": 47,
+      "22,51": 47,
+      "22,52": 47,
+      "22,53": 47,
+      "22,54": 47,
+      "22,55": 47,
+      "22,56": 47,
+      "22,57": 47,
+      "22,58": 47,
+      "22,59": 47,
+      "22,60": 47,
+      "23,0": 36,
+      "23,1": 47,
+      "23,2": 47,
+      "23,3": 47,
+      "23,4": 47,
+      "23,5": 47,
+      "23,6": 47,
+      "23,7": 47,
+      "23,8": 47,
+      "23,9": 47,
+      "23,10": 47,
+      "23,11": 47,
+      "23,12": 47,
+      "23,13": 47,
+      "23,14": 47,
+      "23,15": 47,
+      "23,16": 47,
+      "23,17": 47,
+      "23,18": 47,
+      "23,19": 47,
+      "23,20": 47,
+      "23,21": 47,
+      "23,22": 47,
+      "23,23": 47,
+      "23,24": 47,
+      "23,25": 47,
+      "23,26": 47,
+      "23,27": 47,
+      "23,28": 47,
+      "23,29": 47,
+      "23,30": 47,
+      "23,31": 47,
+      "23,32": 47,
+      "23,33": 47,
+      "23,34": 47,
+      "23,35": 47,
+      "23,36": 47,
+      "23,37": 47,
+      "23,38": 47,
+      "23,39": 47,
+      "23,40": 47,
+      "23,41": 47,
+      "23,42": 47,
+      "23,43": 47,
+      "23,44": 47,
+      "23,45": 47,
+      "23,46": 47,
+      "23,47": 47,
+      "23,48": 47,
+      "23,49": 47,
+      "23,50": 47,
+      "23,51": 47,
+      "23,52": 47,
+      "23,53": 47,
+      "23,54": 47,
+      "23,55": 47,
+      "23,56": 47,
+      "23,57": 47,
+      "23,58": 47,
+      "23,59": 47,
+      "23,60": 47,
+      "24,0": 11,
+      "24,1": 38,
+      "24,2": 38,
+      "24,3": 38,
+      "24,4": 38,
+      "24,5": 38,
+      "24,6": 38,
+      "24,7": 38,
+      "24,8": 38,
+      "24,9": 38,
+      "24,10": 38,
+      "24,11": 38,
+      "24,12": 38,
+      "24,13": 38,
+      "24,14": 38,
+      "24,15": 38,
+      "24,16": 38,
+      "24,17": 38,
+      "24,18": 38,
+      "24,19": 38,
+      "24,20": 38,
+      "24,21": 38,
+      "24,22": 38,
+      "24,23": 38,
+      "24,24": 38,
+      "24,25": 12,
+      "24,26": 38,
+      "24,27": 38,
+      "24,28": 38,
+      "24,29": 38,
+      "24,30": 38,
+      "24,31": 38,
+      "24,32": 38,
+      "24,33": 38,
+      "24,34": 38,
+      "24,35": 38,
+      "24,36": 38,
+      "24,37": 38,
+      "24,38": 38,
+      "24,39": 38,
+      "24,40": 38,
+      "24,41": 38,
+      "24,42": 38,
+      "24,43": 38,
+      "24,44": 38,
+      "24,45": 38,
+      "24,46": 38,
+      "24,47": 38,
+      "24,48": 38,
+      "24,49": 38,
+      "24,50": 38,
+      "24,51": 38,
+      "24,52": 38,
+      "24,53": 38,
+      "24,54": 38,
+      "24,55": 38,
+      "24,56": 38,
+      "24,57": 38,
+      "24,58": 38,
+      "24,59": 38,
+      "24,60": 38,
+      "24,61": 12,
+      "25,0": 2,
+      "25,1": 2,
+      "25,2": 2,
+      "25,3": 2,
+      "25,4": 2,
+      "25,5": 2,
+      "25,6": 2,
+      "25,7": 2,
+      "25,8": 2,
+      "25,9": 2,
+      "25,10": 2,
+      "25,11": 2,
+      "25,12": 2,
+      "25,13": 2,
+      "25,14": 2,
+      "25,15": 2,
+      "25,16": 2,
+      "25,17": 2,
+      "25,18": 2,
+      "25,19": 2,
+      "25,20": 2,
+      "25,21": 2,
+      "25,22": 2,
+      "25,23": 2,
+      "25,24": 2,
+      "25,26": 2,
+      "25,27": 2,
+      "25,28": 2,
+      "25,29": 2,
+      "25,30": 2,
+      "25,31": 2,
+      "25,32": 2,
+      "25,33": 2,
+      "25,34": 2,
+      "25,35": 2,
+      "25,36": 2,
+      "25,37": 2,
+      "25,38": 2,
+      "25,39": 2,
+      "25,40": 2,
+      "25,41": 2,
+      "25,42": 2,
+      "25,43": 2,
+      "25,44": 2,
+      "25,45": 2,
+      "25,46": 2,
+      "25,47": 2,
+      "25,48": 2,
+      "25,49": 2,
+      "25,50": 2,
+      "25,51": 2,
+      "25,52": 2,
+      "25,53": 2,
+      "25,54": 2,
+      "25,55": 2,
+      "25,56": 2,
+      "25,57": 2,
+      "25,58": 2,
+      "25,59": 2,
+      "25,60": 2,
+      "26,0": 6,
+      "26,1": 48,
+      "26,2": 5,
+      "26,3": 5,
+      "26,4": 5,
+      "26,5": 5,
+      "26,6": 6,
+      "26,7": 6,
+      "26,8": 6,
+      "26,9": 6,
+      "26,10": 6,
+      "26,11": 6,
+      "26,12": 6,
+      "26,13": 6,
+      "26,14": 6,
+      "26,15": 6,
+      "26,16": 6,
+      "26,17": 6,
+      "26,18": 6,
+      "26,19": 6,
+      "26,20": 6,
+      "26,21": 6,
+      "26,22": 6,
+      "26,23": 6,
+      "26,24": 6,
+      "26,25": 7,
+      "26,26": 6,
+      "26,27": 6,
+      "26,28": 6,
+      "26,29": 6,
+      "26,30": 6,
+      "26,31": 8,
+      "26,32": 6,
+      "26,33": 6,
+      "26,34": 6,
+      "26,35": 6,
+      "26,36": 6,
+      "26,37": 6,
+      "26,38": 6,
+      "26,39": 6,
+      "26,40": 6,
+      "26,41": 6,
+      "26,42": 6,
+      "26,43": 6,
+      "26,44": 6,
+      "26,45": 6,
+      "26,46": 6,
+      "26,47": 6,
+      "26,48": 6,
+      "26,49": 6,
+      "26,50": 6,
+      "26,51": 6,
+      "26,52": 6,
+      "26,53": 6,
+      "26,54": 6,
+      "26,55": 6,
+      "26,56": 6,
+      "26,57": 6,
+      "26,58": 6,
+      "26,59": 6,
+      "26,60": 6,
+      "26,61": 7,
+      "27,0": 11,
+      "27,1": 23,
+      "27,2": 23,
+      "27,3": 23,
+      "27,4": 23,
+      "27,5": 23,
+      "27,6": 23,
+      "27,7": 23,
+      "27,8": 23,
+      "27,9": 23,
+      "27,10": 23,
+      "27,11": 23,
+      "27,12": 23,
+      "27,13": 23,
+      "27,14": 23,
+      "27,15": 23,
+      "27,16": 23,
+      "27,17": 23,
+      "27,18": 23,
+      "27,19": 23,
+      "27,20": 23,
+      "27,21": 23,
+      "27,22": 23,
+      "27,23": 23,
+      "27,24": 23,
+      "27,25": 12,
+      "27,26": 23,
+      "27,27": 23,
+      "27,28": 23,
+      "27,29": 11,
+      "27,30": 11,
+      "27,31": 11,
+      "27,32": 49,
+      "27,33": 49,
+      "27,34": 49,
+      "27,35": 49,
+      "27,36": 49,
+      "27,37": 49,
+      "27,38": 49,
+      "27,39": 49,
+      "27,40": 49,
+      "27,41": 49,
+      "27,42": 49,
+      "27,43": 49,
+      "27,44": 49,
+      "27,45": 49,
+      "27,46": 49,
+      "27,47": 49,
+      "27,48": 49,
+      "27,49": 49,
+      "27,50": 49,
+      "27,51": 49,
+      "27,52": 49,
+      "27,53": 49,
+      "27,54": 49,
+      "27,55": 49,
+      "27,56": 49,
+      "27,57": 49,
+      "27,58": 49,
+      "27,59": 49,
+      "27,60": 49,
+      "27,61": 50,
+      "28,0": 51,
+      "28,1": 52,
+      "28,6": 53,
+      "28,7": 11,
+      "28,8": 11,
+      "28,9": 11,
+      "28,10": 11,
+      "28,11": 11,
+      "28,12": 11,
+      "28,13": 11,
+      "28,14": 52,
+      "28,18": 54,
+      "28,19": 11,
+      "28,20": 11,
+      "28,21": 11,
+      "28,22": 11,
+      "28,23": 11,
+      "28,24": 11,
+      "28,25": 55,
+      "28,26": 52,
+      "28,27": 53,
+      "28,28": 53,
+      "28,29": 56,
+      "28,30": 11,
+      "28,31": 51,
+      "28,33": 49,
+      "28,34": 49,
+      "28,35": 49,
+      "28,36": 49,
+      "28,37": 49,
+      "28,38": 49,
+      "28,39": 49,
+      "28,40": 49,
+      "28,41": 49,
+      "28,42": 49,
+      "28,43": 49,
+      "28,44": 49,
+      "28,45": 49,
+      "28,47": 49,
+      "28,48": 49,
+      "28,49": 49,
+      "28,50": 49,
+      "28,51": 49,
+      "28,52": 49,
+      "28,53": 49,
+      "28,54": 49,
+      "28,55": 49,
+      "28,56": 49,
+      "28,57": 49,
+      "28,58": 49,
+      "28,59": 49,
+      "28,60": 49,
+      "28,61": 50,
+      "29,0": 51,
+      "29,1": 52,
+      "29,6": 53,
+      "29,7": 11,
+      "29,8": 11,
+      "29,9": 11,
+      "29,10": 11,
+      "29,11": 11,
+      "29,12": 11,
+      "29,13": 11,
+      "29,14": 52,
+      "29,18": 57,
+      "29,19": 11,
+      "29,20": 11,
+      "29,21": 11,
+      "29,22": 11,
+      "29,23": 11,
+      "29,24": 11,
+      "29,25": 58,
+      "29,26": 59,
+      "29,27": 60,
+      "29,28": 53,
+      "29,29": 56,
+      "29,30": 11,
+      "29,31": 51,
+      "29,33": 49,
+      "29,34": 49,
+      "29,35": 49,
+      "29,36": 49,
+      "29,37": 49,
+      "29,38": 49,
+      "29,39": 49,
+      "29,40": 49,
+      "29,41": 49,
+      "29,42": 49,
+      "29,43": 49,
+      "29,44": 49,
+      "29,45": 49,
+      "29,47": 49,
+      "29,48": 49,
+      "29,49": 49,
+      "29,50": 49,
+      "29,51": 49,
+      "29,52": 49,
+      "29,53": 49,
+      "29,54": 49,
+      "29,55": 49,
+      "29,56": 49,
+      "29,57": 49,
+      "29,58": 49,
+      "29,59": 49,
+      "29,60": 49,
+      "29,61": 50,
+      "30,0": 51,
+      "30,1": 46,
+      "30,2": 47,
+      "30,3": 47,
+      "30,4": 47,
+      "30,5": 47,
+      "30,6": 47,
+      "30,7": 47,
+      "30,8": 47,
+      "30,9": 47,
+      "30,10": 47,
+      "30,11": 47,
+      "30,12": 47,
+      "30,13": 47,
+      "30,14": 47,
+      "30,15": 47,
+      "30,16": 47,
+      "30,17": 47,
+      "30,18": 47,
+      "30,19": 47,
+      "30,20": 47,
+      "30,21": 47,
+      "30,22": 47,
+      "30,23": 47,
+      "30,24": 47,
+      "30,25": 47,
+      "30,26": 47,
+      "30,27": 47,
+      "30,28": 47,
+      "30,29": 56,
+      "30,30": 11,
+      "30,31": 51,
+      "30,33": 49,
+      "30,34": 49,
+      "30,35": 49,
+      "30,36": 49,
+      "30,37": 49,
+      "30,38": 49,
+      "30,39": 49,
+      "30,40": 49,
+      "30,41": 49,
+      "30,42": 49,
+      "30,43": 49,
+      "30,44": 49,
+      "30,45": 49,
+      "30,47": 49,
+      "30,48": 49,
+      "30,49": 49,
+      "30,50": 49,
+      "30,51": 49,
+      "30,52": 49,
+      "30,53": 49,
+      "30,54": 49,
+      "30,55": 49,
+      "30,56": 49,
+      "30,57": 49,
+      "30,58": 49,
+      "30,59": 49,
+      "30,60": 49,
+      "30,61": 50,
+      "31,0": 51,
+      "31,1": 47,
+      "31,2": 47,
+      "31,3": 47,
+      "31,4": 47,
+      "31,5": 47,
+      "31,6": 47,
+      "31,7": 47,
+      "31,8": 47,
+      "31,9": 47,
+      "31,10": 47,
+      "31,11": 47,
+      "31,12": 47,
+      "31,13": 47,
+      "31,14": 47,
+      "31,15": 47,
+      "31,16": 47,
+      "31,17": 47,
+      "31,18": 47,
+      "31,19": 47,
+      "31,20": 47,
+      "31,21": 47,
+      "31,22": 47,
+      "31,23": 47,
+      "31,24": 47,
+      "31,25": 47,
+      "31,26": 47,
+      "31,27": 47,
+      "31,28": 47,
+      "31,29": 56,
+      "31,30": 11,
+      "31,31": 51,
+      "31,33": 49,
+      "31,34": 49,
+      "31,35": 49,
+      "31,36": 49,
+      "31,37": 49,
+      "31,38": 49,
+      "31,39": 49,
+      "31,40": 49,
+      "31,41": 49,
+      "31,42": 49,
+      "31,43": 49,
+      "31,44": 49,
+      "31,45": 49,
+      "31,47": 49,
+      "31,48": 49,
+      "31,49": 49,
+      "31,50": 49,
+      "31,51": 49,
+      "31,52": 49,
+      "31,53": 49,
+      "31,54": 49,
+      "31,55": 49,
+      "31,56": 49,
+      "31,57": 49,
+      "31,58": 49,
+      "31,59": 49,
+      "31,60": 49,
+      "31,61": 50,
+      "32,0": 51,
+      "32,1": 47,
+      "32,2": 47,
+      "32,3": 47,
+      "32,4": 47,
+      "32,5": 47,
+      "32,6": 47,
+      "32,7": 47,
+      "32,8": 47,
+      "32,9": 47,
+      "32,10": 47,
+      "32,11": 47,
+      "32,12": 47,
+      "32,13": 47,
+      "32,14": 47,
+      "32,15": 47,
+      "32,16": 47,
+      "32,17": 47,
+      "32,18": 47,
+      "32,19": 47,
+      "32,20": 47,
+      "32,21": 47,
+      "32,22": 47,
+      "32,23": 47,
+      "32,24": 47,
+      "32,25": 47,
+      "32,26": 47,
+      "32,27": 47,
+      "32,28": 47,
+      "32,29": 56,
+      "32,30": 11,
+      "32,31": 51,
+      "32,33": 49,
+      "32,34": 49,
+      "32,35": 49,
+      "32,36": 49,
+      "32,37": 49,
+      "32,38": 49,
+      "32,39": 49,
+      "32,40": 49,
+      "32,41": 49,
+      "32,42": 49,
+      "32,43": 49,
+      "32,44": 49,
+      "32,45": 49,
+      "32,47": 49,
+      "32,48": 49,
+      "32,49": 49,
+      "32,50": 49,
+      "32,51": 49,
+      "32,52": 49,
+      "32,53": 49,
+      "32,54": 49,
+      "32,55": 49,
+      "32,56": 49,
+      "32,57": 49,
+      "32,58": 49,
+      "32,59": 49,
+      "32,60": 49,
+      "32,61": 50,
+      "33,0": 51,
+      "33,1": 47,
+      "33,2": 47,
+      "33,3": 47,
+      "33,4": 47,
+      "33,5": 47,
+      "33,6": 47,
+      "33,7": 47,
+      "33,8": 47,
+      "33,9": 47,
+      "33,10": 47,
+      "33,11": 47,
+      "33,12": 47,
+      "33,13": 47,
+      "33,14": 47,
+      "33,15": 47,
+      "33,16": 47,
+      "33,17": 47,
+      "33,18": 47,
+      "33,19": 47,
+      "33,20": 47,
+      "33,21": 47,
+      "33,22": 47,
+      "33,23": 47,
+      "33,24": 47,
+      "33,25": 47,
+      "33,26": 47,
+      "33,27": 47,
+      "33,28": 47,
+      "33,29": 56,
+      "33,30": 11,
+      "33,31": 51,
+      "33,33": 49,
+      "33,34": 49,
+      "33,35": 49,
+      "33,36": 49,
+      "33,37": 49,
+      "33,38": 49,
+      "33,39": 49,
+      "33,40": 49,
+      "33,41": 49,
+      "33,42": 49,
+      "33,43": 49,
+      "33,44": 49,
+      "33,45": 49,
+      "33,47": 49,
+      "33,48": 49,
+      "33,49": 49,
+      "33,50": 49,
+      "33,51": 49,
+      "33,52": 49,
+      "33,53": 49,
+      "33,54": 49,
+      "33,55": 49,
+      "33,56": 49,
+      "33,57": 49,
+      "33,58": 49,
+      "33,59": 49,
+      "33,60": 49,
+      "33,61": 50,
+      "34,0": 51,
+      "34,1": 47,
+      "34,2": 47,
+      "34,3": 47,
+      "34,4": 47,
+      "34,5": 47,
+      "34,6": 47,
+      "34,7": 47,
+      "34,8": 47,
+      "34,9": 47,
+      "34,10": 47,
+      "34,11": 47,
+      "34,12": 47,
+      "34,13": 47,
+      "34,14": 47,
+      "34,15": 47,
+      "34,16": 47,
+      "34,17": 47,
+      "34,18": 47,
+      "34,19": 47,
+      "34,20": 47,
+      "34,21": 47,
+      "34,22": 47,
+      "34,23": 47,
+      "34,24": 47,
+      "34,25": 47,
+      "34,26": 47,
+      "34,27": 47,
+      "34,28": 47,
+      "34,29": 56,
+      "34,30": 11,
+      "34,31": 11,
+      "34,32": 47,
+      "34,33": 47,
+      "34,34": 47,
+      "34,35": 47,
+      "34,36": 47,
+      "34,37": 47,
+      "34,38": 47,
+      "34,39": 49,
+      "34,40": 47,
+      "34,41": 47,
+      "34,42": 47,
+      "34,43": 61,
+      "34,44": 47,
+      "34,45": 47,
+      "34,46": 47,
+      "34,47": 47,
+      "34,48": 47,
+      "34,49": 47,
+      "34,50": 47,
+      "34,51": 47,
+      "34,52": 47,
+      "34,53": 47,
+      "34,54": 47,
+      "34,55": 47,
+      "34,56": 47,
+      "34,57": 47,
+      "34,58": 47,
+      "34,59": 47,
+      "34,60": 47,
+      "34,61": 62,
+      "35,0": 11,
+      "35,1": 38,
+      "35,2": 38,
+      "35,3": 38,
+      "35,4": 38,
+      "35,5": 38,
+      "35,6": 38,
+      "35,7": 38,
+      "35,8": 38,
+      "35,9": 38,
+      "35,10": 38,
+      "35,11": 38,
+      "35,12": 38,
+      "35,13": 38,
+      "35,14": 38,
+      "35,15": 38,
+      "35,16": 38,
+      "35,17": 38,
+      "35,18": 38,
+      "35,19": 38,
+      "35,20": 38,
+      "35,21": 38,
+      "35,22": 38,
+      "35,23": 38,
+      "35,24": 38,
+      "35,25": 12,
+      "35,26": 38,
+      "35,27": 38,
+      "35,28": 38,
+      "35,29": 11,
+      "35,30": 11,
+      "35,31": 11,
+      "35,32": 47,
+      "35,33": 47,
+      "35,34": 47,
+      "35,35": 47,
+      "35,36": 47,
+      "35,37": 47,
+      "35,38": 47,
+      "35,39": 47,
+      "35,40": 47,
+      "35,41": 47,
+      "35,42": 47,
+      "35,43": 47,
+      "35,44": 47,
+      "35,45": 47,
+      "35,46": 47,
+      "35,47": 47,
+      "35,48": 47,
+      "35,49": 47,
+      "35,50": 47,
+      "35,51": 47,
+      "35,52": 47,
+      "35,53": 47,
+      "35,54": 47,
+      "35,55": 47,
+      "35,56": 47,
+      "35,57": 47,
+      "35,58": 47,
+      "35,59": 47,
+      "35,60": 47,
+      "35,61": 62
+    },
+    "RowStyles": {
+      "2": 63,
+      "11": 63,
+      "26": 63
+    },
+    "SheetStyle": {
+      "Background": null,
+      "FontFamily": 0,
+      "FontStretch": 1,
+      "FontStyle": 1,
+      "FontWeight": 1,
+      "Foreground": null,
+      "Formatter": null,
+      "TextIndent": 0,
+      "HorizontalAlignment": 5,
+      "VerticalAlignment": 4,
+      "WordWrap": false,
+      "Underline": false,
+      "Strikethrough": false,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "2,31,1,7",
+    "26,31,1,7",
+    "29,6,1,8",
+    "29,18,1,7",
+    "5,4,1,11",
+    "5,23,1,13",
+    "5,42,1,12",
+    "7,4,1,11",
+    "7,15,1,2",
+    "7,23,1,13",
+    "7,42,1,12",
+    "29,14,1,4",
+    "29,1,1,5",
+    "15,1,1,2",
+    "15,3,1,5",
+    "15,8,1,5",
+    "15,13,1,6",
+    "15,19,1,2",
+    "15,21,1,2",
+    "15,26,1,2",
+    "15,28,1,3",
+    "15,31,1,2",
+    "15,33,1,3",
+    "15,36,1,4",
+    "15,40,1,4",
+    "15,44,1,4",
+    "15,48,1,4",
+    "15,52,1,4",
+    "11,7,1,18",
+    "15,23,1,3",
+    "0,1,1,21",
+    "16,1,8,60",
+    "30,1,5,28",
+    "14,1,1,2",
+    "14,3,1,5",
+    "14,8,1,5",
+    "14,13,1,6",
+    "14,19,1,2",
+    "14,21,1,2",
+    "14,23,1,3",
+    "14,26,1,2",
+    "14,28,1,3",
+    "14,31,1,2",
+    "14,33,1,3",
+    "14,36,1,4",
+    "14,40,1,4",
+    "14,44,1,4",
+    "14,48,1,4",
+    "14,52,1,4",
+    "28,1,1,5",
+    "28,6,1,8",
+    "28,14,1,4",
+    "28,18,1,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "母版页",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "订单预算",
+    "ConditionFormatRulesCollection": {
+      "Rules": [
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "GUID": "7461acac-59ce-4d15-b49a-1f1cfd17e442",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 1,
+          "GUID": "c6f137b1-9ca4-4d52-9a24-a49e353e09cd",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 2,
+          "GUID": "f00ff4c6-e44f-4354-b2d9-d06595311bd0",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 3,
+          "GUID": "d12016f7-992c-4026-be03-b9b338fb3f5d",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 4,
+          "GUID": "19a7015e-8194-4a0c-829e-24e4ffb57756",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 5,
+          "GUID": "a4888ea7-0997-48ce-b3a6-26b9cfed917c",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 6,
+          "GUID": "f2d62ce0-a903-4762-8e5b-359d2f06a918",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 7,
+          "GUID": "3fc594d4-4ef7-4b1f-8507-f82d8cf8b1ee",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 8,
+          "GUID": "e8ecaec0-03c7-4383-8f7d-5b36a86c2436",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 9,
+          "GUID": "9d6b46ad-c83f-4452-8a27-a8cf99d2cb81",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 10,
+          "GUID": "018e07ef-66be-41a8-8cbb-44e30a038da8",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 11,
+          "GUID": "5fe034b3-4bac-44e3-9667-aa1db625770c",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 12,
+          "GUID": "dbe7b96d-4562-40db-b394-e4363c83f458",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 13,
+          "GUID": "4504998d-67fe-4193-8d27-f0750b0e918b",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 14,
+          "GUID": "4a1be25c-837e-489d-8c83-9fb21a10db40",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 15,
+          "GUID": "28672d5c-a889-47d4-8305-08a996b17749",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 16,
+          "GUID": "b1551ae0-323f-47cb-a651-956e636355f1",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 17,
+          "GUID": "0fea4e3a-f4bb-464a-a5bd-cdde62ad0be1",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 18,
+          "GUID": "f7ac5eaf-dc74-454a-85cb-c474a4546123",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 19,
+          "GUID": "35c215f3-7280-43cb-ba6d-1d59f7b82601",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 20,
+          "GUID": "baf0a33c-9995-42aa-adba-efad3508e68b",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 21,
+          "GUID": "b91d68cc-07db-416c-a7ae-35bc7ae3edb3",
+          "StyleInfo": {
+            "Background": "#FFF3EBFF",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 22,
+          "GUID": "61d8519d-24cd-43ee-838b-772a78b5c8e6",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 23,
+          "GUID": "3a04e13d-2e7d-44fa-b920-b7f0aeafc209",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 24,
+          "GUID": "70cd1407-7bed-4179-9937-cbc72b659363",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 25,
+          "GUID": "a1a8e445-f3fc-4ad9-916e-aa690f266cfa",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 26,
+          "GUID": "e9ec9a28-af5c-4daa-9380-ffb1d0894191",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 27,
+          "GUID": "757f8d68-2342-464f-9d48-c0a364206dd1",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 28,
+          "GUID": "bf551762-2ac8-4e24-a570-28c29e6e71d6",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 29,
+          "GUID": "01c6bebf-29e5-471d-8762-65615f60a185",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 30,
+          "GUID": "0264c5e7-f2eb-485b-930e-deff1da6bac2",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 31,
+          "GUID": "30183efa-d3a1-44f8-985e-ad9049dbcd4f",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 32,
+          "GUID": "e6f01fca-70f7-4bf5-8640-7410828e88bb",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 33,
+          "GUID": "cc405263-160a-4373-9ad6-79afb8f2e893",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 34,
+          "GUID": "f340f1d7-afb6-4059-b581-e008ea128503",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 35,
+          "GUID": "4322f682-8f81-40fd-b7c4-1949190cfa7a",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 36,
+          "GUID": "3b545bec-2e96-413a-9787-4437d147bc59",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 37,
+          "GUID": "7ef20ad6-aef4-421a-9f00-693f6c2b8307",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 38,
+          "GUID": "d5c18c19-bd58-46a6-b426-ce41db1e351f",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 39,
+          "GUID": "1b176308-0fdd-4cb6-98a7-dc137f276657",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 40,
+          "GUID": "303fd8f3-b4b5-48c0-979c-fdacd4c930ec",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 41,
+          "GUID": "c48d5ed7-b1a2-44ad-9d36-28540917df2f",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 42,
+          "GUID": "487aa61f-b57a-4fca-99f9-b60aa13d7a22",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 43,
+          "GUID": "052e458f-12dd-4067-a434-ae7be1b3b009",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 44,
+          "GUID": "17cac87c-2f8d-49a6-837a-92846ed7b398",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 45,
+          "GUID": "d818dd37-9ec9-40f9-afcc-7d1dbbc7655e",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 46,
+          "GUID": "4a0f9eb7-8a8b-4e0f-ab02-5e34b8ab2ab0",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 47,
+          "GUID": "d0de7bb7-d226-4370-8038-2c86c4f2942d",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 48,
+          "GUID": "48b5c4ed-6920-48f2-abfc-3e2a358906c0",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 49,
+          "GUID": "ca93a32d-9944-4a7d-94eb-1a926e6026cb",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 50,
+          "GUID": "d1bdd50a-817c-4b5d-a075-2698caf11bef",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 51,
+          "GUID": "36ae1b00-be1a-44b3-ba55-586363ab1d36",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 52,
+          "GUID": "6102c75d-bdfb-4fa7-a53f-447b01db7c75",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 53,
+          "GUID": "522c1112-5997-462e-ac55-3d4165031bc1",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 54,
+          "GUID": "85022523-bf91-4c30-b431-00f93785ea08",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 55,
+          "GUID": "bca37a3e-3b78-45f0-8c5a-07d452615605",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 56,
+          "GUID": "0c6375e7-4424-48c0-8b8f-649b0391197b",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 57,
+          "GUID": "0edac402-b45d-4aa9-84ef-5bffe531badd",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 58,
+          "GUID": "cb2bc4a7-ba3d-4920-8961-c2197a30044b",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 59,
+          "GUID": "35b0abe7-805a-4d8b-8851-f25069d2905a",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 60,
+          "GUID": "b9c7311b-f80c-4a52-83de-2b616c09f13e",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BZ-\""
+          },
+          "Priority": 61,
+          "GUID": "85642b70-3452-49b1-acd0-9e41df57c705",
+          "StyleInfo": {
+            "Background": "Accent 4 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"WG-\""
+          },
+          "Priority": 62,
+          "GUID": "b353c336-0d6b-4c7a-a74a-a3fe5c79748e",
+          "StyleInfo": {
+            "Background": "Accent 2 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        },
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=LEFT(查看订单详细统计!BI16,3)=\"BJ-\""
+          },
+          "Priority": 63,
+          "GUID": "9fd440d8-ab01-4439-a0c8-de6c937d700d",
+          "StyleInfo": {
+            "Background": "Accent 6 80",
+            "Underline": null,
+            "Strikethrough": null
+          }
+        }
+      ]
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "99e59c8b-cc23-4bc0-aaf9-d3d759eaa16d.png",
+      "DisplayName": "订单详细统计背景色块",
+      "StyleInfo": {
+        "Fill": "Background 1 -5 127",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Size": "1550,854"
+    },
+    {
+      "Name": "b35b6ac5-a980-4346-95d0-4adff716c98e.png",
+      "DisplayName": "订单信息",
+      "StyleInfo": {
+        "CornerRadius": 6.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,50",
+      "Size": "1550,160"
+    },
+    {
+      "Name": "9ae28a27-c341-44ae-8979-2eb536842a52.png",
+      "DisplayName": "订单项目详情",
+      "StyleInfo": {
+        "CornerRadius": 6.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,229",
+      "Size": "1550,325"
+    },
+    {
+      "Name": "b2a64e56-78bb-4358-967c-f81098c348a1.png",
+      "DisplayName": "订单项目统计",
+      "StyleInfo": {
+        "CornerRadius": 6.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,574",
+      "Size": "1550,280"
+    }
+  ],
+  "Charts": [
+    {
+      "ChartType": 22,
+      "DataOrientation": 0,
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 1",
+          "Accent 2",
+          "Accent 3",
+          "Accent 4",
+          "Accent 5",
+          "Accent 6"
+        ]
+      },
+      "ChartTitle": {
+        "Text": "采购价格占比",
+        "IsAutomaticStroke": false,
+        "IsAutomaticFill": false,
+        "StyleInfo": {
+          "Fill": "transparent",
+          "FontFamily": "Body",
+          "FontSize": 14.666666666666666,
+          "FontStretch": "Normal",
+          "FontStyle": "Normal",
+          "FontWeight": "Normal",
+          "Foreground": null,
+          "StrokeDashType": 8,
+          "Stroke": "transparent",
+          "StrokeThickness": 1.0
+        }
+      },
+      "XAxises": [
+        {
+          "ItemsFormula": "查看订单详细统计!$BE$30:$BE$34",
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "YAxises": [
+        {
+          "Orientation": 1,
+          "Items": [
+            0.0,
+            "NaN"
+          ],
+          "LabelFormatter": "General"
+        },
+        {
+          "Visible": false,
+          "Orientation": 1,
+          "AxisPosition": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false
+        }
+      ],
+      "Legend": {},
+      "DataSeries": [
+        {
+          "ChartType": 22,
+          "ValueFormula": "查看订单详细统计!$BF$30:$BF$34",
+          "Name": "系列1",
+          "DataLabelSettings": {
+            "ShowValue": true
+          },
+          "MarkerSize": "7,7",
+          "DataPoints": [
+            {
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 1",
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 1,
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 2",
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 2,
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 3",
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 3,
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 4",
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            },
+            {
+              "PointIndex": 4,
+              "IsAutomaticStroke": false,
+              "IsAutomaticFill": false,
+              "StyleInfo": {
+                "Fill": "Accent 5",
+                "Stroke": "Background 1",
+                "StrokeThickness": 2.0
+              }
+            }
+          ],
+          "IsAutomaticStroke": false,
+          "StyleInfo": {
+            "StrokeDashType": 8,
+            "Stroke": "Background 1",
+            "StrokeThickness": 2.0
+          }
+        }
+      ],
+      "PlotArea": {},
+      "StyleInfo": {
+        "Fill": null,
+        "StrokeDashType": 8,
+        "Stroke": "#FF868686",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Name": "Chart1",
+      "Location": "600,612",
+      "Size": "498,192"
+    }
+  ]
+}//T9xTuQMoMiAGLsBNkZwf4tykBwoFHPncMmjr/5MZrT2ki7EVjWC2F5T3i493qYBRrF/fV/ILxhEZNy0yS0KdtN0671rexZZcBfVYVlSl+ZC1gjlXjLymdB8LvRAhI2QH9GfFpKD2k4dmLav7VQEjMegX7ZYb07Ot+9Y2Cabi2rmuh6g+9CO+NeLnhX74QIWk1qLKcgoIVp0F7c4PjoNGeksnnjswC7xFhKGwOnvTdm4jl+v+2rrLI2DSZjd0ajF72M+2X+u8A+/btP0Ulr5myh3ctlW9W2NpTQsHl+In5abY3eZ7oUXIw2WMcjIJKGrbdKhTDwFI0tKCvr1YSQqnn34NpxgfI5tbRCs4by2ACvz0qFNsKRNio9BDUumEkWDZWSUia8v8rNKc4eBzSBdIie242fOie9lbDcq9AeVuSsTTFtud3N1Rt/KDVDeAi5VBCkkp7up/FjebhjeSJ6NplsWK3xKPKJVxch0Dc/bzbg5X4PcyxSNW5wsv/A0P2xFDQkXuRgCc5Z5NJI7VzAkhgf170IkHULdvVNywwyg6t0nwnJ9hGEPCtmBH93Ee/IxAbPEemDj+PF6fpa30RUWIJnEJ04ksRkLwaghNVALkv0adyPvIhPjRwdga/CkfoI7kfo9hSX78vsxWhva5SW4IGxyg/7471lB1fG7n7yfK6OUuDpxOL/38XOT4CqmcMtAQ4UWWoRWCgJO0y6UZh56baW+tFgnp699n6pe/tl9G6rFcytLmOlIibRPLpGZelzIE4/CrLKoSF0wRd84Pm44vFKynVOvVbGm5l8EeNUj6D1EjqMOqv3k3fpzSkEe08WMFSPGedbS+ogJDzg4ViE1y9DfNFmKWNmynbGI3hFGWVC4NKjqED4GyLcqX4QzviScTC6nxcJE9jTnyp0s5bJhXPw==|920

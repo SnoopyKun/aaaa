@@ -13,7 +13,7 @@
           }
         }
       },
-      "30": {
+      "27": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0,
           "Mode": 2,
@@ -26,7 +26,7 @@
         }
       }
     },
-    "Count": 31
+    "Count": 28
   },
   "Cols": {
     "RowColumnAttachedInfos": {
@@ -58,22 +58,13 @@
     "Count": 19
   },
   "Values": {
-    "8,3": "欢迎登录",
-    "12,3": "Administrator",
-    "15,3": "123456",
-    "20,3": "登录",
-    "23,3": "忘记密码",
-    "28,1": "默认账户：Administrator\n默认密码：123456"
+    "5,3": "材料管理系统",
+    "17,3": "登录",
+    "20,3": "忘记密码",
+    "25,1": "默认账户：Administrator\n默认密码：123456"
   },
   "AttachInfos": {
-    "5,3": {
-      "CellType": {
-        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
-        "TemplateKey": "_RS_Normal1",
-        "ImagePath": "fgc_logo_dark.png"
-      }
-    },
-    "12,3": {
+    "9,3": {
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -95,7 +86,7 @@
         "IgnoreBlank": false
       }
     },
-    "15,3": {
+    "12,3": {
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "ShowPassword": true,
@@ -118,7 +109,7 @@
         "IgnoreBlank": false
       }
     },
-    "18,3": {
+    "15,3": {
       "CellType": {
         "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
         "Caption": "保持登录状态",
@@ -126,7 +117,7 @@
         "ForguncyAttribute": "LogIn_RememberMe"
       }
     },
-    "20,3": {
+    "17,3": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "登录",
@@ -135,7 +126,7 @@
         "ForguncyAttribute": "LogIn_Button"
       }
     },
-    "23,3": {
+    "20,3": {
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
@@ -153,86 +144,109 @@
     "Styles": [
       {
         "FontFamily": 0,
-        "FontSize": 13.333333015441895,
-        "Foreground": 1,
+        "FontSize": 18.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
         "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 16.0,
-        "Foreground": 2,
+        "Foreground": 4,
         "VerticalAlignment": 3,
         "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
-        "FontSize": 24.0,
-        "FontWeight": 4,
+        "FontSize": 14.666666666666666,
         "Foreground": 5,
-        "VerticalAlignment": 6,
+        "Formatter": 6,
         "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 14.666666666666666,
         "Foreground": 7,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
         "Formatter": 8,
         "Underline": false,
-        "Strikethrough": false
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666666666666,
-        "Foreground": 9,
-        "Underline": false,
-        "Strikethrough": false
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 16.0,
-        "Formatter": 10,
-        "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 16.0,
-        "Formatter": 10,
+        "Formatter": 8,
         "HorizontalAlignment": 3,
         "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
-        "Foreground": 11,
-        "Formatter": 10,
+        "Foreground": 9,
+        "Formatter": 8,
         "HorizontalAlignment": 3,
         "Underline": true,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 12.0,
-        "Foreground": 12,
-        "Formatter": 10,
+        "Foreground": 10,
+        "Formatter": 8,
         "HorizontalAlignment": 3,
         "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
       "Strs": [
         "Body",
-        "#FF000000",
-        "Text 1 35",
-        "Center",
         "Bold",
-        "Text 1 25",
-        "Bottom",
+        "#FF000000",
+        "Center",
+        "Text 1 35",
         "Text 1 15",
         "@",
         "#FF7F7F7F",
@@ -243,33 +257,49 @@
     },
     "CellStyles": {
       "5,3": 0,
-      "7,17": 1,
-      "8,3": 2,
-      "12,3": 3,
+      "6,17": 1,
+      "9,3": 2,
+      "12,3": 2,
       "15,3": 3,
-      "18,3": 4,
+      "17,3": 4,
       "20,3": 5,
-      "23,3": 6,
-      "24,3": 7,
-      "28,1": 8
+      "21,3": 6,
+      "25,1": 7
     },
     "SheetStyle": {
-      "FontFamily": 0
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
-    "28,1,2,17",
+    "5,3,2,13",
+    "9,3,2,13",
     "12,3,2,13",
-    "15,3,2,13",
-    "18,3,1,13",
-    "20,3,2,13",
-    "23,3,1,13",
-    "5,3,3,7",
-    "8,3,2,13"
+    "15,3,1,13",
+    "17,3,2,13",
+    "20,3,1,13",
+    "25,1,2,17"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "登录",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -281,24 +311,26 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "0ff17210-2337-4c02-b20c-183f048a4b20.jpg",
+      "Name": "c4da7498-0ae7-4d58-b1c4-1acd454630bb",
+      "DisplayName": "背景图1",
       "ForguncyPictureName": "PCLoginBackground",
       "ForguncyPictureSourceType": 2,
       "StyleInfo": {
         "Fill": null
       },
       "IsAutomaticFill": false,
-      "Size": "380,620"
+      "Size": "380,560"
     },
     {
-      "Name": "d822c6ed-a84e-44a2-b25e-28272e255a9c.png",
+      "Name": "1c0b48ba-8a81-474a-af66-65e81a83cfd4",
+      "DisplayName": "背景图2",
       "StyleInfo": {
         "CornerRadius": 20.0,
         "Fill": "Background 1 0"
       },
       "IsAutomaticFill": false,
       "Location": "20,60",
-      "Size": "340,460"
+      "Size": "340,400"
     }
   ]
-}//DzWG0q0CN2zvhtYQf9uxhTqjJWdbTWuTkV1J5kHDmvwoKSd0mbkfstdwI2i3Mo18g29fY8SOMXwh11dOHlkL+wTR82MEZ1F5tKDXFvRFWRHYe3rdpaRSfiiS6SQpHlfzdm5wI5Dpt8TJIRq5bzcYIwI7mqHv03cFohUyZB1iyyrssH+bVanAbyRNAJd9ZJsxh71D6cAfdNBZwCkUoKVY2r94AQlYKSyNQIJVErj/NQTFo85u+sSva2EP4+7VeVLINQ+dd2drtEew2Np2l5vG29WzNoMORx/s/oOGdcd8Ak7V3urXjz9ScfaORBn55EV8LCNeNG/sXCV1BFjLs4fBFhbvNb1z5oEzIMucywUWh4lbI/AfA5AZcCl39oPw4W2Y5NoXZo0eQU/dDhtClltzsNR6HT+9BcjWRWqXDUGV/XoGCTf+S4lgVrE267Jpfv48by/eH144wotg2GPI2fXVIPspXNh9kreZp/hkdPZyn204VNYL6xgQVoxRA107d3onFwgAG2ZpBWeZyoSLQd84gBN/yq/u6fU5Oyn1Qp+fWk1DMNwXtvhcPk6+uKu4VeWbl7Q3Fqa+09LD5o7GnxpBCdCLJBtFoMzWM4Gk3i+fO2O14ft/I7wh7DVNzyGOcxhLW37lk57ZOdiQ8igBZs8gQ+LP390ZEZl7dJQTN5MptVicGn/eLjVBjBDo9bxlzwdgUCQmEUh6dLJxJksMMKYXOxmHI1xtGAlGawWaC0JuNodUJbMeXsLffEgO/nvX0slxETInH4GYd7FmWgnOsl0ej5E6A4TntQaDX7Lwr+q2bSWgJ36fupRi4+rJbUM0fr8az8D26qjXVK7vwP+cBZatyd1FAedmaWLXIYMTtbN0ZmW6wQWsbl1GyCJAcETPr5TheT34P2c4dmO8R5iRqRgvng==|920
+}//I7PVJ6jTGKqt05tkuH13QRSJvZGkNN8TAS2dJ32kakIFjNCLV8NFaHkUHf5O+Kgo1UATGAxB6+2k1XGrLNTKqOXYMltaXRDtZBkVu5GTYcDtOnr9WC+yPbQ2LwhJVa1Oh9mnUOCIVKeCNJqdgu5H3DpwWUBPQo5InKWRQZ9UlsEDte7x46eJlQ00+Hu3PbUqbb/U0Zu23YwPFh7mzsYC4vTu1BiECD/jtb+J8alW9adoG8sbQ+v+/Jngl3Dpu/95VkOT7YfLMlolfd03acmmVEs//yrajPHF4Wns3mKkEYGywyNFko+58uj1HlwczDJp+Hwg0RDoLvxoxslHH5BCjNgJVhPBwWgK1/hr4HfkgGvyBZvSynWvDN5LQ4mBFOjy9bEcKP7Od6m/dF+i9WDIF53qCGofLfOwIn0DRaUs/PXKXqdOzYYZPHvwRmivRlLOpKyZtLWZnsUMmPCD3d9X9nBF879JudMe2uA07HyzoFprgfbHT8r8mfQyWQVuRsO7A3vi/ENonPXnmRmIp9Kfn3HO2LDdH7dQ/TQfIS2QdBZOwFd64I/SzMrAdxlJqhSPXTMHAZ/lUDWbozxOQnyq2Q7XwEgNJDnUgNX/rpe6aPfS0MOf29vxtJz6HKXqZFek30l18THd7CY06rUPS1JR6T/jH+C5nlHs27Um51ilKsRSffqzPt0PdfIHssClyn/zu5SD6ryQRWigqKtp4UdJkkPUa/K/TpqjFUXH7Z6ERkxNGKirAErtC1Jlz7N3wR8wMQI2+cGpJ+qa3W+m+0U4RaFT+vhYATT35uuqJdB7GUJH4jQB53jI19mv+camjs140byOtAjjhGKOHSQakWGmuptKL5OE8/9kaX5AhMuo8rGc4o4BDeGxoDRoFUimi6N+MpjpVhqm02MfcJ2CwgesMQ==|920

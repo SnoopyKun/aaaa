@@ -1,0 +1,105 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 1,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      }
+    },
+    "Count": 6,
+    "DefaultSize": 60.0
+  },
+  "Values": {
+    "0,0": "包装",
+    "0,2": "外购",
+    "0,4": "一般"
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "Foreground": 0
+      },
+      {
+        "Background": 1,
+        "Foreground": 1
+      },
+      {
+        "Background": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 4 80",
+        "Accent 2 80",
+        "Accent 6 80",
+        "Body",
+        "Center"
+      ]
+    },
+    "ColStyles": {
+      "1": 0,
+      "3": 1,
+      "5": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 3,
+      "HorizontalAlignment": 4
+    }
+  },
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.UserControlPage, ServerDesignerCommon",
+    "PropertyDefinitions": [],
+    "CommandDefinitions": [],
+    "MethodDefinitions": [],
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//sKqq0n9Ok5Rlf30zqFWWWlvFqgjEVOZ8npkEF//r1byPIotJRvGsTpWXl5ZwuJjv1BaZ8ieuLU0ymhs0PR0phWTUgNPArStaK1nYQGk2T+tATBPCfelspWjNrXehpxLaHcptWuHrvhIDLk80eCX8zjyoxmMNmOKaOj5KlNkjjH2T6w+idypP+1u2/sKwEt3TAj6o2ZQpyMTPvoUPy4tjd+M+8cMr8FOezhtZ5ySXyAcBQiRbyalvS79V56z3TB3lL/5U2WPSgGYC8SK4wymIaJ3bMmiKr94DnOesKD8VSQVm1jcI9mfgiIBThznUh3IyMvrHfUGcqSlmniTuS59AuIwrOXF8hLigyvRMf1S5q6FoyOap7OXoLruftpFoIuprDESFrbNupmCNrJTqo1ZLbijVX9miZzRYL/8NUsvimPSna1DdMxL7nW0duXLdJvx4LIp/7+xNE8eoBXi26RZH3jvJpjYrj0aU8RyB3ITdTClvBZA/60a8aa2vuExmvfSfhkt/E5ZeRVo52bmQuPtKWELgY/S5+PjNg/fetxwI9R3d3s5lvC+Q9OJurDUeNOg988GFTnW/tkycJeFu8/xYAizfuLnl1gW/O+XpIRt8CgVfchU9Pp3svsVBmxBXrLODV7ZcMk9kZcukHezJt8HgkD1dESdop7prkTXw3LBMTvijZPoqdNpYDS97PPe7cfin3IQTyoF7NqF36lcbhzs7cB1nxcfSUirM8XKAx2gguTHOXkm4qCjRAdUncFL6FpL222h3zBxhz4GUApoA+QYkD3aGo9zt1oF7ndT9tnwOltpLKjYx4qD4RCcQN7EdvqQhpUNTIk7816iiukmIPCyFkJYinaczbU3AGhu7wBQX96qKojPOOtco0OP7UwemL3k3rSsux/i9VufperZYQ0kqMA==|920

@@ -1,86 +1,45 @@
 [
   {
-    "ModuleName": "Pages/内建页面",
-    "ModuleType": 6
+    "ModuleName": "Table/一级编码",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   },
   {
-    "ModuleName": "PCPage/FGC_登录",
-    "ModuleType": 1
+    "ModuleName": "Table/二级编码",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   },
   {
-    "ModuleName": "PCPage/FGC_401页面",
-    "ModuleType": 1
+    "ModuleName": "Table/客户",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   },
   {
-    "ModuleName": "PCPage/FGC_修改密码",
-    "ModuleType": 1
+    "ModuleName": "Table/材料(三级编码)",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   },
   {
-    "ModuleName": "PCPage/FGC_连接已断开",
-    "ModuleType": 1
+    "ModuleName": "TableView/用户信息视图",
+    "ModuleType": 23,
+    "ExclusiveType": 0
   },
   {
-    "ModuleName": "PCPage/FGC_忘记密码",
-    "ModuleType": 1
+    "ModuleName": "Table/订单",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   },
   {
-    "ModuleName": "PCPage/FGC_邮件订阅",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_维护中",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_两步验证_扫码页面",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_两步验证_验证页面",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_修改用户信息",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_重置密码",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_重置密码发送邮件成功",
-    "ModuleType": 1
+    "ModuleName": "Table/订单预算",
+    "ModuleType": 7,
+    "ExclusiveType": 0
   },
   {
     "ModuleName": "Pages/内建手机页面",
     "ModuleType": 6
   },
   {
-    "ModuleName": "MobilePage/FGC_登录_手机版",
-    "ModuleType": 2
-  },
-  {
     "ModuleName": "MobilePage/FGC_401页面_手机版",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_修改密码_手机版",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_连接已断开_手机版",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_忘记密码_手机版",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_邮件订阅_手机版",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_维护中_手机版",
     "ModuleType": 2
   },
   {
@@ -92,11 +51,27 @@
     "ModuleType": 2
   },
   {
+    "ModuleName": "MobilePage/FGC_修改密码_手机版",
+    "ModuleType": 2
+  },
+  {
     "ModuleName": "MobilePage/FGC_修改用户信息_手机版",
     "ModuleType": 2
   },
   {
-    "ModuleName": "MobilePage/FGC_重置密码发送邮件成功_手机版",
+    "ModuleName": "MobilePage/FGC_忘记密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_登录_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_维护中_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_邮件订阅_手机版",
     "ModuleType": 2
   },
   {
@@ -104,12 +79,148 @@
     "ModuleType": 2
   },
   {
-    "ModuleName": "PCPage/页面1",
+    "ModuleName": "MobilePage/FGC_重置密码发送邮件成功_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_连接已断开_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "Pages/内建页面",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/FGC_401页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_两步验证_扫码页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_两步验证_验证页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_修改密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_修改用户信息",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_忘记密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_登录",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_维护中",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_邮件订阅",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_重置密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_重置密码发送邮件成功",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_连接已断开",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/客户管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/客户管理页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/客户详情",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/编码管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/一级编码信息",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/三级编码信息",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/二级编码信息",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/编码管理页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages/订单管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "PCPage/查看订单详细统计",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/添加或编辑订单",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/订单管理页面",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/帮助文档",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/用户列表页",
     "ModuleType": 1
   },
   {
     "ModuleName": "MasterPCPage/FGC_母版页",
     "ModuleType": 3
+  },
+  {
+    "ModuleName": "MasterPCPage/母版页",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "UserControlPage/二级步骤导航展示",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "UserControlPage/订单详情背景色说明",
+    "ModuleType": 31
+  },
+  {
+    "ModuleName": "ServerCommand/获取一级编码将要添加编码号",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/获得三级编码将要添加编码号",
+    "ModuleType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/获得二级编码将要添加编码号",
+    "ModuleType": 15
   },
   {
     "ModuleName": "ApplicationSetting",
@@ -124,7 +235,15 @@
     "ModuleType": 37
   },
   {
+    "ModuleName": "Image/fgc-built-in-page-round-white.png",
+    "ModuleType": 38
+  },
+  {
     "ModuleName": "Image/fgc_built-in-page-401.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/fgc_built-in-page-logo.png",
     "ModuleType": 38
   },
   {
@@ -141,6 +260,34 @@
   },
   {
     "ModuleName": "Image/fgc_logo_dark.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/fgc_logo_light.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/logo.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/一级编码管理.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/三级编码管理.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/二级编码管理.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/材料客户管理.png",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/材料订单管理.png",
     "ModuleType": 38
   },
   {
