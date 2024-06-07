@@ -1,12 +1,12 @@
 {
   "IntegrateWithOtherApplication": {
-    "Password": "IzZ7M%^y0q1N"
+    "Password": "V1HgAXwSYgem"
   },
   "ShareCommandContainers": [],
   "ListviewLoadingIndicatorSettings": {},
   "GlobalProperties": [],
-  "WebSitePort": 23114,
-  "UserServicePort": 39119,
+  "WebSitePort": 38617,
+  "UserServicePort": 22369,
   "StartDateFiscalYear": 1,
   "BaseOnStartingMonth": true,
   "MultipleLanguageSettings": {
