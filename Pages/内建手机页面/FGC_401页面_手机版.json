@@ -102,11 +102,7 @@
         "FontWeight": 1,
         "Foreground": 2,
         "Formatter": 3,
-        "HorizontalAlignment": 4,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "HorizontalAlignment": 4
       },
       {
         "FontFamily": 0,
@@ -115,22 +111,14 @@
         "Formatter": 3,
         "HorizontalAlignment": 6,
         "VerticalAlignment": 7,
-        "WordWrap": true,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "WordWrap": true
       },
       {
         "FontFamily": 0,
         "FontSize": 16.0,
         "FontWeight": 1,
         "Foreground": 2,
-        "Formatter": 3,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "Formatter": 3
       },
       {
         "FontFamily": 0,
@@ -139,22 +127,14 @@
         "HorizontalAlignment": 6,
         "VerticalAlignment": 7,
         "Underline": false,
-        "Strikethrough": false,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "Strikethrough": false
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
         "Foreground": null,
         "Formatter": 3,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "Underline": false
       },
       {
         "FontFamily": 0,
@@ -162,21 +142,13 @@
         "Foreground": 5,
         "Formatter": 3,
         "VerticalAlignment": 7,
-        "WordWrap": true,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "WordWrap": true
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
         "Foreground": 5,
-        "Formatter": 3,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "Formatter": 3
       }
     ],
     "Types": {
@@ -206,11 +178,7 @@
     "SheetStyle": {
       "FontFamily": 0,
       "FontSize": 13.333333015441895,
-      "Foreground": 8,
-      "BorderBottom": null,
-      "BorderTop": null,
-      "BorderLeft": null,
-      "BorderRight": null
+      "Foreground": 8
     }
   },
   "Spans": [
@@ -219,27 +187,13 @@
     "16,2,3,15",
     "20,2,2,15",
     "22,2,2,1",
-    "22,3,1,14",
     "24,2,2,1",
-    "24,3,2,14"
+    "24,3,2,14",
+    "22,3,1,14"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "401页面",
-    "PermissionData": {
-      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
-      "permissionResource": {
-        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
-      },
-      "permissionBindings": [
-        {
-          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
-          "roleNames": [
-            "FGC_LoginUser"
-          ]
-        }
-      ]
-    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -249,4 +203,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//q71kNr2s2XpfVT3bEdsEHVXEnNm2J2ghHvzZT3EWijStuTg1vqnzWL2L6WN1jkDyBN763fS6t+9mdWApcmsGVOvXfautSLrWWiRVRvykI5KotFc5zC3n3BgJNMrV4W0vKR4FKD07Ff4dHhJXLDsfdNxBzFiAI2KARakZ8FQaeOekyZ9a8pMA/uuQHsgwVEftlo8bHqUDPkRMAC/RIDmTBIfD7/3BPgYJZDq84KIKiZ48JDAvgpNO5leXtKUdF3CuUJcBQw00e2EYTFeyUr2i1dDiEAFAA+TEhI3GPNy+K0DDnOUEPyC2UI3d8CoiKP+zSQuB6QPR7G62YhFWS8sS95pvVOf6tMbRQkxk+BWSMNHuLXpjPIzkaN7hF/R8T9AptMrTutoiQPn5d8RyS2eTGRjvPQGRFAFtz1/dRRDg9av62N1lJr5rJ0/izvkcNCW4H3A4UNqngpSKsqob9KSDmfqu87mBIqLLqLkvHuKSmQMG9AOxYqBpdCDBs3MgU+O22Z/YCuJ7YqZBychLyfW6xxlrdg8x4zw28irtFj82h8IeTduQhY4DvV6sACUEndTtrmQEuYxc86f52uJTZEYm4pAPtNjp+NWBQTWcxKwz2fNwbVbhdTWA84T+dxCjXruEOSuOwAwTB4ezfaCAKvYvqzDALk547cqsG4KHpz5p2rCwgDPHoalhjtUd506PphpSW9m7SuGszLYwB4LsNYysaybfvPWz7FgQg3cxk/mYKo/yVfrp17ysU+iflbkfCJXJNPvhTXOBJhrqDn18JZRlEcApTDNfZfIndn/r1kxvLimKyrDL930ROYe6RQGXyXThcfQWAUpoIjGx30TrOgEwRFOFD6gGiycycuYEav/lhjMySc/1Mr+dV9q5DlVO4iI3J0gFgiQMXVy3Ok1LE4q+YA==|920
+}//W7nr4ITi5JT9RVOIzJmSYmL8Z6c/pczcYhHG5w+49+W993Vm3JsaD2/pqYu1WlfXTk5o75ixwqx02l1MxhX853uqYyx8ERXX+Oqk/LDpiRSOAwR3qAS2O51Tu/Enyvdzsk30tloVU260zsApnyyNW1jPF65PzKEF1LjB3aNYayvc3GOATbFmkh0/JKZv6JzRKvu1Nj6OIKUOuo/U9pcdWNs6zqHAsB60/wopKb3x4auNj34ggXFg5VZdtlr2bPb+/0fMaPuieXBFSdhc7MLGJ86luAZq0Sjro5hwGbOvVhfLQ/Og6JZzjSX6xZZ/JNHvt5DOaqWZY6F6R7Cj+0y2HB60rN3EQAU0EESAJ4wyyL63hGagNaRolKy68ToNCzwQL+F5PbfkPU+G29150KCXLJ1YHHDEBxaK6CpwpOETrC6HKTX9m/szkf5KimDgNtJSWbEiIuPSQXxmMlXeWoruJGWSyUqmpqnJhknIuVZOO2DUXOUNAWd7wWK7qOjn4vjwp+MWSr35Z5ZA9d/5K90/NnL0Ve40p62b88wz84keUkFAboVWfWwMPrGnGF8v41FQg2ES5FDdPTfKXm8g7W1EyozLD/vvpZ+gGfgP6lO/S5h1o/6Q3obEJCDKWCWx9xzIeAXjY0EoUSpfcQtVXO86VwZFsyF1rJvc9evhWXfl9yqWJFPFtpJIvlmd77i+en9sUq9ZtrRTZGaskp+dAdE7C8zYOiG/T84gF+RBx90ZnW2Ci/2aW2r69woLeupPkV6wzuuk/EivleLeIAygvCaDja0Nahn6SIcb3dvlDFeePk1fSMNoTLAuhUE39IwL+J8Z7CyFLyDKZt3dDlhts18Pn3ArWvP2lXSz9dU6qJ/OiTduMCOKBxVI4xEVFC6zLSFYmPfN+XzuvgilXhN6MzDp4g==|920
