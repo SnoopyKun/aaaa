@@ -1,0 +1,137 @@
+{
+  "Name": "获得二级编码将要添加编码号",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+      "Permission": {
+        "PermissionData": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+          "permissionResource": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+          },
+          "permissionBindings": [
+            {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+              "roleNames": [
+                "FGC_LoginUser"
+              ]
+            }
+          ]
+        }
+      },
+      "Parameters": [
+        {
+          "Name": "一级编码ID",
+          "DataValidationInfo": {}
+        }
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "行数",
+      "TableValue": {
+        "TableName": "二级编码",
+        "TableValueType": 3,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "二级编码",
+            "ColumnName": "一级编码_ID",
+            "GUID": "79a76467-c4c3-4ae4-8f69-5d2a74be7807",
+            "RelationBinding": {
+              "RelatedTable": "一级编码",
+              "RelatedColumn": "ID",
+              "DisplayColumn": "ID"
+            }
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=一级编码ID"
+          }
+        }
+      },
+      "ID": "c6deeb4ffb1a45aa8b8e15189c138189"
+    },
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=行数"
+              }
+            },
+            "value": "0",
+            "compareType": 2
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "最大编码号",
+              "TableValue": {
+                "TableName": "二级编码",
+                "OnlyGetValue": true,
+                "TableValueType": 0,
+                "BindingInfos": [
+                  {
+                    "GUID": "b7836e2a-ebac-4e7d-916d-9c7b3d5c03c9",
+                    "BindingInfo": {
+                      "TableName": "二级编码",
+                      "ColumnName": "最大编码号",
+                      "GUID": "2c2cd4bf-0e9b-43f7-b875-8a1d8fdb2695"
+                    },
+                    "ColumnName": "最大编码号"
+                  }
+                ],
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "二级编码",
+                    "ColumnName": "一级编码_ID",
+                    "GUID": "eede8e36-0a8f-439e-b773-648190f3176a",
+                    "RelationBinding": {
+                      "RelatedTable": "一级编码",
+                      "RelatedColumn": "ID",
+                      "DisplayColumn": "ID"
+                    }
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=一级编码ID"
+                  }
+                }
+              },
+              "ID": "4fe9862aafea42dc96a5fd45254980c2"
+            },
+            {
+              "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+              "ErrorCode": "0",
+              "Message": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=最大编码号+1&\"\""
+              }
+            }
+          ],
+          "ID": "41713b31-5a49-427a-af38-11a67abb6332"
+        },
+        {
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+              "ErrorCode": "0",
+              "Message": "1"
+            }
+          ],
+          "ID": "c8dcc348-d105-44f8-a6e1-b1594e14a908"
+        }
+      ]
+    }
+  ]
+}

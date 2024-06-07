@@ -1,4 +1,5 @@
 {
-  "DefaultListViewStyleName": "_RS_NewFashionListStyle2",
-  "DefaultCellTypeStyleNames": {}
+  "DefaultCellTypeStyleNames": {
+    "Forguncy.ImageCellTypeStyleTemplateSupportAttribute": "样式1"
+  }
 }
