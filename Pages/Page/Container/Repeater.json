@@ -1,0 +1,578 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "Count": 35
+  },
+  "Cols": {
+    "Count": 42
+  },
+  "Values": {
+    "1,2": "Repeater 图文列表",
+    "5,2": "流动排列"
+  },
+  "AttachInfos": {
+    "9,2": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "909f8aed-983a-43f0-aa67-9fc1a5d85b18",
+        "DataSourceType": 1,
+        "ListviewName": "表格1",
+        "DataSource": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "元素周期表",
+          "BindingInfos": [
+            {
+              "GUID": "7d97b92d-317d-4fe7-84bf-7eac44bf4b2b",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "ID",
+                "GUID": "09c9a916-09fb-427b-9d22-529a3bf21724"
+              },
+              "ColumnName": "ID"
+            },
+            {
+              "GUID": "8b46022b-b54d-4bf9-9cc7-8e1dfdc1587c",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Atomic_Number",
+                "GUID": "169e1a4c-139a-44f6-b258-f460b5ef329a"
+              },
+              "ColumnName": "Atomic_Number"
+            },
+            {
+              "GUID": "88b490dd-7129-453c-a52c-04ee8f9ae852",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Element",
+                "GUID": "1247aed4-7ce3-43cf-9ad4-3962261576bc"
+              },
+              "ColumnName": "Element"
+            },
+            {
+              "GUID": "0b8deebc-823c-477f-b302-0ce6e5c621bc",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Symbol",
+                "GUID": "245dde8e-ea86-43ed-8435-f58cd1c41d32"
+              },
+              "ColumnName": "Symbol"
+            },
+            {
+              "GUID": "67a2b765-1c69-40f0-a8e9-36a753bc0581",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Atomic_Weight",
+                "GUID": "2a767997-76d3-41fb-97ee-97b87d51058c"
+              },
+              "ColumnName": "Atomic_Weight"
+            },
+            {
+              "GUID": "a390da35-230c-43c1-b8c3-e48c535adebf",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Period",
+                "GUID": "b4858e19-ec0b-4d45-a736-55c9bb1a9228"
+              },
+              "ColumnName": "Period"
+            },
+            {
+              "GUID": "c25bbc32-55ec-4920-aa79-fedae0465075",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Group",
+                "GUID": "b1805550-6019-41f6-9a83-873d984f607d"
+              },
+              "ColumnName": "Group"
+            },
+            {
+              "GUID": "e45a6935-de7a-487e-b228-59335cced481",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Phase",
+                "GUID": "151e8681-b75a-4d4c-84dd-6b3a265d13ac"
+              },
+              "ColumnName": "Phase"
+            },
+            {
+              "GUID": "8833a739-6fb9-4a5e-b19a-1f83ae287b27",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Most_Stable_Crystal",
+                "GUID": "36362861-675b-4660-b173-345b02c37e73"
+              },
+              "ColumnName": "Most_Stable_Crystal"
+            },
+            {
+              "GUID": "9de69a8e-9422-4f1e-aa09-d58193de525f",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Type",
+                "GUID": "545afa55-a1d9-415e-8a8e-eb2e631049c1"
+              },
+              "ColumnName": "Type"
+            },
+            {
+              "GUID": "cfde052e-579f-4e7d-9287-a5c54f8b358c",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Ionic_Radius",
+                "GUID": "445f1fd1-74ca-45e3-8d78-d664546eccfb"
+              },
+              "ColumnName": "Ionic_Radius"
+            },
+            {
+              "GUID": "8345100c-eb90-4a3c-a840-e77127138788",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Atomic_Radius",
+                "GUID": "6a9eeef5-23ff-4c8f-9f23-7156f2b47ffb"
+              },
+              "ColumnName": "Atomic_Radius"
+            },
+            {
+              "GUID": "1acb6304-2161-4fd5-b9c2-11a7ad961f9e",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Electronegativity",
+                "GUID": "32f9a967-37c4-4ea8-995e-1f9521144307"
+              },
+              "ColumnName": "Electronegativity"
+            },
+            {
+              "GUID": "4ef72b56-41e6-46a2-b86f-2f925a86947a",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "First_Ionization_Potential",
+                "GUID": "e949764a-6a33-4a69-929c-09645f1332d3"
+              },
+              "ColumnName": "First_Ionization_Potential"
+            },
+            {
+              "GUID": "c790cb24-6ec0-4322-9e67-e2a7e7fe3e10",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Density",
+                "GUID": "34142657-df77-4334-b12a-ae6d7e97501f"
+              },
+              "ColumnName": "Density"
+            },
+            {
+              "GUID": "13fe37d7-59ed-47cc-8916-720aee3964ce",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Melting_Point__K_",
+                "GUID": "8a7f0805-0341-46d0-b441-415219185f17"
+              },
+              "ColumnName": "Melting_Point__K_"
+            },
+            {
+              "GUID": "69cfd7f2-6b40-4db5-82fb-d3af85e9d5af",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Boiling_Point__K_",
+                "GUID": "6dc084b5-2250-47b2-9f3f-2720a0d4253f"
+              },
+              "ColumnName": "Boiling_Point__K_"
+            },
+            {
+              "GUID": "9ad78fc0-7b3b-4acb-9fed-47ed75d588d1",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Isotopes",
+                "GUID": "10caacee-240c-4428-976b-db824903876a"
+              },
+              "ColumnName": "Isotopes"
+            },
+            {
+              "GUID": "b798efd6-02d4-4674-8991-a9c1d170d2aa",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Discoverer",
+                "GUID": "da1ebae5-59d0-4d0e-a700-114aeb1f0ba5"
+              },
+              "ColumnName": "Discoverer"
+            },
+            {
+              "GUID": "2a5abed2-1ecb-4ca7-ab68-c9828fd58516",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Year_of_Discovery",
+                "GUID": "1bb3a6ed-727e-4822-aa7c-c2fbba35d134"
+              },
+              "ColumnName": "Year_of_Discovery"
+            },
+            {
+              "GUID": "e7595d19-6f6a-48ea-9979-2db33d5bb89f",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Specific_Heat_Capacity",
+                "GUID": "e01a36b7-d9dd-4fc2-8768-3288171e91ef"
+              },
+              "ColumnName": "Specific_Heat_Capacity"
+            },
+            {
+              "GUID": "d152b80e-dc80-4487-a48a-68867c1fb0c6",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Electron_Configuration",
+                "GUID": "fe34f397-bb5c-4b68-ac9c-1abceba1f2c7"
+              },
+              "ColumnName": "Electron_Configuration"
+            },
+            {
+              "GUID": "8cd718d1-7632-488f-842d-f8ab5c5612e0",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Display_Row",
+                "GUID": "4a05d04d-699c-4b0b-a6d0-0866d58f6bb5"
+              },
+              "ColumnName": "Display_Row"
+            },
+            {
+              "GUID": "8193dafa-8e9a-4913-a89b-b3dd2c6ce6ab",
+              "BindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Display_Column",
+                "GUID": "5676f6e4-5183-4a50-89e1-50efc28313fc"
+              },
+              "ColumnName": "Display_Column"
+            }
+          ],
+          "IsListviewDataSource": true,
+          "CustomColumns": []
+        },
+        "DataSourceListviewName": "图文列表表格1",
+        "DisplayMode": 2
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 26.666666666666664,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 2,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "Bold",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "1,2": 0,
+      "4,2": 1,
+      "4,3": 1,
+      "4,4": 1,
+      "4,5": 1,
+      "4,6": 1,
+      "4,7": 1,
+      "4,8": 1,
+      "4,9": 1,
+      "4,10": 1,
+      "4,11": 1,
+      "4,12": 1,
+      "4,13": 1,
+      "4,14": 1,
+      "4,15": 1,
+      "4,16": 1,
+      "4,17": 1,
+      "4,18": 1,
+      "4,19": 1,
+      "4,20": 1,
+      "4,21": 1,
+      "4,22": 1,
+      "4,23": 1,
+      "4,24": 1,
+      "4,25": 1,
+      "4,26": 1,
+      "4,27": 1,
+      "4,28": 1,
+      "4,29": 1,
+      "4,30": 1,
+      "4,31": 1,
+      "4,32": 1,
+      "4,33": 1,
+      "4,34": 1,
+      "4,35": 1,
+      "5,2": 2,
+      "5,3": 1,
+      "5,4": 1,
+      "5,5": 1,
+      "5,6": 1,
+      "5,7": 1,
+      "5,8": 1,
+      "5,9": 1,
+      "5,10": 1,
+      "5,11": 1,
+      "5,12": 1,
+      "5,13": 1,
+      "5,14": 1,
+      "5,15": 1,
+      "5,16": 1,
+      "5,17": 1,
+      "5,18": 1,
+      "5,19": 1,
+      "5,20": 1,
+      "5,21": 1,
+      "5,22": 1,
+      "5,23": 1,
+      "5,24": 1,
+      "5,25": 1,
+      "5,26": 1,
+      "5,27": 1,
+      "5,28": 1,
+      "5,29": 1,
+      "5,30": 1,
+      "5,31": 1,
+      "5,32": 1,
+      "5,33": 1,
+      "5,34": 1,
+      "5,35": 1,
+      "6,2": 1,
+      "6,3": 1,
+      "6,4": 1,
+      "6,5": 1,
+      "6,6": 1,
+      "6,7": 1,
+      "6,8": 1,
+      "6,9": 1,
+      "6,10": 1,
+      "6,11": 1,
+      "6,12": 1,
+      "6,13": 1,
+      "6,14": 1,
+      "6,15": 1,
+      "6,16": 1,
+      "6,17": 1,
+      "6,18": 1,
+      "6,19": 1,
+      "6,20": 1,
+      "6,21": 1,
+      "6,22": 1,
+      "6,23": 1,
+      "6,24": 1,
+      "6,25": 1,
+      "6,26": 1,
+      "6,27": 1,
+      "6,28": 1,
+      "6,29": 1,
+      "6,30": 1,
+      "6,31": 1,
+      "6,32": 1,
+      "6,33": 1,
+      "6,34": 1,
+      "6,35": 1,
+      "7,2": 1,
+      "7,3": 1,
+      "7,4": 1,
+      "7,5": 1,
+      "7,6": 1,
+      "7,7": 1,
+      "7,8": 1,
+      "7,9": 1,
+      "7,10": 1,
+      "7,11": 1,
+      "7,12": 1,
+      "7,13": 1,
+      "7,14": 1,
+      "7,15": 1,
+      "7,16": 1,
+      "7,17": 1,
+      "7,18": 1,
+      "7,19": 1,
+      "7,20": 1,
+      "7,21": 1,
+      "7,22": 1,
+      "7,23": 1,
+      "7,24": 1,
+      "7,25": 1,
+      "7,26": 1,
+      "7,27": 1,
+      "7,28": 1,
+      "7,29": 1,
+      "7,30": 1,
+      "7,31": 1,
+      "7,32": 1,
+      "7,33": 1,
+      "7,34": 1,
+      "7,35": 1,
+      "8,2": 1,
+      "8,3": 1,
+      "8,4": 1,
+      "8,5": 1,
+      "8,6": 1,
+      "8,7": 1,
+      "8,8": 1,
+      "8,9": 1,
+      "8,10": 1,
+      "8,11": 1,
+      "8,12": 1,
+      "8,13": 1,
+      "8,14": 1,
+      "8,15": 1,
+      "8,16": 1,
+      "8,17": 1,
+      "8,18": 1,
+      "8,19": 1,
+      "8,20": 1,
+      "8,21": 1,
+      "8,22": 1,
+      "8,23": 1,
+      "8,24": 1,
+      "8,25": 1,
+      "8,26": 1,
+      "8,27": 1,
+      "8,28": 1,
+      "8,29": 1,
+      "8,30": 1,
+      "8,31": 1,
+      "8,32": 1,
+      "8,33": 1,
+      "8,34": 1,
+      "8,35": 1,
+      "9,2": 3,
+      "31,21": 1,
+      "31,22": 1,
+      "31,23": 1,
+      "31,24": 1,
+      "31,25": 1,
+      "31,26": 1,
+      "31,27": 1,
+      "31,28": 1,
+      "31,29": 1,
+      "31,30": 1,
+      "31,31": 1,
+      "31,32": 1,
+      "31,33": 1,
+      "31,34": 1,
+      "31,35": 1,
+      "31,36": 1,
+      "31,37": 1,
+      "31,38": 1,
+      "31,39": 1,
+      "32,21": 1,
+      "32,22": 1,
+      "32,23": 1,
+      "32,24": 1,
+      "32,25": 1,
+      "32,26": 1,
+      "32,27": 1,
+      "32,28": 1,
+      "32,29": 1,
+      "32,30": 1,
+      "32,31": 1,
+      "32,32": 1,
+      "32,33": 1,
+      "32,34": 1,
+      "32,35": 1,
+      "32,36": 1,
+      "32,37": 1,
+      "32,38": 1,
+      "32,39": 1,
+      "33,21": 1,
+      "33,22": 1,
+      "33,23": 1,
+      "33,24": 1,
+      "33,25": 1,
+      "33,26": 1,
+      "33,27": 1,
+      "33,28": 1,
+      "33,29": 1,
+      "33,30": 1,
+      "33,31": 1,
+      "33,32": 1,
+      "33,33": 1,
+      "33,34": 1,
+      "33,35": 1,
+      "33,36": 1,
+      "33,37": 1,
+      "33,38": 1,
+      "33,39": 1,
+      "34,21": 1,
+      "34,22": 1,
+      "34,23": 1,
+      "34,24": 1,
+      "34,25": 1,
+      "34,26": 1,
+      "34,27": 1,
+      "34,28": 1,
+      "34,29": 1,
+      "34,30": 1,
+      "34,31": 1,
+      "34,32": 1,
+      "34,33": 1,
+      "34,34": 1,
+      "34,35": 1,
+      "34,36": 1,
+      "34,37": 1,
+      "34,38": 1,
+      "34,39": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,2,2,14",
+    "9,2,22,38",
+    "5,2,2,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "LearnParentPage",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous",
+            "FGC_LoginUser",
+            "Administrator"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "ColumnStart": 2,
+    "ColumnEnd": 39,
+    "RowStart": 9,
+    "RowEnd": 30,
+    "Centering": 1,
+    "PaperSize": {},
+    "ShowColumnHeader": 1,
+    "ShowRowHeader": 1,
+    "Orientation": 2,
+    "Margin": {},
+    "PageOrder": 1
+  }
+}//GZVo3GFSosRToYNMa8XKkpDpBjJ74yU8mambfQmXq4PHYKZ+W0AWl70JLrEdOekiDYUTzBH91pqgYDNSqAUPmFGyBPm9YowMUXm6+aFJ1TCmK+Bfkpz/v5PP2k9NX9oXnqweBVYdIwfU4L1p5hQa+h/6aIxNCqcWAh+XW8eUh6FxfN8qcnw76utuNEOP6Wx23NQ5N1wxhzGpUDN7fOQChKLXcQZ9+TcBDKbCbNeJ/UNeazGkNMTy9xLAYc5m8HSvJF553o8xx/uQdlU62nOXi7nHLc6R3h4Q4NxQB8HnfgTeehI7u15z/acAbnjnL38Tl1MCbDwc4+eRe+zCsFNDaYQtYiyToguLgcC7Gfq7MIRZ+069vQqCFnOu6M9L9QLQd2TG9wgkZypIypZmCGoOHlmqTgO9rNGgyoazsKyc7lUF2MTOzj5hVYTeHY1ArIN7DlTaorYlN6E5DB83pSYJF6yNZ6GrURtrDYIQ0Uz8JO8q3WoPNguAX0uVKdeZRDMEnbSwS4DC/KdiTWp65SDFUVLWqMgFO6mJMYWUHwSacg3CsBvJUTjQWeyTW1+gkqDilQ3t81m6TAnyL2SAkaYrteMgl2fZkFkev5krh+Youe7MawnLiqnfmIqEIFClTPMJ5wNdVDMV//j7QZPBdujk7GfZDXNIAa4ZatrqeSj9ZIwg9ZFqFWqVZVZeX//09IzDU1wSUna/HRkxXTS/hgb5bbLCSw8hvQizMuG6lsh8bazTUoQqmCCeFpZ+jfquBp+jY8AxnedGLOK/UKz2jibNJN/feYSxYBWa8uQ/g4ieW+yD/qPmYajP57WNvud4ZskSluJtep2r+vX4i8F+3kkb16n03NKfgdgV9ssDeZZ/yOQSxqifagW8BEnYTLdDl7S0bKX412vaR6b8ZSC2g6s0dQ==|920

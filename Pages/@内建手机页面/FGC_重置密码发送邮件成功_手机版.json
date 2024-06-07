@@ -1,0 +1,106 @@
+{
+  "Rows": {
+    "Count": 25
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "2,3": "重置密码邮件发送成功",
+    "5,1": "重置密码的邮件已经发送到你的电子邮箱中。收到邮件后，请点击邮件中的链接。之后在弹出的网页中输入新密码。如果邮件没有送达，请与管理员联系。",
+    "16,3": "登录"
+  },
+  "AttachInfos": {
+    "16,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "FGC_登录_手机版",
+            "IgnoreTargetPageCachedCurrentRowInfo": false
+          }
+        ],
+        "Text": "登录",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 21.33333396911621,
+        "Foreground": 0,
+        "Formatter": 1,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3
+      },
+      {
+        "FontSize": 14.666666984558105,
+        "Foreground": 4,
+        "Formatter": 1,
+        "WordWrap": true
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 5,
+        "Foreground": null,
+        "Formatter": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 1 -50",
+        "[AUTO]General",
+        "Center",
+        "Bottom",
+        "#FF3F3F3F",
+        "Bold",
+        "Body",
+        "#FF000000"
+      ]
+    },
+    "CellStyles": {
+      "2,3": 0,
+      "5,1": 1,
+      "16,3": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 6,
+      "FontSize": 13.333333015441895,
+      "Foreground": 7
+    }
+  },
+  "Spans": [
+    "2,3,2,12",
+    "5,1,6,16",
+    "16,3,2,12"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "重置密码邮件发送成功",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//eiY8pTId93A7ZOFoae/4MnN5vrxx5X7wIOuT3rIUpwy2sLmDzjbnCICqYeA3ocZb+gvtwC0v+4bhqv1uTkK/ZQl0cW2upCeFgzr0o0CZ5avE4iYFezffyeHUKsl842Hz3uHPK5UWnoX3WX4SaikvlKppbphsMd527S9W1qf8x2OJaevGrZ4/RoKJ3zRaLHJVbPR/JzoqUbDeHqQpj0XnVRA2fHlljhtOHkow0gMENAFS9R58lBW6y/L9wkJ+DwQumOJ6Ml/bmg+7reIzArR/cCaTjwm98D+xhoEwby5zGKRLr++6oTnTQ0zDy09FUdlwpXFltsCj1BtIGoSldNZC9nTOpl3BTK1fl0/lduPO90uTtE+vgEdC1yQqQb+0E7IRwfQWyYJvmo6wM3Y3ApqqWj6tD3ML9cbKUM4O+AoRwYCWoW80/l26SxmirCQroJAyMYw1y0OC5SmKGjw0/3Ju379nkJVHE4og9VgHh9LAYC5m0eT8Ls77RrKmvi/FvnvlIJK0+NyuKILiaTZ7gHVRHypL0ua/gmW+mCeDc2B4tWs0NaYBgrfZzRlSwIHogchnZEHAPQkeLSELzbhR6IHw666Dt3+wNef0AzOPW8Sv/GskM4fwkX3p/zCgdIDRpjYSbClqjQpXIAQjXDpPh2wyGnwCGcg7BvUqFZjf5s8sf5Gp2tRPrMqbLHVp6jsZUUfVbeq3ANSLgfVcHbUY1D7yu1AW6G97Fir5hWGylBaq9tYxHz/eDeO3Ub2zFS4y+FrDXg73upKYatlumudIbthAPqVz4JBWFSDxISbCgn8HsaY+e4Skc3Ppp26W9T0xa/rClqueZCgtMctTVzLBpk9oUCtiEqs25spXa1DWNhcDeawZ3JLUqgiYGcGlL4oAENUFzHDbVKoSGe4ateNHQvDOcQ==|920

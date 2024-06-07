@@ -1,0 +1,107 @@
+{
+  "Rows": {
+    "Count": 13
+  },
+  "Cols": {
+    "Count": 13
+  },
+  "Values": {
+    "1,2": "我的账户",
+    "11,2": "%CurrentUser.Email%"
+  },
+  "AttachInfos": {
+    "4,2": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "Navigation/238_user_8.svg",
+        "BuiltIn": true,
+        "Color": "Background 1 -25",
+        "ForguncyAttribute": "ChangeProfile_Picture"
+      }
+    },
+    "9,2": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowUserPicture": false,
+        "ShowNotification": false
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 18.666666666666664,
+        "FontWeight": 0,
+        "HorizontalAlignment": 1
+      },
+      {
+        "HorizontalAlignment": 1,
+        "VerticalAlignment": 2
+      },
+      {
+        "FontFamily": 3,
+        "FontSize": 12.0,
+        "Foreground": 4,
+        "HorizontalAlignment": 1
+      },
+      {
+        "FontFamily": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Center",
+        "Bottom",
+        "Body",
+        "Background 1 -35"
+      ]
+    },
+    "CellStyles": {
+      "1,2": 0,
+      "9,2": 1,
+      "11,2": 2,
+      "11,3": 3,
+      "11,4": 3,
+      "11,7": 3,
+      "11,8": 3,
+      "11,9": 3,
+      "11,10": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "4,2,5,9",
+    "11,2,1,9",
+    "9,2,2,9",
+    "1,2,2,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous",
+            "FGC_LoginUser",
+            "Administrator"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//RCvCYnACS4yn0LCeXKta3pFN4w7cHX1j3uZAmaQ+9lIF760zSbk5xtXX33QQ0zAZUf1kOh+360+kq4ooy8OdegEnJfoMZeVdj5nE+KJK/PCk/XGTUq+rIIjCF3a9jtSAbAQeAddhjlT65xTSY9+6X3accZ7FwtDcz44DHeEtqdUDoD/pDt1pHnpOHPNHHhXFr5QUwlTjHz0bWVD3KKAShUEve9b/IoeYjo0VkoDqAnd811Za1zeEB5ZsibaB/yU6BD4IqbCDniEy0g2L3ggQfjJhr5UrzVsiHzpNOlIyfeY+Ys8QCDa2QXrUB2FiSVX+ntZ5eQASsnrpcR3ilNupTCOmYHYf/R3bRSQPbH+qSqJPJbFHiohc3sdhcHSBMYBGDxaxk1sBGa8AYCRLTaQeXP1lW1tuJHi6q4fnbpdWgwXpfW0eChjE71p8p/Rf1f2Z8YS0h9lJ2JXBZlun/00x8NZjy1nziYyFQUn3oxrbGebOAIXLNC3nnl2AaRX8J+VaCCqE4z15NPJ87MYKR8H7m8vAoLqiIcUUpkJGMUgg/BvHjRD4NLZxG6EdIz8zSVR7ROdvo/sam4wBkO2WydXN/iBnuajqLTKucMS9NU48wC2Wajdwm4u2yFDuYI2O2ZX1YZFtTB5Xbk9aPoF6ucS3w/nCUvUp/VM+N/dWuM39PGlfpUXxvnimMSFA4qIbkFKHMk/U57BRBBO+pBCylLSZVIFxBn2jin26MlTaMwmZUts+Xd7XfsewOBHtHKlKDypWe/pR3Rp/hUyd7W4KdbpL2sGD1cYA8o2m+lsk+tFkItKbOB5fOXlSIisu1ckPfOBrEl2zOwA9rL74h3r7LismU7GCdU8R+NrjDnHx0R9oycbsk4qu+qyjy9s/8A6mYc+KbeNt9hi1Ch/H+2K+jCYpNg==|920

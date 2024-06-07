@@ -1,30 +1,28 @@
 {
   "IntegrateWithOtherApplication": {
-    "Password": "B38Is*byE&xB"
+    "Password": "NCZeVat$*t0Z"
   },
   "ShareCommandContainers": [],
   "ListviewLoadingIndicatorSettings": {},
+  "IsPageInContainerBackgroundHardCodeWhite": true,
   "GlobalProperties": [],
-  "WebSitePort": 43933,
-  "UserServicePort": 34846,
+  "WebSitePort": 39800,
+  "UserServicePort": 32027,
   "NotAllowModifyDatabaseByJsApi": false,
   "NotAllowQueryDatabaseByJsApi": false,
   "NotAllowSendMailByJsApi": false,
-  "StartPage": "帮助文档",
+  "StartPage": "首页",
   "ExecConcurrentScheduledTasks": false,
   "StartDateFiscalYear": 1,
   "BaseOnStartingMonth": true,
-  "ShowListViewDataPerviewInChart": false,
+  "FocusMoveMode": 0,
   "KeepMasterPage": false,
-  "MaxRowCount": 5000,
+  "MaxRowCount": 10000000,
   "NameConflictPolicy": 1,
+  "PageLoadingMode": 2,
   "AuditingList": {
-    "一级编码": 0,
-    "二级编码": 0,
-    "材料(三级编码)": 0,
-    "订单": 0,
-    "客户": 0,
-    "订单预算": 0
+    "省市表": 0,
+    "元素周期表": 0
   },
   "MultipleLanguageSettings": {
     "Languages": [

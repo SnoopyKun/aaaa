@@ -1,0 +1,107 @@
+{
+  "Rows": {
+    "Count": 26
+  },
+  "Cols": {
+    "Count": 47
+  },
+  "Values": {
+    "6,12": "重置密码邮件发送成功",
+    "10,12": "重置密码的邮件已经发送到你的电子邮箱中。收到邮件后，请点击邮件中的链接。之后在弹出的网页中输入新密码。如果邮件没有送达，请与管理员联系。",
+    "17,29": "登录"
+  },
+  "AttachInfos": {
+    "17,29": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "FGC_登录",
+            "IgnoreTargetPageCachedCurrentRowInfo": false
+          }
+        ],
+        "Text": "登录",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 37.33333206176758,
+        "Foreground": 0
+      },
+      {
+        "FontFamily": 1,
+        "Foreground": 0,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 25",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "6,12": 0,
+      "10,12": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "6,12,3,23",
+    "17,29,2,6",
+    "10,12,5,23"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "FGC_母版页",
+    "MobilePageName": "FGC_重置密码发送邮件成功_手机版",
+    "Title": "重置密码邮件发送成功",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "0dc0080d-7217-442c-8fa6-481c8c5d690a.png",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "Background 1 -5",
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 1.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Location": "200,80",
+      "Size": "540,360"
+    }
+  ]
+}//JSSXHaa4XfXZ9SFn33mpSNKbjzxB+ri6L76cj6x70IWqWrRBnqrXh/IDLVvwd2AIFmmwJwPPn9gXk+JocboQlYg04XEijE5iRVqHACae3hfu1xl+ju/hwffCoruuWrCWUdGQa+HohaocC2UYNZ5Ucb2pKc+0Ct7hzzL+uoSX/HuDP94gCVmqqjbv6bny96KQjodcFcNUv+RxD2jal8lRTN1JsOCxanJP0p+3Sd4rDqrqBqBCigWREcW1gmP811l7reUypB2Ho2FOL+6wpCnnPvurdme6ELuZaIFkf4P4bL1+knRWsYRsDS4UfK+fSX6ZepUoI+xCUzmSYbOSWLP5bxf4F7geS2k7RB6rO2Rx/5KwLfhGjCP8maJ8TB08CIThElvmvYAnkOOt7TyTdbFyoult09f8MovNJfcVc1fIzdPE+k4g8MIiWpbTibsmoSit8uHo2ZPRCExbCRTX07xjfV+q84KmAY0ukAr7RuLgPzVK+zAOONhGk8VbQQu3DA9aj84gjJ5visalsqTMT3tmYKOesrYJmdC99erMBXoJFZ1idc3lbO38CR1abipSwIqzfjcE8lWy/GXakIo3O0LxR5bXdBvZ/4r4nM7uUAERoT5/vsmE06tYYR8tO1SdXjTiuaLH86ytLewOQnDQwJAyD3KZ8H16tZJmBNSPG4iCsncC365kvgL5Qi5T5q3Ys5x2t39ApbZTJsMploGV2vCq4HHfpKFVPZdqx3wB35IRxCeJViQo2xcNZtJUm5uj9xq9VpOsnAzv8YCdOL+OjO33nLb2I7cMcsIcMLCt/FIEAumbZyuXAb+IjG4BVeWOtOQGHc3A5xbAv09LK9jKyEXHxkeh6Xkbwbk4xdcnIHkOukUgKGle/myj4kOdttksCz/KMA2SdUB6RU4W28Fy9Dk/Gw==|920

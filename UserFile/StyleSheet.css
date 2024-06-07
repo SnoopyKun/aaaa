@@ -1,0 +1,4 @@
+﻿/* 强制按钮的 SVG 图标颜色跟随前景色变化*/
+.fgc-btn path {
+	fill: currentColor !important;
+}

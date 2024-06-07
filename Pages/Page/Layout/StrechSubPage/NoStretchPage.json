@@ -1,0 +1,449 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "Count": 12,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "Count": 23
+  },
+  "Values": {
+    "4,1": "No."
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLargeRoundCorner",
+        "WaterMark": "搜索元素"
+      }
+    },
+    "1,9": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "元素周期表",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+              "CompareType": 6,
+              "ColumnBindingInfo": {
+                "TableName": "元素周期表",
+                "ColumnName": "Element",
+                "GUID": "8233a482-4cb8-4e48-adf1-ea5363ff7402"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=NoStretchPage!B2"
+              }
+            },
+            "ID": "8dc3dc6d964640faab23bc62139f4212"
+          }
+        ],
+        "TemplateKey": "_RS_Main2",
+        "Icon": {
+          "Name": "Application/047_search_8.svg",
+          "BuiltIn": true,
+          "Color": "Background 1"
+        }
+      }
+    },
+    "4,1": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "元素周期表",
+        "RowIndex": 4,
+        "ColumnIndex": 1,
+        "RowCount": 7,
+        "ColumnCount": 21,
+        "TopCondition": {
+          "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
+          "TopCount": 5
+        },
+        "ListViewStyleName": "浅色2-无网格线",
+        "ShowColumnHeaderInDesigner": true,
+        "HideSelectionWhenLostFocus": true
+      }
+    },
+    "5,1": {
+      "BindingInfo": {
+        "TableName": "元素周期表",
+        "ColumnName": "Atomic_Number",
+        "GUID": "a00ecbd1-3dbd-4cfe-bb9c-501c403c1544"
+      }
+    },
+    "5,4": {
+      "BindingInfo": {
+        "TableName": "元素周期表",
+        "ColumnName": "Element",
+        "GUID": "cbd6bd4b-318c-43cb-b092-a541840efa19"
+      }
+    },
+    "5,11": {
+      "BindingInfo": {
+        "TableName": "元素周期表",
+        "ColumnName": "Symbol",
+        "GUID": "033f0ad2-4b7e-498a-852c-94fbd80bdc68"
+      }
+    },
+    "5,15": {
+      "BindingInfo": {
+        "TableName": "元素周期表",
+        "ColumnName": "Atomic_Weight",
+        "GUID": "a63ec3aa-921b-4fc4-b212-f3762a59547a"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "Formatter": 1
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 1 0",
+        "@",
+        "Center",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Style": 3,
+          "Color": 0
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,2": 1,
+      "0,3": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "0,6": 1,
+      "0,7": 1,
+      "0,8": 1,
+      "0,9": 1,
+      "0,10": 1,
+      "0,11": 1,
+      "0,12": 1,
+      "0,13": 1,
+      "0,14": 1,
+      "0,15": 1,
+      "0,16": 1,
+      "0,17": 1,
+      "0,18": 1,
+      "0,19": 1,
+      "0,20": 1,
+      "0,21": 1,
+      "0,22": 2,
+      "1,0": 3,
+      "1,1": 4,
+      "1,22": 5,
+      "2,0": 3,
+      "2,22": 5,
+      "3,0": 3,
+      "3,22": 5,
+      "4,0": 3,
+      "4,1": 6,
+      "4,2": 6,
+      "4,3": 6,
+      "4,4": 6,
+      "4,5": 6,
+      "4,6": 6,
+      "4,7": 6,
+      "4,8": 6,
+      "4,9": 6,
+      "4,10": 6,
+      "4,11": 6,
+      "4,12": 6,
+      "4,13": 6,
+      "4,14": 6,
+      "4,15": 6,
+      "4,16": 6,
+      "4,17": 6,
+      "4,18": 6,
+      "4,19": 6,
+      "4,20": 6,
+      "4,21": 6,
+      "4,22": 5,
+      "5,0": 3,
+      "5,1": 7,
+      "5,2": 6,
+      "5,3": 6,
+      "5,4": 6,
+      "5,5": 6,
+      "5,6": 6,
+      "5,7": 6,
+      "5,8": 6,
+      "5,9": 6,
+      "5,10": 6,
+      "5,11": 6,
+      "5,12": 6,
+      "5,13": 6,
+      "5,14": 6,
+      "5,15": 6,
+      "5,16": 6,
+      "5,17": 6,
+      "5,18": 6,
+      "5,19": 6,
+      "5,20": 6,
+      "5,21": 6,
+      "5,22": 5,
+      "6,0": 3,
+      "6,1": 6,
+      "6,2": 6,
+      "6,3": 6,
+      "6,4": 6,
+      "6,5": 6,
+      "6,6": 6,
+      "6,7": 6,
+      "6,8": 6,
+      "6,9": 6,
+      "6,10": 6,
+      "6,11": 6,
+      "6,12": 6,
+      "6,13": 6,
+      "6,14": 6,
+      "6,15": 6,
+      "6,16": 6,
+      "6,17": 6,
+      "6,18": 6,
+      "6,19": 6,
+      "6,20": 6,
+      "6,21": 6,
+      "6,22": 5,
+      "7,0": 3,
+      "7,1": 6,
+      "7,2": 6,
+      "7,3": 6,
+      "7,4": 6,
+      "7,5": 6,
+      "7,6": 6,
+      "7,7": 6,
+      "7,8": 6,
+      "7,9": 6,
+      "7,10": 6,
+      "7,11": 6,
+      "7,12": 6,
+      "7,13": 6,
+      "7,14": 6,
+      "7,15": 6,
+      "7,16": 6,
+      "7,17": 6,
+      "7,18": 6,
+      "7,19": 6,
+      "7,20": 6,
+      "7,21": 6,
+      "7,22": 5,
+      "8,0": 3,
+      "8,1": 6,
+      "8,2": 6,
+      "8,3": 6,
+      "8,4": 6,
+      "8,5": 6,
+      "8,6": 6,
+      "8,7": 6,
+      "8,8": 6,
+      "8,9": 6,
+      "8,10": 6,
+      "8,11": 6,
+      "8,12": 6,
+      "8,13": 6,
+      "8,14": 6,
+      "8,15": 6,
+      "8,16": 6,
+      "8,17": 6,
+      "8,18": 6,
+      "8,19": 6,
+      "8,20": 6,
+      "8,21": 6,
+      "8,22": 5,
+      "9,0": 3,
+      "9,1": 6,
+      "9,2": 6,
+      "9,3": 6,
+      "9,4": 6,
+      "9,5": 6,
+      "9,6": 6,
+      "9,7": 6,
+      "9,8": 6,
+      "9,9": 6,
+      "9,10": 6,
+      "9,11": 6,
+      "9,12": 6,
+      "9,13": 6,
+      "9,14": 6,
+      "9,15": 6,
+      "9,16": 6,
+      "9,17": 6,
+      "9,18": 6,
+      "9,19": 6,
+      "9,20": 6,
+      "9,21": 6,
+      "9,22": 5,
+      "10,0": 3,
+      "10,1": 6,
+      "10,2": 6,
+      "10,3": 6,
+      "10,4": 6,
+      "10,5": 6,
+      "10,6": 6,
+      "10,7": 6,
+      "10,8": 6,
+      "10,9": 6,
+      "10,10": 6,
+      "10,11": 6,
+      "10,12": 6,
+      "10,13": 6,
+      "10,14": 6,
+      "10,15": 6,
+      "10,16": 6,
+      "10,17": 6,
+      "10,18": 6,
+      "10,19": 6,
+      "10,20": 6,
+      "10,21": 6,
+      "10,22": 5,
+      "11,0": 8,
+      "11,1": 9,
+      "11,2": 9,
+      "11,3": 9,
+      "11,4": 9,
+      "11,5": 9,
+      "11,6": 9,
+      "11,7": 9,
+      "11,8": 9,
+      "11,9": 9,
+      "11,10": 9,
+      "11,11": 9,
+      "11,12": 9,
+      "11,13": 9,
+      "11,14": 9,
+      "11,15": 9,
+      "11,16": 9,
+      "11,17": 9,
+      "11,18": 9,
+      "11,19": 9,
+      "11,20": 9,
+      "11,21": 9,
+      "11,22": 10
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "1,1,2,7",
+    "6,1,5,21",
+    "1,9,2,2",
+    "5,1,1,3",
+    "5,4,1,7",
+    "5,11,1,4",
+    "5,15,1,7",
+    "4,1,1,3",
+    "4,4,1,7",
+    "4,11,1,4",
+    "4,15,1,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous",
+            "FGC_LoginUser",
+            "Administrator"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "PageResponsiveMode": 1
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}///RKBoaVpUFdnDvNDDgRtKZco3ygQIivYcpFyubyV+8jZMhGHFuXcC/oaffTN6Jton6BhpI3oqmoU2ePdcdCTaU2USHexFjMGq1zxAn3niAiIAFB6IZrZzvslgx4v2zbgoOIBU4WM1WrTM4pg3LlAfO1PDoFno95y+ngCw4wvuso5QzuPk6DJ+TSC6ehhzzKNFyNxu2QE+1lDsSKUUZXcx8ergw+VwY0WpDh/cSB9PE4YLtNLQXL2qva5UT0AxJfTUZCpdog/zpwmiZ73tNA8fXTwPWo23fqd/JQMGokHlt6N1BPF8HURX6wKls5lhq0yLM8L4dU0Epy0279Zc6MZvR8xDZn0mg1jpRfmcrJaujJNomonvqKDpGG3zwqS1FtXsYA6mh0YEsRBllIpU7viRu66YEB2NbgQsGnYiKwJCqu+9OPCPiTOJKzWfIWVed5WcpU7CrCHd2Uf/2sEMSyqEJxBSwxGTcvPzVub6+h+5iG4TFUXMuHZ9Mhn20O9W72xrqFeA8q82D2v7rOG1O6sNr2d98Tx0kQj7VnZrVpz6C0kDf2EtZXA0EsiQOJK7alfV0uvYf/uy35PHhwT9PrmsDulWGyHk7Pzcn//x/2h14FEZWzcEYfMVVPIL7USTEg7WY7Iz0nVIwanCWoib/xfg0y+T2ZdMeuV0xAM3TuosXxTtfBh1dc+gIk3uFiUFLAyWJvTMM/40kgpSBgRjL62kP/PyNJhCqRlQiwkK3B/4C/dknHuYpvbixrUaDMtt+2Ktiuknbi+EcFr29UtYbb1vzAtIyuF7pKdwXvk2VfSeKTWjO3Y6qi3IXHITCpTe6J03LnaSt4DK77a9qQ7zqRR6JuGYrIFHxAlZxZtADLleKS+qWcnEZtod6yveY/tmO45iYju4Hj8H6QHs1USDbJuyQ==|920

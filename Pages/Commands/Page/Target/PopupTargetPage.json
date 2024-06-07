@@ -1,0 +1,182 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 30
+  },
+  "Values": {
+    "3,2": "这是一个弹出页面",
+    "13,12": "关闭",
+    "16,1": "您也可以点击浏览器的后退按钮"
+  },
+  "AttachInfos": {
+    "13,12": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon"
+          }
+        ],
+        "Text": "关闭",
+        "TemplateKey": "_RS_Main2",
+        "Icon": {
+          "Name": "Arrow/318_import_2.svg",
+          "BuiltIn": true,
+          "Color": "Background 1"
+        }
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 32.0,
+        "Formatter": 1,
+        "HorizontalAlignment": 2
+      },
+      {
+        "HorizontalAlignment": 2
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "Foreground": 3,
+        "HorizontalAlignment": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "Center",
+        "Background 1 -35"
+      ]
+    },
+    "CellStyles": {
+      "3,2": 0,
+      "9,7": 1,
+      "13,12": 2,
+      "13,13": 3,
+      "13,14": 3,
+      "13,15": 3,
+      "13,16": 3,
+      "13,17": 3,
+      "14,12": 3,
+      "14,13": 3,
+      "14,14": 3,
+      "14,15": 3,
+      "14,16": 3,
+      "14,17": 3,
+      "16,1": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "13,12,2,6",
+    "3,2,4,26",
+    "9,7,2,16",
+    "16,1,1,27"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous",
+            "FGC_LoginUser",
+            "Administrator"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Repeat": true,
+      "Name": "0fad9bbb-5252-41e4-9a48-10dbd1cb44db.png",
+      "DisplayName": "背景图1",
+      "ForguncyPictureName": "图片资源1.png",
+      "ForguncyPictureSourceType": 0,
+      "Stretch": 0,
+      "StyleInfo": {
+        "Fill": null
+      },
+      "IsAutomaticFill": false,
+      "Size": "600,380"
+    }
+  ]
+}//ZlJvk/kRybacpZ+pREy4ZiX7SQIRRK/Rz6r1QASZjiF5ttPmd4zQRRBcuG+agdrfATc07jzC+dyM49hBbB4KBIEXC/zej8Sxkm/7u8NsA+AmCSHj9bY5BnqzETpitu/BAm1M5ySm1Ru2nSwP6dcEMlnN9nc6kPHYoVAfleCAa49lRVCOUXZVll/6ZBxcr2CzAIHqYClPmwoLXgYHQU1VRP0HZhByXRVhgso2yHOG+QK9Xgn+PN21JSPFVeCbK3XX/F3a2n1r47ylYSptSEk9+5hg39maUgbrDNcD9l25U13Se0Y9KN3W38P1pD6h8fsAYIOS7C5Wdyv9ZaxvrOCB4uB7kQNXr1mJsTrf4L3jPEm6kU6pVbbNcuOVQgFau55Ow1V1rTn8asSNr5bGkKX9ORDeuRX+guHUQZQvbOSPqFM8TL5ynJkFMkYMRs9M9wTj9anCExp/pgQf7Yk5Ebz9Q4zRIc+X+ClLIFrNgwEfJk7FXHzzyZpxvDTfrW+LN7BdepXTExVRO3xZDlq/rcbZH/X8Nk0KM7SHAUeARBkkYcpFkaF18yk+0o/dIQX5EgtldGLvmxt3ABikALnfctQGbYcV6whwoZDrVSUuv4GjMMwV7R8tzOr6ADAwaBq1Dd5BFzZganguQExNrT2x0aCTN7rjj9xyz2DnTEJNide53RCKdT1nJGg2zySVgixft2rp4wlRf3gacRjmCHQlCgaFEtSGUIyF3zYFGrSZuXQwRPswSrHIK+EB7UpfPIDEZ0IpJg/iog1DMY1qPHBPui5RetjNMF5ijx2OEEL8KG26YzpQ0N+MnMZ5trVpdcx4EDdhUZcnjrm9AswiCI5kh60acTtIZciuxtlZqRKjfiW+2PBC5/E8Ri/qTQAWVmSPKDPeRkr7wD/l4a3rIodsAWr1JQ==|920

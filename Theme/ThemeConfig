@@ -1,37 +1,37 @@
 {
-  "BasePathName": "17Orange",
+  "BasePathName": "01Forguncy",
   "FontFamily": "微软雅黑",
   "ThemeColors": {
-    "Name": "市镇",
+    "Name": "自定义1",
     "Colors": {
       "Name": "",
       "ColorList": [
         "#FFFFFFFF",
-        "#FFC5D1D7",
-        "#FF000000",
-        "#FF646B86",
-        "#FFD16349",
-        "#FFCCB400",
-        "#FF8CADAE",
-        "#FF8C7B70",
-        "#FF8FB08C",
-        "#FFD19049",
+        "#FFEAEBDE",
+        "#FF333333",
+        "#FF042531",
+        "#FF3076A9",
+        "#FF8BB73D",
+        "#FFEBC54B",
+        "#FFEA772A",
+        "#FFD03736",
+        "#FF904DA0",
         "#00FFFFFF",
         "#00FFFFFF"
       ],
       "BackgroundColor1": "#FFFFFFFF",
-      "BackgroundColor2": "#FFC5D1D7",
-      "TextColor1": "#FF000000",
-      "TextColor2": "#FF646B86",
-      "Accent1": "#FFD16349",
-      "Accent2": "#FFCCB400",
-      "Accent3": "#FF8CADAE",
-      "Accent4": "#FF8C7B70",
-      "Accent5": "#FF8FB08C",
-      "Accent6": "#FFD19049",
+      "BackgroundColor2": "#FFEAEBDE",
+      "TextColor1": "#FF333333",
+      "TextColor2": "#FF042531",
+      "Accent1": "#FF3076A9",
+      "Accent2": "#FF8BB73D",
+      "Accent3": "#FFEBC54B",
+      "Accent4": "#FFEA772A",
+      "Accent5": "#FFD03736",
+      "Accent6": "#FF904DA0",
       "Hyperlink": "#00FFFFFF",
       "FollowedHyperlink": "#00FFFFFF"
     },
-    "Category": "内建"
+    "Category": "自定义"
   }
 }

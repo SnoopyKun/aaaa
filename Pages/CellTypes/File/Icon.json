@@ -1,0 +1,270 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      }
+    },
+    "Count": 29
+  },
+  "Cols": {
+    "Count": 42
+  },
+  "Values": {
+    "1,2": "Icon 图标",
+    "4,2": "提供一组常用图标",
+    "7,2": "Icon_Application",
+    "10,36": "Icon_Application"
+  },
+  "AttachInfos": {
+    "7,2": {
+      "CellType": {
+        "$type": "Forguncy.ContentContainerCellType, ServerDesignerCommon",
+        "PageName": "Icon_Application",
+        "OverflowMode": 0
+      }
+    },
+    "10,36": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "Style": 3,
+        "PrimaryColor": "Accent 1 0",
+        "CellDefaultValue": "Icon_Application",
+        "LayoutMode": 1,
+        "ItemSpace": 8,
+        "Items": [
+          {
+            "Value": "Icon_Application",
+            "DisplayValue": "应用"
+          },
+          {
+            "Value": "Icon_Navigation",
+            "DisplayValue": "导航"
+          },
+          {
+            "Value": "Icon_Arrow",
+            "DisplayValue": "箭头"
+          },
+          {
+            "Value": "Icon_File",
+            "DisplayValue": "文件"
+          },
+          {
+            "Value": "Icon_Chart",
+            "DisplayValue": "图表"
+          },
+          {
+            "Value": "Icon_Mobile",
+            "DisplayValue": "手机"
+          },
+          {
+            "Value": "Icon_Toggle",
+            "DisplayValue": "展收"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Icon!C8"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Icon!AK11"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 26.666666666666664,
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "Foreground": 2,
+        "Formatter": 1
+      },
+      {
+        "Formatter": 1
+      },
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 5
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "[AUTO]General",
+        "Background 1 -35",
+        "Left",
+        "Top",
+        "#FF000000"
+      ]
+    },
+    "CellStyles": {
+      "1,2": 0,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "1,8": 1,
+      "1,9": 1,
+      "1,10": 1,
+      "1,11": 1,
+      "1,12": 1,
+      "2,2": 1,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "2,6": 1,
+      "2,7": 1,
+      "2,8": 1,
+      "2,9": 1,
+      "2,10": 1,
+      "2,11": 1,
+      "2,12": 1,
+      "4,2": 2,
+      "5,2": 3,
+      "10,36": 4,
+      "10,40": 1,
+      "11,40": 1,
+      "12,40": 1,
+      "13,40": 1,
+      "14,40": 1,
+      "15,40": 1,
+      "22,40": 1,
+      "23,40": 1,
+      "24,36": 1,
+      "24,37": 1,
+      "24,38": 1,
+      "24,39": 1,
+      "24,40": 1,
+      "25,36": 1,
+      "25,37": 1,
+      "25,38": 1,
+      "25,39": 1,
+      "25,40": 1,
+      "26,36": 1,
+      "26,37": 1,
+      "26,38": 1,
+      "26,39": 1,
+      "26,40": 1,
+      "27,2": 5,
+      "27,3": 5,
+      "27,4": 5,
+      "27,5": 5,
+      "27,6": 5,
+      "27,8": 5,
+      "27,9": 5,
+      "27,10": 5,
+      "27,12": 5,
+      "27,13": 5,
+      "27,14": 5,
+      "27,16": 5,
+      "27,17": 5,
+      "27,18": 5,
+      "27,20": 5,
+      "27,21": 5,
+      "27,22": 5,
+      "27,23": 5,
+      "27,25": 5,
+      "27,26": 5,
+      "27,27": 5,
+      "27,29": 5,
+      "27,30": 5,
+      "27,31": 5,
+      "27,33": 5,
+      "27,36": 1,
+      "27,37": 1,
+      "27,38": 1,
+      "27,39": 1,
+      "27,40": 1,
+      "28,2": 5,
+      "28,3": 5,
+      "28,4": 5,
+      "28,5": 5,
+      "28,6": 5,
+      "28,8": 5,
+      "28,9": 5,
+      "28,10": 5,
+      "28,12": 5,
+      "28,13": 5,
+      "28,14": 5,
+      "28,16": 5,
+      "28,17": 5,
+      "28,18": 5,
+      "28,20": 5,
+      "28,21": 5,
+      "28,22": 5,
+      "28,23": 5,
+      "28,25": 5,
+      "28,26": 5,
+      "28,27": 5,
+      "28,29": 5,
+      "28,30": 5,
+      "28,31": 5,
+      "28,33": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,2,2,11",
+    "4,2,1,10",
+    "7,2,20,33",
+    "10,36,14,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "LearnParentPage",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_Anonymous",
+            "FGC_LoginUser",
+            "Administrator"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Centering": 1,
+    "PaperSize": {},
+    "ShowColumnHeader": 1,
+    "ShowRowHeader": 1,
+    "Margin": {},
+    "PageOrder": 1
+  }
+}//Zj0diUzAha6LjreKYLHVKyK2+jN2eV84tTy2ELl95CRB7ZJjJRioM5PyiIWhA5v5lmBwv51CbRjpePlPLTw6BeCb8GCW1ocseg71IgaEVgsW4bjTVhXzChdZr458HWyTM4+QbXEewM1LiMEmOHC0IrgG0o0nUHZiPE6vzPtMNg7p9HqskQ4hkQDf74NhZQ57pyEZ0xfFssAQhyYm+uaarKqdGzsOFxReL6aIDae/Bo0m0Pyfl2GNgi19pXgk9dO+2n/XFKmmI1nJCmj0u1W9ymasqPChQkkKFwBATNDyM0u9hrdAFJkn6ZiMswIjZCFvUil4G/n9Q3MrgzUDNh/bwMakeZy9g/tlgfmL7PuQPYR7GJmVyhgF8fmPjdx6KY2pC9QKZQwmiR/9IOBaS4A+xuWkTXW/TEib6brWEb7+XWnYDZpn1rVKw8nIOxF2M4fNmu78ZIKCcYSzcwzdIPogUTEjlOmNwLx+DKEz+KSZd3XmO12kGrpvheQL6WfyLR/FY9CKREfTpEt/SPo0KsmBouEDXm6ryohzp8hH+snadEd9T79vPKwWpXr2l1Fy1clT3cnn2QegJOZDoO+rp6fGQBukR1n2GFNvXg4rxIdmWDCWFqd4884WSNf3cTZU4ayvsPepC248VtPNNuXZlLS+1i5UpK1cKMXR5ydUxPENt2iOEr/5bEdzps4kaIvsdAMUcXNkrzISmO5toajZ33ifQOexNvocOADBkt8M3Qy8p+yCSO4Gn3maxIwkKhpqa9MWe/YAVlq9dUmH3fC4jHTAkvIiQ/RdUWV5sqv8+Fv13yb1LGukVgv9o4ZbKRNmEfNba70acslK4rF6xr0ACg7uVZeHFPDSbuyPNxurFrYuybb2Odtd9JCeJBsL1zD5eZeESqVf89RZU5Z+vfQB0Grb9Q==|920
