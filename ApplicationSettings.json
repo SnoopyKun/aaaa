@@ -1,14 +1,33 @@
 {
   "IntegrateWithOtherApplication": {
-    "Password": "8fysxwjLS&rO"
+    "Password": "dS0t8wG&!XN&"
   },
   "ShareCommandContainers": [],
+  "LoadingIndicatorSettings": {
+    "CSSLoading": 19
+  },
   "ListviewLoadingIndicatorSettings": {},
   "GlobalProperties": [],
-  "WebSitePort": 50419,
-  "UserServicePort": 64517,
+  "WebSitePort": 15907,
+  "UserServicePort": 38336,
+  "BpmServerSchemaId": "4b81fb4c-36b2-4732-9ad1-f3bc20a8d783",
+  "ProcessDataConnectionSet": {
+    "ExternalDatabaseId": ""
+  },
+  "NotAllowModifyDatabaseByJsApi": false,
+  "NotAllowQueryDatabaseByJsApi": false,
+  "NotAllowSendMailByJsApi": false,
+  "StartPage": "首页",
+  "ExecConcurrentScheduledTasks": false,
   "StartDateFiscalYear": 1,
   "BaseOnStartingMonth": true,
+  "FocusMoveMode": 0,
+  "KeepMasterPage": false,
+  "MaxRowCount": 5000,
+  "NameConflictPolicy": 1,
+  "AuditingList": {
+    "用户信息视图": 0
+  },
   "MultipleLanguageSettings": {
     "Languages": [
       {

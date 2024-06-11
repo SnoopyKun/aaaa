@@ -1,0 +1,73 @@
+{
+  "Name": "组织信息视图",
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "组织Id",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "组织名",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "父节点Id",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "组织级别Id",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "排序",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "组织路径",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    }
+  ],
+  "BuiltInViewInfo": {
+    "ViewName": "组织信息视图",
+    "SourceTableName": "FGC_UMV_OI",
+    "CreateViewSql": "SELECT [组织Id] AS [组织Id], [组织名] AS [组织名], [父节点Id] AS [父节点Id], [组织级别Id] AS [组织级别Id], [排序] AS [排序], [组织路径] AS [组织路径] FROM [FGC_UMV_OI]",
+    "ViewType": 5
+  },
+  "PrimaryKey": [
+    "组织Id"
+  ],
+  "Relations": [
+    {
+      "PrimaryTable": "组织信息视图",
+      "PrimaryColumn": "组织Id",
+      "ForeignTable": "组织信息视图",
+      "ForeignColumn": "父节点Id",
+      "IsDetailTableRelation": false
+    },
+    {
+      "PrimaryTable": "组织级别视图",
+      "PrimaryColumn": "组织级别Id",
+      "ForeignTable": "组织信息视图",
+      "ForeignColumn": "组织级别Id",
+      "IsDetailTableRelation": false
+    }
+  ],
+  "Indexes": []
+}

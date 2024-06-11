@@ -1,0 +1,483 @@
+{
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
+  "Name": "盘点维护",
+  "Enabled": true,
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+        "Permission": {
+          "$type": "Forguncy.SaveLoad.ServerCommandPermissionSaveData, ServerDesignerCommon",
+          "PermissionData": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+            "permissionResource": {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+            },
+            "permissionBindings": {
+              "$type": "System.Collections.Generic.List`1[[Forguncy.RbacPermission.Core.Impl.ServerCommand.IServerCommandPermissionBinding, Forguncy.RbacPermission.Core]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": [
+                      "库存管理员",
+                      "仓库主管",
+                      "FGC_LoginUser"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Parameters": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "盘点单ID",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "是否结束",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "盘点日期",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "备注",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Type": 1,
+              "ArrayParamItems": {
+                "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.ParameterItemSaveData, ServerDesignerCommon]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.SaveLoad.ParameterItemSaveData, ServerDesignerCommon",
+                    "Name": "物品ID",
+                    "DataValidationInfo": {
+                      "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.SaveLoad.ParameterItemSaveData, ServerDesignerCommon",
+                    "Name": "盘点数",
+                    "DataValidationInfo": {
+                      "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.SaveLoad.ParameterItemSaveData, ServerDesignerCommon",
+                    "Name": "备注",
+                    "DataValidationInfo": {
+                      "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+                    }
+                  }
+                ]
+              },
+              "OnlySendChangedData": true,
+              "PrimaryKeys": {
+                "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                "$values": [
+                  "ID"
+                ]
+              },
+              "Name": "盘点物品详情",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+        "CommandList": {
+          "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "盘点表",
+              "ShowConfirm": false,
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "盘点表",
+                  "ColumnName": "ID",
+                  "GUID": "1cadab62-fbb0-431f-8afa-d1383e747049"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=盘点单ID"
+                }
+              },
+              "UpdateBindingValues": {
+                "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                    "BindingInfo": {
+                      "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                      "TableName": "盘点表",
+                      "ColumnName": "日期",
+                      "GUID": "9be2fa45-56cb-4f7f-b393-44ad5f9ea817"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=盘点日期"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                    "BindingInfo": {
+                      "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                      "TableName": "盘点表",
+                      "ColumnName": "备注",
+                      "GUID": "218a647f-6d63-41f0-b004-086350b61d1e"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=备注"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                    "BindingInfo": {
+                      "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                      "TableName": "盘点表",
+                      "ColumnName": "经办人",
+                      "GUID": "5ae09270-2cb9-4e8c-b92b-7658369d4e37"
+                    },
+                    "Value": "%CurrentUser%"
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                    "BindingInfo": {
+                      "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                      "TableName": "盘点表",
+                      "ColumnName": "是否结束",
+                      "GUID": "bae62e3f-19ea-4b5d-89fb-3a076a5d2ea2"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=是否结束"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+              "LoopInfo": {
+                "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                "LoopCount": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=盘点物品详情.AddRows"
+                },
+                "LoopItemParamName": "Item"
+              },
+              "CommandList": {
+                "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                    "ParameterName": "物品库存",
+                    "TableValue": {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+                      "TableName": "物品表",
+                      "OnlyGetValue": true,
+                      "TableValueType": 0,
+                      "BindingInfos": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": [
+                          {
+                            "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                            "GUID": "522975c5-76a3-46a9-bf4f-635a0731e708",
+                            "BindingInfo": {
+                              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                              "TableName": "物品表",
+                              "ColumnName": "库存",
+                              "GUID": "467f4663-fb25-44b7-a00c-54c55234136a"
+                            },
+                            "ColumnName": "库存"
+                          }
+                        ]
+                      },
+                      "SqlCondition": {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                          "TableName": "物品表",
+                          "ColumnName": "ID",
+                          "GUID": "4247c4da-b200-40c5-9f76-a12c3c32e17c"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=Item.物品ID"
+                        }
+                      }
+                    },
+                    "ID": "98f5342b27884d44b804b358d8b6fab3"
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "盘点详情表",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "UpdateBindingValues": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "盘点详情表",
+                            "ColumnName": "盘点ID",
+                            "GUID": "f837b0f3-16c0-4b3a-b347-fda2db10eb27"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=盘点单ID"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "盘点详情表",
+                            "ColumnName": "物品ID",
+                            "GUID": "f8ed5693-fcb1-45e1-9f60-44d3ac37745e"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.物品ID"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "盘点详情表",
+                            "ColumnName": "库存数",
+                            "GUID": "b0aaa9fe-3f81-4039-90cf-9ecfcdca1766"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=物品库存"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "盘点详情表",
+                            "ColumnName": "盘点数",
+                            "GUID": "54c227a0-a646-4e89-9425-6c34bfedd7f0"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.盘点数"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "盘点详情表",
+                            "ColumnName": "备注",
+                            "GUID": "58fbd091-9ada-489c-bdb4-3419227b3ac7"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.备注"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+              "LoopInfo": {
+                "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                "LoopCount": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=盘点物品详情.EditRows"
+                },
+                "LoopItemParamName": "Item"
+              },
+              "CommandList": {
+                "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "盘点详情表",
+                    "ShowConfirm": false,
+                    "RowsToUpdate": 1,
+                    "RowsToUpdateCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "盘点详情表",
+                        "ColumnName": "ID",
+                        "GUID": "7c75d702-ea9f-44c2-8ea7-61e4c242e0b8"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=Item.ID"
+                      }
+                    },
+                    "UpdateBindingValues": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "盘点详情表",
+                            "ColumnName": "盘点数",
+                            "GUID": "fa07aaa9-c9f0-4f98-8bb0-e8db34d641cc"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.盘点数"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "盘点详情表",
+                            "ColumnName": "备注",
+                            "GUID": "557051f0-3381-4e5a-9c1e-3004dcdf432b"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.备注"
+                          }
+                        }
+                      ]
+                    },
+                    "Comments": "盘点中禁止修改库存，所以只更新盘点数即可"
+                  }
+                ]
+              }
+            },
+            {
+              "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+              "LoopInfo": {
+                "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                "LoopCount": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=盘点物品详情.DeleteRows"
+                },
+                "LoopItemParamName": "Item"
+              },
+              "CommandList": {
+                "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "盘点详情表",
+                    "UpdateType": "delete",
+                    "ShowConfirm": true,
+                    "ConfirmText": "您确定要删除吗？",
+                    "RowsToUpdate": 1,
+                    "RowsToUpdateCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "盘点详情表",
+                        "ColumnName": "ID",
+                        "GUID": "d2a405dd-8bc2-4df0-abea-01b31d357e11"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=Item.ID"
+                      }
+                    },
+                    "Comments": ""
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=是否结束"
+                  }
+                },
+                "value": "1"
+              },
+              "CommandList": {
+                "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                    "ServerCommandName": "根据盘点单出入库",
+                    "Parameters": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.Model.RequestServerCommandParamBase, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "盘点单ID",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=盘点单ID"
+                          }
+                        }
+                      ]
+                    },
+                    "RefreshAfterFinish": true,
+                    "CheckDataValidation": true,
+                    "Comments": "盘亏出库，盘盈入库"
+                  }
+                ]
+              },
+              "ID": "efd1e3c8-ee49-4eef-846f-2e96c4e04af9"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -52,174 +52,6 @@
           }
         }
       },
-      "2": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "3": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "4": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "5": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "6": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "7": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "8": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "9": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "10": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "11": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "12": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "13": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "14": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "15": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
       "20": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 10.0
@@ -228,174 +60,6 @@
       "21": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 10.0
-        }
-      },
-      "39": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "40": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "41": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "42": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "43": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "44": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "45": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "46": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "47": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "48": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "49": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "50": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "51": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "52": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
         }
       },
       "53": {
@@ -499,14 +163,22 @@
         "FontWeight": 1,
         "Foreground": 2,
         "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "Foreground": 3,
         "HorizontalAlignment": 4,
         "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
@@ -514,32 +186,52 @@
         "Foreground": 2,
         "HorizontalAlignment": 4,
         "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "Formatter": 5,
         "TextIndent": 0,
         "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "Foreground": 3,
         "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "Formatter": 5,
         "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "HorizontalAlignment": 6,
         "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -566,21 +258,39 @@
     "SheetStyle": {
       "FontFamily": 0,
       "Underline": false,
-      "Strikethrough": false
+      "Strikethrough": false,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
+    "4,20,2,15",
+    "7,25,5,6",
     "14,20,2,15",
     "18,20,2,15",
     "22,20,2,15",
-    "25,20,1,15",
-    "7,25,5,6",
-    "4,20,2,15"
+    "25,20,1,15"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MobilePageName": "FGC_修改用户信息_手机版",
     "Title": "修改用户信息",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true
@@ -591,10 +301,19 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "BackgroundPicture3",
+      "Name": "c7ac51d6-4a1f-42cf-8bec-510407e961d9",
+      "DisplayName": "背景图2",
+      "ForguncyPictureName": "PCLoginBackground",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 3,
+      "Size": "1080,620"
+    },
+    {
+      "Name": "6d948232-8041-4327-9357-5433d11914f9",
+      "DisplayName": "背景图1",
       "StyleInfo": {
         "CornerRadius": 20.0,
-        "Fill": "#FFF6F6F8",
+        "Fill": "Background 1 0",
         "StrokeDashType": 8,
         "Stroke": "Background 1 -25",
         "StrokeThickness": 0.0
@@ -606,4 +325,4 @@
       "BoxShadowString": "0 0 0 5 #18000000"
     }
   ]
-}//xNiGAw+JEvuSgpZaA0xoOMD+uaoRj/sQcIE1XwLiEPi62BS+HavcJIpEIau/y2MsDjCk3oCli7Z1CTSHIf6+kUKWws1lJA62ApZOxsoG1oFPZIGCleuJBGMw+A9ymMMcttqxRnZmrNYeTQT6asQVR9E/KXu+UYweIwkOoJ+qhK5/ohlt2X81HXfnDE3SYDUbKPUwMmPwC0R42XG1tkoXfcs25mT6GiIGASikfg3DrV7iNwaWHuXqqkSn6JTWWafYUdvct7bfVWjK6vUz445c6pYeZg1mIp7aJj5WbM84r4yVhSx3zOJSRty8kv1gC86qEfet/UEsk1PrKBkK39XdD6hNPAq+eEnr7riiCEA+wf8SCoQoZ42SOhY70cQA6FzBGvJHnF840CvEQOWiXPWVua/kQEeCctCCTEXL1eNcCKjydvX5Veg+RLVW0DfPOvSKsY73nth26l4yAMZ9LyTZ+6Vgc1XXmuW5CUmOrgt+wSM/n/6lWNyeUcHG/o9jHBGeC5ANuG1AgaGPk2jO7C/LNZAuhhD4zsbh8wKkqoS7hC6QM1fHU163nP9fHqmtH1jMMvzLPKMXvpRo3xcAvv+fsWRhHYSxL0ftnfp3gpM9ROeoKQIWJBEHuwBpfbXPsBgpyqyNkqCwLxH0N68v0VVe3oeifz07TbCSjOLGAMPkG6RM19m9Aw4K9dhb4Ua6LzUOnyj2BxpY49c2WgOJTv6eTW4IOtCgfM8BUSktSvk2gZZZktTvyrcnEmHFgXMwOeluIoyqXP7oSJhKK0tBkLP+4+M+Bwyl+Xl6edI4ldZCO/QzrGI2xobyMqjybe9bvNG6x2vVprSXeHIDdRx705+QMbVk7AZQb6VhXYuHIRqifyxlhgW4QBm7+JQu8I3lDakpuBl49Ob8yFlyvtrpza23uw==|920
+}//9OFdnFQxOXl+WZrNswTwPKsFQ9WFVzUIVGhGgaQL+siaYAkrvE9TnxgoMBKpaMCxuXygz03qMnBGA2bmPrik5BlRCjOpSaedxlch+R1xcG2737S0RD9svfczUC1GAlsFPULU4OLLX89g5CBFKf1HWw6HsDPbbr9cC7os8nAvnZkdALHYHcDX9/DjO8rOT2B6xFvku4WMlUejxv05qUAucp/n1FmqHcu/aq30+MsCHK5VulMfttLqVhVM7zdyChXBdUi8tSH6lWHVubOrenRPEowZDIBkrINN3cvOQvl+CSy/FC7dD04LTWdw3lUXkDt2ktr29alD3B6HE9+64GPDUVamno9KISpJbITaxnSjPGlOL7CxdAsgGdD6MHnRcgzadUxCmkeinq1bmYsx78+Wcb26ZHsxzSmHY+SwWthTd9lNwelZ4kLkzj5lAAE/WhFkBgWT27k2iX3hj3x95ftHOJoUPQ8Fo6s5ZQf2nybpppDp4vNmryt2am8t2HzXI7XE2WwjHY/uZuLq8G7BCkAb1w4f5SjYm6anAs8ScBncK3lJXoQVqQje/53LbR0LRXo0+djxv00O4vkLKJDzEWly784VwQx/DqtUtBoY+ir+L2WzX7niAmtB6qA3WiwraR1M+IiEBl2AT5ZAMhFEfCYTIAlMOWw6xLHEcDx5YM91X/RPaKmbbuOOn7mgNLfooWnzbrIE1SAYMoGMzP+l9C6u1AJt79K/P6dCLLDwzNnlBpNmDY1P1MNwbMz414Z7xYVNHi97Yohwc4ZGsjJ/NTFczY5KakYVXon17cbSfj9HnZf8Lijk/h63VtK1RRojQP+ZGzWzXUMMva983GXkaWjCPHRJG6P65aHrF6Z+Hf9CXZfwSvyz6/biH74cG53+sOJbUs45I5427wyE9dgSpGgPXg==|920

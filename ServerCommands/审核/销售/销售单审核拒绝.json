@@ -1,0 +1,68 @@
+{
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
+  "Name": "销售单审核拒绝",
+  "Enabled": true,
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.InvokeTriggerSaveData, ServerDesignerCommon",
+        "Parameters": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "审核实例ID",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+        "TableName": "销售订单表",
+        "ShowConfirm": false,
+        "RowsToUpdate": 1,
+        "RowsToUpdateCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+            "TableName": "销售订单表",
+            "ColumnName": "审核实例ID",
+            "GUID": "ee199424-a0ae-43ae-a2cc-cddfd91d55c5"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=审核实例ID"
+          }
+        },
+        "UpdateBindingValues": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+              "BindingInfo": {
+                "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                "TableName": "销售订单表",
+                "ColumnName": "审核状态",
+                "GUID": "205dd66e-9af7-476f-a98c-a60a562fa3a0"
+              },
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=4"
+              }
+            }
+          ]
+        },
+        "Comments": "将状态变更为被拒绝"
+      }
+    ]
+  }
+}

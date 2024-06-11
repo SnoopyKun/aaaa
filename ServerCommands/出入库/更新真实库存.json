@@ -1,0 +1,310 @@
+{
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
+  "Name": "更新真实库存",
+  "Enabled": true,
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.InvokeTriggerSaveData, ServerDesignerCommon",
+        "Parameters": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "物品ID",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              },
+              "TestData": "1"
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "占用数",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              },
+              "TestData": "10"
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "出入库标识",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              },
+              "TestData": "5"
+            }
+          ]
+        },
+        "InvokeTriggerTestData": {
+          "$type": "Forguncy.SaveLoad.InvokeTriggerTestDataSaveData, ServerDesignerCommon",
+          "UserName": "Administrator"
+        }
+      }
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "真实库存",
+        "TableValue": {
+          "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+          "TableName": "物品表",
+          "OnlyGetValue": true,
+          "TableValueType": 0,
+          "BindingInfos": {
+            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon]], System.Private.CoreLib",
+            "$values": [
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "7e4e1d5e-fb02-4c20-9b56-69f5f2a9e84a",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "物品表",
+                  "ColumnName": "库存",
+                  "GUID": "3ed194de-3d7c-4947-b547-21a27ae6f87c"
+                },
+                "ColumnName": "库存"
+              }
+            ]
+          },
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+              "TableName": "物品表",
+              "ColumnName": "ID",
+              "GUID": "2d982696-baad-4314-aa08-5ecc278e79e2"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=物品ID"
+            }
+          }
+        },
+        "ID": "f353ea523c9f4a6597a6ff784661d992"
+      },
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=出入库标识"
+                  }
+                },
+                "value": "5"
+              },
+              "CommandList": {
+                "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                    "ParameterName": "出库预占库存",
+                    "TableValue": {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+                      "TableName": "物品表",
+                      "OnlyGetValue": true,
+                      "TableValueType": 0,
+                      "BindingInfos": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": [
+                          {
+                            "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                            "GUID": "b9101571-c917-45dd-a6a8-2745e373175e",
+                            "BindingInfo": {
+                              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                              "TableName": "物品表",
+                              "ColumnName": "待出库",
+                              "GUID": "a0e1ea93-b102-473f-a6fe-03270bd29665"
+                            },
+                            "ColumnName": "出库预占库存"
+                          }
+                        ]
+                      },
+                      "SqlCondition": {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                          "TableName": "物品表",
+                          "ColumnName": "ID",
+                          "GUID": "4f25c8e7-71ed-4e79-9058-d97f6a7886c7"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=物品ID"
+                        }
+                      }
+                    },
+                    "ID": "1c457465f1414759ae4bd977ae528b03"
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "物品表",
+                    "ShowConfirm": false,
+                    "RowsToUpdate": 1,
+                    "RowsToUpdateCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "物品表",
+                        "ColumnName": "ID",
+                        "GUID": "3d1fd934-c537-46a1-8cef-03bf49bc51e7"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=物品ID"
+                      }
+                    },
+                    "UpdateBindingValues": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "物品表",
+                            "ColumnName": "待出库",
+                            "GUID": "0067f455-68d7-40da-bcb5-0f24e1a7594b"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=出库预占库存-占用数"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "物品表",
+                            "ColumnName": "库存",
+                            "GUID": "7cc2184c-3997-40d9-9b9f-2f1635ac5d6c"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=真实库存-占用数"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "Comments": "出库",
+              "ID": "0f6e9589-ed07-4fdf-8d0a-919114b7c0ea"
+            },
+            {
+              "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+              "CommandList": {
+                "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                    "ParameterName": "入库预占库存",
+                    "TableValue": {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+                      "TableName": "物品表",
+                      "OnlyGetValue": true,
+                      "TableValueType": 0,
+                      "BindingInfos": {
+                        "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon]], System.Private.CoreLib",
+                        "$values": [
+                          {
+                            "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                            "GUID": "0063b2d3-69df-407d-b3e3-60b4b17906a5",
+                            "BindingInfo": {
+                              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                              "TableName": "物品表",
+                              "ColumnName": "待入库",
+                              "GUID": "1f687db0-2508-4f52-af95-d5a41377ecd6"
+                            },
+                            "ColumnName": "入库预占库存"
+                          }
+                        ]
+                      },
+                      "SqlCondition": {
+                        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                        "ColumnBindingInfo": {
+                          "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                          "TableName": "物品表",
+                          "ColumnName": "ID",
+                          "GUID": "bac911f9-f744-4d21-874d-bf2be3265fc8"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=物品ID"
+                        }
+                      }
+                    },
+                    "ID": "71d5d8d30c224975ab7730a811007057"
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "物品表",
+                    "ShowConfirm": false,
+                    "RowsToUpdate": 1,
+                    "RowsToUpdateCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "物品表",
+                        "ColumnName": "ID",
+                        "GUID": "f3c857e7-3772-42f6-8400-099efc3aefb1"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=物品ID"
+                      }
+                    },
+                    "UpdateBindingValues": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "物品表",
+                            "ColumnName": "待入库",
+                            "GUID": "77c78e47-db46-4ed7-acc1-a61b8dbd8e0a"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=入库预占库存-占用数"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "物品表",
+                            "ColumnName": "库存",
+                            "GUID": "4efdef41-e857-4769-91ba-cb40775825da"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=真实库存+占用数"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "Comments": "入库",
+              "ID": "a9c4507c-3f8d-4a40-8f99-8aa0165ed64e"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,650 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 136.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 157.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 17,
+    "DefaultSize": 16.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      13
+    ],
+    "Count": 15,
+    "DefaultSize": 32.0
+  },
+  "Values": {
+    "1,1": "物品低于下限",
+    "10,1": "物品超出上限"
+  },
+  "AttachInfos": {
+    "4,1": {
+      "CellType": {
+        "$type": "ElementUI.TableCellType, ElementUI",
+        "ElTableName": "物品下限",
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "物品表",
+          "BindingInfos": [
+            {
+              "GUID": "a3d9e541-3a7c-4ca0-85e5-f769cbde3652",
+              "BindingInfo": {
+                "TableName": "物品表",
+                "ColumnName": "编号",
+                "GUID": "5e9b8d29-eadb-43cd-8c27-3fd8eaaa1e91"
+              },
+              "ColumnName": "编号"
+            },
+            {
+              "GUID": "0df39910-2679-4d78-a1fe-920d19e6da89",
+              "BindingInfo": {
+                "TableName": "物品表",
+                "ColumnName": "名称",
+                "GUID": "699eba22-341d-42da-a1e8-7b67235877de"
+              },
+              "ColumnName": "名称"
+            },
+            {
+              "GUID": "9f6a918f-3551-4d99-a512-e7a670a423d2",
+              "BindingInfo": {
+                "TableName": "物品表",
+                "ColumnName": "库存",
+                "GUID": "dcf5113e-410b-4531-92fe-ce40956677c1"
+              },
+              "ColumnName": "库存"
+            },
+            {
+              "GUID": "138ed82f-0dae-4a52-8855-0f507a708479",
+              "BindingInfo": {
+                "TableName": "物品表",
+                "ColumnName": "库存下限",
+                "GUID": "18c29806-b752-40c5-8d29-fc45db5cfc00"
+              },
+              "ColumnName": "库存下限"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "CompareType": 2,
+            "ColumnBindingInfo": {
+              "TableName": "物品表",
+              "ColumnName": "库存超出下限数",
+              "GUID": "05cd36ef-26f1-48cf-a221-ea913973f4f9"
+            },
+            "Value": "0"
+          },
+          "CacheSetting": {
+            "AllowCache": true,
+            "ExpiredTime": 300
+          },
+          "CustomColumns": []
+        },
+        "columns": [],
+        "actionButtons": [
+          {
+            "$type": "ElementUI.ActionButton, ElementUI",
+            "type": "button",
+            "Name": "编辑",
+            "shape": "default"
+          },
+          {
+            "$type": "ElementUI.ActionButton, ElementUI",
+            "type": "button",
+            "Name": "删除",
+            "styleType": "Accent 5",
+            "shape": "default"
+          }
+        ],
+        "sumText": "合计",
+        "size": "default"
+      }
+    },
+    "6,1": {
+      "CellType": {
+        "$type": "ElementUI.CellTypes.PaginationCellType, ElementUI",
+        "AttachElementTable": true,
+        "ElementTableName": "物品下限",
+        "pageSize": 5,
+        "pagerCount": 5,
+        "layout": [
+          {
+            "layoutItem": "total"
+          },
+          {
+            "layoutItem": "->"
+          },
+          {
+            "layoutItem": "prev"
+          },
+          {
+            "layoutItem": "pager"
+          },
+          {
+            "layoutItem": "next"
+          }
+        ],
+        "pageSizes": [
+          {},
+          {
+            "value": 20
+          },
+          {
+            "value": 30
+          },
+          {
+            "value": 40
+          },
+          {
+            "value": 50
+          },
+          {
+            "value": 100
+          }
+        ],
+        "small": true
+      }
+    },
+    "13,1": {
+      "CellType": {
+        "$type": "ElementUI.TableCellType, ElementUI",
+        "ElTableName": "物品上限",
+        "bindingOptions": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "物品表",
+          "BindingInfos": [
+            {
+              "GUID": "78c55549-b91f-4ef2-8208-67b696505a49",
+              "BindingInfo": {
+                "TableName": "物品表",
+                "ColumnName": "编号",
+                "GUID": "7bcf3170-b5b4-4b6d-a42a-3415005b368e"
+              },
+              "ColumnName": "编号"
+            },
+            {
+              "GUID": "6e47858d-c42d-48e7-84c1-c4b36cdff082",
+              "BindingInfo": {
+                "TableName": "物品表",
+                "ColumnName": "名称",
+                "GUID": "180f7635-27e6-4bd2-ac13-798d2af2b017"
+              },
+              "ColumnName": "名称"
+            },
+            {
+              "GUID": "8b3aaf4d-f7be-4d6c-9f9f-2f7b4ace5c9a",
+              "BindingInfo": {
+                "TableName": "物品表",
+                "ColumnName": "库存",
+                "GUID": "2bafe02f-9cce-47eb-949e-aacaa947ebc8"
+              },
+              "ColumnName": "库存"
+            },
+            {
+              "GUID": "d7043b70-9328-4254-a215-c648c25353f5",
+              "BindingInfo": {
+                "TableName": "物品表",
+                "ColumnName": "库存上限",
+                "GUID": "d0bfb877-9e02-4350-80ad-85a49c82f506"
+              },
+              "ColumnName": "库存上限"
+            }
+          ],
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "CompareType": 2,
+            "ColumnBindingInfo": {
+              "TableName": "物品表",
+              "ColumnName": "库存超出上限数",
+              "GUID": "076939d3-92d1-4912-bc8b-399f58864273"
+            },
+            "Value": "0"
+          },
+          "CacheSetting": {
+            "AllowCache": true,
+            "ExpiredTime": 300
+          },
+          "CustomColumns": []
+        },
+        "columns": [],
+        "actionButtons": [
+          {
+            "$type": "ElementUI.ActionButton, ElementUI",
+            "type": "button",
+            "Name": "编辑",
+            "shape": "default"
+          },
+          {
+            "$type": "ElementUI.ActionButton, ElementUI",
+            "type": "button",
+            "Name": "删除",
+            "styleType": "Accent 5",
+            "shape": "default"
+          }
+        ],
+        "sumText": "合计",
+        "size": "default"
+      }
+    },
+    "15,1": {
+      "CellType": {
+        "$type": "ElementUI.CellTypes.PaginationCellType, ElementUI",
+        "AttachElementTable": true,
+        "ElementTableName": "物品上限",
+        "pageSize": 5,
+        "pagerCount": 5,
+        "layout": [
+          {
+            "layoutItem": "total"
+          },
+          {
+            "layoutItem": "->"
+          },
+          {
+            "layoutItem": "prev"
+          },
+          {
+            "layoutItem": "pager"
+          },
+          {
+            "layoutItem": "next"
+          }
+        ],
+        "pageSizes": [
+          {},
+          {
+            "value": 20
+          },
+          {
+            "value": 30
+          },
+          {
+            "value": 40
+          },
+          {
+            "value": 50
+          },
+          {
+            "value": 100
+          }
+        ],
+        "small": true
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Background 1 -5",
+        "[AUTO]General"
+      ],
+      "Borders": [
+        {
+          "Color": 1
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "0,13": 0,
+      "0,14": 0,
+      "1,1": 1,
+      "1,2": 0,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "1,11": 0,
+      "1,12": 0,
+      "1,13": 0,
+      "1,14": 0,
+      "2,0": 2,
+      "2,1": 3,
+      "2,2": 3,
+      "2,3": 3,
+      "2,4": 3,
+      "2,5": 3,
+      "2,6": 3,
+      "2,7": 3,
+      "2,8": 3,
+      "2,9": 3,
+      "2,10": 3,
+      "2,11": 3,
+      "2,12": 3,
+      "2,13": 3,
+      "2,14": 3,
+      "3,1": 0,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "3,5": 0,
+      "3,6": 0,
+      "3,7": 0,
+      "3,8": 0,
+      "3,9": 0,
+      "3,10": 0,
+      "3,11": 0,
+      "3,12": 0,
+      "3,13": 0,
+      "3,14": 0,
+      "10,1": 4,
+      "10,2": 0,
+      "10,3": 0,
+      "10,4": 0,
+      "10,5": 0,
+      "10,6": 0,
+      "10,7": 0,
+      "10,8": 0,
+      "10,9": 0,
+      "10,10": 0,
+      "10,11": 0,
+      "10,12": 0,
+      "10,13": 0,
+      "10,14": 0,
+      "11,0": 2,
+      "11,1": 2,
+      "11,2": 2,
+      "11,3": 2,
+      "11,4": 2,
+      "11,5": 2,
+      "11,6": 2,
+      "11,7": 2,
+      "11,8": 2,
+      "11,9": 2,
+      "11,10": 2,
+      "11,11": 2,
+      "11,12": 2,
+      "11,13": 2,
+      "11,14": 2,
+      "13,1": 0,
+      "13,2": 0,
+      "13,3": 0,
+      "13,4": 0,
+      "13,5": 0,
+      "13,6": 0,
+      "13,7": 0,
+      "13,8": 0,
+      "13,9": 0,
+      "13,10": 0,
+      "13,11": 0,
+      "13,12": 0,
+      "13,13": 0,
+      "15,1": 0,
+      "15,2": 0,
+      "15,3": 0,
+      "15,4": 0,
+      "15,5": 0,
+      "15,6": 0,
+      "15,7": 0,
+      "15,8": 0,
+      "15,9": 0,
+      "15,10": 0,
+      "15,11": 0,
+      "15,12": 0,
+      "15,13": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "4,1,1,13",
+    "6,1,1,13",
+    "13,1,1,13",
+    "15,1,1,13"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "Administrator",
+            "出入库模块基础权限"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "99268b07-4783-4f0c-bc29-d1cd371fd3e0",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "#FFF0F2F5"
+      },
+      "IsAutomaticFill": false,
+      "Location": "272,0",
+      "Size": "32,567"
+    },
+    {
+      "Name": "f3f52940-e470-4223-b018-d088638ff9fb",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,278",
+      "Size": "448,289"
+    },
+    {
+      "Name": "88ee9a76-c0b1-4b05-b3c5-fcec2936e6e5",
+      "DisplayName": "背景图3",
+      "StyleInfo": {
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Size": "448,262"
+    }
+  ]
+}//AU43ESXMXpobUBaVaWsvLBpmS0h9dmSBxtZB6+QxjQdFjpe1Bu7x86ht6A+BhwFivFVXeLXKakB5zPCieS1g/0SwIMTkKj5lQyjY84C0XRAnmV4Tr5ru2vW8WaTjx3Db3JniBR5ugEO9IPx1OvEAxw55LNcPce/YbDt1sfuZGRpgVAHoQb47U2BlPof1TOPcRv/SRwYsuphSLLL6u2/g3h1m72xbX0okeS6jRLsr/gpWT8BNCdAOiUCkfl3TiYDI76hIgLXM00vd/LcnDBv105f6wjaYzKAoSsEW2DU4njetJ6DNIsvXfJIPksecalTyg5tsPJ3+nW2w6Fux61PYkg0w7td/FqF01XpcNKAgU8n9FjVpMm3R32CxZO6ztpVWu8pnfR4v+/yhxx72l8my9QPsojqN7zXqACZiSCc3M8VMvz0lX92eU1VE4W/M83h07Mz++NYVHgDza8saYWagT7C23rRG+qpjZz62TVK7fdgz9jcBVM6m82ITisl+La7FSZT1k59u/nK7QH8XGfA3Y7cvt8ZfXraoEINTvt4Bw0gIad6qds/70yQkG+h2KkLixv1gjc3t5wyMbkz3+BoIbaWUx23nFj+88peNq9C6zQmDE7g28HedIa8z9wB0jl6YmzQvwjO0MF3L4g1F4JE8/Omb3Up/CJmK1owmK4Apqyoh5fimRVCMyphDwDK0fsg32ne7j3hihRB/Xnlsxlr0SOy5LJvpxlNVHw+UweiiaNVBqic9uXpSJ/Qwl7bJtD2DvYYUKDKvJ372iMK7RlXWRFxcV5HzQiEQWOiHEATXCqR9ECrArKrU90C6AbfSLRpDlmWakR3kKJcFry0++praUY72yuRbcpPrJg/PGRfHAaPKnesQroKhcr/iy8mDVqYzRrzPntnRKVcYXeepYQUuEg==|920

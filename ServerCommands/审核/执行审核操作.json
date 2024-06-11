@@ -1,0 +1,377 @@
+{
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
+  "Name": "执行审核操作",
+  "Description": "相关管理员执行审核操作的统一入口，通过类型判断模块，通过行为判断操作",
+  "Enabled": true,
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+        "Permission": {
+          "$type": "Forguncy.SaveLoad.ServerCommandPermissionSaveData, ServerDesignerCommon",
+          "PermissionData": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+            "permissionResource": {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+            },
+            "permissionBindings": {
+              "$type": "System.Collections.Generic.List`1[[Forguncy.RbacPermission.Core.Impl.ServerCommand.IServerCommandPermissionBinding, Forguncy.RbacPermission.Core]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": [
+                      "Administrator",
+                      "仓库主管",
+                      "采购主管",
+                      "销售主管",
+                      "FGC_LoginUser"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Parameters": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "审核类型",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "审核行为",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "审核实例ID",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "当前负责人",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=审核行为"
+                  }
+                },
+                "value": "通过"
+              },
+              "CommandList": {
+                "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                          "Condition": {
+                            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                            "param": {
+                              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                              "ParamObject": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=审核类型"
+                              }
+                            },
+                            "value": "出入库"
+                          },
+                          "CommandList": {
+                            "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                                "ServerCommandName": "出入库审核通过",
+                                "Parameters": {
+                                  "$type": "System.Collections.Generic.List`1[[Forguncy.Model.RequestServerCommandParamBase, ServerDesignerCommon]], System.Private.CoreLib",
+                                  "$values": [
+                                    {
+                                      "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                      "ParamName": "审核实例ID",
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=审核实例ID"
+                                      }
+                                    }
+                                  ]
+                                },
+                                "RefreshAfterFinish": true,
+                                "CheckDataValidation": true
+                              }
+                            ]
+                          },
+                          "ID": "48a49bc7-709d-4af5-b602-1f5be734646b"
+                        },
+                        {
+                          "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                          "Condition": {
+                            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                            "param": {
+                              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                              "ParamObject": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=审核类型"
+                              }
+                            },
+                            "value": "采购"
+                          },
+                          "CommandList": {
+                            "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                                "ServerCommandName": "采购单审核通过",
+                                "Parameters": {
+                                  "$type": "System.Collections.Generic.List`1[[Forguncy.Model.RequestServerCommandParamBase, ServerDesignerCommon]], System.Private.CoreLib",
+                                  "$values": [
+                                    {
+                                      "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                      "ParamName": "审核实例ID",
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=审核实例ID"
+                                      }
+                                    }
+                                  ]
+                                },
+                                "RefreshAfterFinish": true,
+                                "CheckDataValidation": true
+                              }
+                            ]
+                          },
+                          "ID": "ef779737-43c5-4d53-9547-07b3eb974f51"
+                        },
+                        {
+                          "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                          "Condition": {
+                            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                            "param": {
+                              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                              "ParamObject": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=审核类型"
+                              }
+                            },
+                            "value": "销售"
+                          },
+                          "CommandList": {
+                            "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                                "ServerCommandName": "销售单审核通过",
+                                "Parameters": {
+                                  "$type": "System.Collections.Generic.List`1[[Forguncy.Model.RequestServerCommandParamBase, ServerDesignerCommon]], System.Private.CoreLib",
+                                  "$values": [
+                                    {
+                                      "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                      "ParamName": "审核实例ID",
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=审核实例ID"
+                                      }
+                                    }
+                                  ]
+                                },
+                                "RefreshAfterFinish": true,
+                                "CheckDataValidation": true
+                              }
+                            ]
+                          },
+                          "ID": "792e020e-f928-42de-b24f-1b3a6e4234c5"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "ID": "c4480d4c-17fd-4fd5-83f7-c7d34556bedf"
+            },
+            {
+              "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=审核行为"
+                  }
+                },
+                "value": "拒绝"
+              },
+              "CommandList": {
+                "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                          "Condition": {
+                            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                            "param": {
+                              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                              "ParamObject": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=审核类型"
+                              }
+                            },
+                            "value": "出入库"
+                          },
+                          "CommandList": {
+                            "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                                "ServerCommandName": "出入库审核拒绝",
+                                "Parameters": {
+                                  "$type": "System.Collections.Generic.List`1[[Forguncy.Model.RequestServerCommandParamBase, ServerDesignerCommon]], System.Private.CoreLib",
+                                  "$values": [
+                                    {
+                                      "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                      "ParamName": "审核实例ID",
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=审核实例ID"
+                                      }
+                                    }
+                                  ]
+                                },
+                                "RefreshAfterFinish": true,
+                                "CheckDataValidation": true
+                              }
+                            ]
+                          },
+                          "ID": "25a2566f-c9b8-42d0-83d2-9a5df8236bcf"
+                        },
+                        {
+                          "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                          "Condition": {
+                            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                            "param": {
+                              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                              "ParamObject": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=审核类型"
+                              }
+                            },
+                            "value": "采购"
+                          },
+                          "CommandList": {
+                            "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                                "ServerCommandName": "采购单审核拒绝",
+                                "Parameters": {
+                                  "$type": "System.Collections.Generic.List`1[[Forguncy.Model.RequestServerCommandParamBase, ServerDesignerCommon]], System.Private.CoreLib",
+                                  "$values": [
+                                    {
+                                      "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                      "ParamName": "审核实例ID",
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=审核实例ID"
+                                      }
+                                    }
+                                  ]
+                                },
+                                "RefreshAfterFinish": true,
+                                "CheckDataValidation": true
+                              }
+                            ]
+                          },
+                          "ID": "43a876c1-b49d-40b5-ae2e-70a67de3d04b"
+                        },
+                        {
+                          "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                          "Condition": {
+                            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                            "param": {
+                              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                              "ParamObject": {
+                                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                "SerializeProperty": "=审核类型"
+                              }
+                            },
+                            "value": "销售"
+                          },
+                          "CommandList": {
+                            "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                                "ServerCommandName": "销售单审核拒绝",
+                                "Parameters": {
+                                  "$type": "System.Collections.Generic.List`1[[Forguncy.Model.RequestServerCommandParamBase, ServerDesignerCommon]], System.Private.CoreLib",
+                                  "$values": [
+                                    {
+                                      "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                                      "ParamName": "审核实例ID",
+                                      "Value": {
+                                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                        "SerializeProperty": "=审核实例ID"
+                                      }
+                                    }
+                                  ]
+                                },
+                                "RefreshAfterFinish": true,
+                                "CheckDataValidation": true
+                              }
+                            ]
+                          },
+                          "ID": "0f8dd274-3164-4e87-a39d-8d3f2f736d87"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              },
+              "ID": "03845cfe-bebc-4f4c-bdd9-4f6941284e9f"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

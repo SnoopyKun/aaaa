@@ -13,6 +13,21 @@
           }
         }
       },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
       "30": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0,
@@ -128,34 +143,54 @@
         "Foreground": 2,
         "Formatter": 3,
         "HorizontalAlignment": 4,
-        "VerticalAlignment": 5
+        "VerticalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 14.666666984558105,
         "Foreground": 6,
-        "Formatter": 3
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
         "Foreground": 7,
         "VerticalAlignment": 8,
-        "WordWrap": true
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 16.0,
-        "Foreground": null,
-        "Formatter": 3
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 16.0,
         "Foreground": null,
         "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": null,
+        "Formatter": 3,
         "HorizontalAlignment": 9,
-        "Underline": false
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -183,18 +218,36 @@
     "SheetStyle": {
       "FontFamily": 0,
       "FontSize": 13.333333015441895,
-      "Foreground": 10
+      "Foreground": 10,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
     "5,3,2,13",
+    "10,3,10,13",
     "22,3,2,13",
-    "25,3,1,13",
-    "10,3,10,13"
+    "25,3,1,13"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "邮件订阅",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -206,10 +259,27 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "63ba2154-003b-4f81-8694-d97ea891135b.png",
+      "Name": "f2b993c0-6b95-4a18-8c86-75c653800177",
+      "DisplayName": "背景图2",
+      "ForguncyPictureName": "MobileLoginBackground",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 3,
+      "StyleInfo": {
+        "Fill": "Background 1 0",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Size": "380,640"
+    },
+    {
+      "Name": "ddf9dee5-4eda-41e2-b042-b34762fe6819",
+      "DisplayName": "背景图1",
       "StyleInfo": {
         "CornerRadius": 20.0,
-        "Fill": "#FFF6F6F8",
+        "Fill": "Background 1 0",
         "StrokeDashType": 8,
         "Stroke": "black",
         "StrokeThickness": 0.0
@@ -217,7 +287,7 @@
       "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
       "Location": "20,60",
-      "Size": "340,500"
+      "Size": "340,520"
     }
   ]
-}//f8BO+z8ZdFhjFznMaGTlMt3+n8+T5Nm1x9N24P9ifJzR76/walarhBCPUsltZhO8sRYCWEy4e0oGFT9Pfiy91FXgqPEMVGZlgqXbbcfndO2KjT5n6LJcvbEok7FHO81/afem326OnQWqz44jXwtPcivvxZ8uhIj3hHL3Jx1iio75ezs+3lQqwEEF8zUjVudbF6sX7cTXvDyE2sqt4KdR/EOkz4BDTfLXDAk5Rux0zGpXdbjYoL8yuPj+QwJw+hAOL4uFv9PJDmavSReFCVTHgUwymrBD0NYedIK2H7pMdJTrM7o0RDe5WrtU67f0W6CdPjE0SqoierEgxobTfWh6iSRTz70VOzjDmqEfJyW7orNlGBaddkg40pTw46CoMEKPHpSBNv03skDROEpJ/mNlMSvULB9XcgLBDt3itDoO13NOeh8O9Z04hr8azT2KTQPHJx5ck8VETUbEiKO0CoMesaej9rTSvSrpRRIIO5s1lvx03sJsCA2GMibIam0aqq8GqhqIyZK0JwkXgtsxY19eLevDJ6CDM3mNqIPVXCrcSnHXV2Rb27vBiuQo4XyIe+UE9c88m/P4dAdY5N/sDzHISQS9N2kY5baNI6Qni5j2Rx0EWAVy8hxB6waDIr2vl5Nuw1aGPeAwKqCHGQPK1isE+i5hjK9bvGfkN/QspTRKdwrddj5OGY3J34lV2gR/8DZMRrAy2V91g3XzeCXI6ABgrw3Jj+hSkf2G1Z7BDBg3Wq8Yu12nA2daEwnGgQacZ6aZdUTkf3BoUZFG8y3fAnWCWKfYCYgxF+hh3b/cPAEy6Kf0eqAUXD7agFAEwPv7amBM9uXuppNPpFgHZhFbS3N4eOUrKz5Y60CBCbsVmF+V9wxpNCbe4HB4kAX2/Ggr9R41mJ2jN2lowntpwomn2Cwqmw==|920
+}//DhQlMjYvkA5YR14z+EhNi3NrdMf4LIJ9Chwwl0dgT0lYw61QDSlRsJbsJTQQo8SHjYHZKbReV2JK2j+jWW0uPlm2y3JNtkZBeLp4vW9y8XhWIq56tgZ3NzSbUoUi0RjQvDFnL3lWbWVukQ5bqvYiiLMARBTGGb7YGzHK042Whyv4c04zcTnwSLDhJHkjQTzt8Rlxm2fl3/SIzPvPKCIFC428pdbmRQpXfn6AKCHEe8TQ9cveJGxUYlK/4BE0ZLBTGq6ydoutYu8z+2uwFhMG1mN3T38PVjXTjSIoynwtklklqDR87cej9Ryq+sLRWRQZJlsvNfD/rtO405MpQ6dtIyaPJmh3HkvYCs8f0cHlzFXMNVYeSfsNVqz8gHXqFljpQQpA50JnWesmOHZM8TUj/UkssT1Fxlei4I5ZW/C8nPv2PxQAQkECxRGJ7HEL/sT9LtgpBfBBq70149ftQbzS/VkAJ01nRgd/wFBhCtQmICFAdJqz8/BkL0XAu9NZnyn1cT9dxNH/9Flo8FRvvrsBDNhGujCrXzxapEoW+m21eI8ZtnZmwaBiXDIlMAP8rivMEjRCc5Wdw8wyP9Bdn3enx+ul/jtZNlsEqUVJFOmmi8ihVSnOXZRWdpYWLuJ904rmbaWufrblLtcLFbCEYEAN7CEM6GaM0Ta4iA8lDMfQCfhwJQZrk8wTpkEs4e32KBVI9uxNp6VfpT9Ah3+1FxoM4rB4M1fAp9gqMzVY+Jhr/yo/LxGos0b7np3AFT5V3uwILWyL9y1lOekyjepy8Z5+9+cMMlTrQa6rPNHYkgDwgdgO1aLhqpQVNf6Q/x82HOmjjzFpu7jmGqDam6ypO9GYexo4H4OJmSDmhAm+bVMnRFPrgVQXKb1ChjkxMKQdxA1ct2AlosWObDHfFmzxpq4MJQ==|920

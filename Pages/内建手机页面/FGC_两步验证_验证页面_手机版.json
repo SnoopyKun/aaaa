@@ -13,6 +13,16 @@
           }
         }
       },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
       "30": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0,
@@ -111,36 +121,60 @@
         "FontWeight": 1,
         "Foreground": 2,
         "HorizontalAlignment": 3,
-        "VerticalAlignment": 4
+        "VerticalAlignment": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333333333332,
         "Foreground": 5,
         "VerticalAlignment": 6,
-        "WordWrap": true
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 14.666666666666666,
         "Foreground": 5,
-        "Formatter": 7
+        "Formatter": 7,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "Foreground": 8,
-        "Formatter": 9
+        "Formatter": 9,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333333333332,
         "Foreground": 5,
-        "WordWrap": true
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 16.0,
-        "Formatter": 7
+        "Formatter": 7,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -166,19 +200,37 @@
       "22,3": 5
     },
     "SheetStyle": {
-      "FontFamily": 0
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
     "6,3,2,13",
     "9,3,3,13",
-    "22,3,2,13",
     "17,3,2,13",
-    "20,3,1,13"
+    "20,3,1,13",
+    "22,3,2,13"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "两步验证",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -190,24 +242,28 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "0285f038-53e6-4cbd-a7f0-bd34cb6eb9ad.jpg",
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "280c1e73-d895-4ee6-9473-e8f1d248cd32",
+      "DisplayName": "背景图1",
       "ForguncyPictureName": "PCLoginBackground",
       "ForguncyPictureSourceType": 2,
       "StyleInfo": {
         "Fill": null
       },
       "IsAutomaticFill": false,
-      "Size": "380,620"
+      "Size": "380,628"
     },
     {
-      "Name": "446553e5-ddca-4ba5-bc1c-58b8cf3d8b8a.png",
+      "Name": "77a04e54-0caa-498b-a887-9e02535ef4aa",
+      "DisplayName": "背景图2",
       "StyleInfo": {
         "CornerRadius": 20.0,
         "Fill": "Background 1 0"
       },
       "IsAutomaticFill": false,
       "Location": "20,80",
-      "Size": "340,440"
+      "Size": "340,448"
     }
   ]
-}//e88loGrmsRpexQgyEfpAEEWYgwpVF9Y/VtlO8RtyKYj1tihCBCy1oZcWJ6B3KiAcGvHdUvxaHzrMczqKYMcRwPQIeLdpC2vO6ZTnga8ATzYiKaoLQzxRhvbPZsysHfec6E9D6eglQDOu4qXZYi7PUgxs6uvXULncl8mNXK9IYYrgdmAy+8Sn6krrPZaTYMr6LRyOlP2/LAbxGKVIq5k/Hx+u9sb4f51m8d42tz2GQ5qYDaWdgxSLj7sDltCmzXrLRlqWhu4qu3Ot3uee0Os8Mh53r1T3sVdeEleIOETAb1HnImm/eKnw/Xsm66UZYzgjqbGPhD+Lx1V3oZnADOzWt8XqddMEpmLxNyajQUvooVqGr+b78dCbs/0qEn1IVRt99m6hUMGrtRT/7H2QisiFsNx2ZRnJXtkzhkkLhjJJqyEFDCXcAYvF5FYA/8cw1XtzfEKUUlI+E5p9MaoAfot+pCfQUcGAYeEySURGuShx+xSO9y2o2h+6wMCIqmjKX0IEwpRrVL7dyyvWZYw7oYCG7swcrdZbtiYE2gdXLL+flcHONC2O7mo+7jzgNIFsttfm8ub3R+TYGNqsTjDgQtTPr51s3d0uPwG2/k7ThuMtrBxcOLvGvMZhkUSqpheoAoN60X2kb6p6/nHEz0RJ4qB4o2wE1JgJwUeyiKmaMIKHVUT7IQkC+eeTyN5oCuk55QGZiIiOnK9++iWpB7xe67Yi2lDtEDhDV+mMcLisNiI+KloYLTU7ZnEOexYJyUnLpVBoTj8Nrs8jXko0tKWRF0SHNX5fahugLAIdcJKRqWO3AhTJSvLB98S3P0DAK4orQYx4u1GQQxhP0K13aBbz7TN26zxN/vjw/L792PyEaSzTAwsFaP6DZ311zefwffF8dRXoZbQ/ULCbYsBLevy5QeNXxg==|920
+}//bnLnBmJDU/Hq3AbXqZcGbNT4hJULxfqHovyvNA0x4CbXAEgRC572eKfLv8SDw6MCPOpGicUcQ7CdeLxfcVkb90m9LuFFxf9SfMX8SYROPYVYMszQUQVJqkHM69aWtA6HNzxh4D6MjZg9t6O3AZd2C1D90yj7bbVbAyDmGI8InCFatpKByWIKTeamIcp+uUclZ/jqh1gJfopryApdnqcH3TPSAdwpkivDah24sMdzS7ov+Y6UaACYBvr3GZ4H1OUv8Si3Sj8hptINYwmOc1cHcpiqrxibo+FotZTwo9SH7bQpUsB3VF6fbZZZpf/MFeaLeRvSi+wxwCDiv86O/rmuZn/dENHn0KjdFa+CQpyWtiy2iap1rOiqQK7b9c+yzA0Onm+NxnPr1RGm0AULMXgcacSUEaUBHNzlC1HK1yt4E/HPIzwplsTe0jI72Lr6H118jCrdmdiTUJZE0EyIUCbs4kVNA6Gs35+b21dv0tNf5W9di2bCP+oZPmsE3AL1BW047QhdeAtm4bkiLPVB7IOpHpm549M4uzZ5zPYzN2I6OHP5De9j6RQW402d9BDj/aFz+/C3Mmmm2ppo3YWo09lcgGUSi9bYbFz0n8KdWesz7KMW03NHP1K/p2O9S+n0BH1E3JnSZqSu/5fAH6E6salUtBCZNLCqLfFJmydxMGUZyEYBFHrOQ77pSxjDP+bkxC0XMdygAzyJylgKe022Sw9pnSPkfCDqMilzwIadOwBXJuL0d70mEo2MV7h/UCxj7Rjudx+ejUJq2rBTJLKeADlNeleNXFbAyEzClzMqYcky1SFJCyHtlXdZ+aEzx5cyYertQOA/EIYsgaacdg5N9gRp9+Q4bDpZuTGyQ3yCAnvuFDCBKLo5aUtaJ3V2XJPmrsNPDQZV2WplqVMwo1AeUKWdDQ==|920

@@ -1,0 +1,197 @@
+{
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
+  "Name": "开始盘点",
+  "Enabled": true,
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+        "Permission": {
+          "$type": "Forguncy.SaveLoad.ServerCommandPermissionSaveData, ServerDesignerCommon",
+          "PermissionData": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+            "permissionResource": {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+            },
+            "permissionBindings": {
+              "$type": "System.Collections.Generic.List`1[[Forguncy.RbacPermission.Core.Impl.ServerCommand.IServerCommandPermissionBinding, Forguncy.RbacPermission.Core]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": [
+                      "库存管理员",
+                      "仓库主管",
+                      "Administrator",
+                      "FGC_LoginUser"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "InvokeTriggerTestData": {
+          "$type": "Forguncy.SaveLoad.InvokeTriggerTestDataSaveData, ServerDesignerCommon",
+          "UserName": "库存管理员1"
+        }
+      }
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+        "CommandList": {
+          "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+              "ServerCommandName": "检查是否盘点中",
+              "ResultErrorCodeTo": {
+                "$type": "Forguncy.Common.FormulaCellLocation, ServerDesignerCommon",
+                "SerializeProperty": "返回码"
+              },
+              "ResultMessageTo": {
+                "$type": "Forguncy.Common.FormulaCellLocation, ServerDesignerCommon",
+                "SerializeProperty": "返回信息"
+              },
+              "RefreshAfterFinish": true,
+              "CheckDataValidation": true
+            },
+            {
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": {
+                "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                    "Condition": {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                        "ParamObject": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=返回码"
+                        }
+                      },
+                      "value": "0"
+                    },
+                    "CommandList": {
+                      "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                          "TableName": "盘点表",
+                          "UpdateType": "add",
+                          "ShowConfirm": false,
+                          "UpdateBindingValues": {
+                            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "盘点表",
+                                  "ColumnName": "日期",
+                                  "GUID": "eeeb8497-fd38-486e-bf13-7ed60068bcaa"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=TODAY()"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "盘点表",
+                                  "ColumnName": "经办人",
+                                  "GUID": "cfd9ab31-c2c3-4905-8e19-8066525dc033"
+                                },
+                                "Value": "%CurrentUser%"
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "盘点表",
+                                  "ColumnName": "是否结束",
+                                  "GUID": "27c3a9b6-7678-4fb9-812b-b39cb509e969"
+                                },
+                                "Value": "0"
+                              }
+                            ]
+                          },
+                          "ParamNameToSaveNewRowValue": "新盘点单"
+                        },
+                        {
+                          "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                          "CustomReturns": {
+                            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.CustomReturns, ServerDesignerCommon]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.CustomReturns, ServerDesignerCommon",
+                                "ReturnPropertyName": "盘点单ID",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=新盘点单.ID"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "ID": "07b98608-15c9-46ed-a7fd-df37a425332c"
+                  },
+                  {
+                    "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                    "CommandList": {
+                      "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                          "ErrorCode": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=返回码"
+                          },
+                          "Message": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=返回信息"
+                          },
+                          "CustomReturns": {
+                            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.CustomReturns, ServerDesignerCommon]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.CustomReturns, ServerDesignerCommon",
+                                "ReturnPropertyName": "盘点单ID"
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    "ID": "c07f15c4-5856-48ea-bc27-eb9cf24bcd3f"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ReturnProperties": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "盘点单ID"
+      }
+    ]
+  }
+}

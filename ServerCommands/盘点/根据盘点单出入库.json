@@ -1,0 +1,592 @@
+{
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
+  "Name": "根据盘点单出入库",
+  "Description": "盘亏出库，盘盈入库",
+  "Enabled": true,
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.InvokeTriggerSaveData, ServerDesignerCommon",
+        "Parameters": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "盘点单ID",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              },
+              "TestData": "4"
+            }
+          ]
+        },
+        "InvokeTriggerTestData": {
+          "$type": "Forguncy.SaveLoad.InvokeTriggerTestDataSaveData, ServerDesignerCommon",
+          "UserName": "Administrator"
+        }
+      }
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "盘点单单号",
+        "TableValue": {
+          "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+          "TableName": "盘点表",
+          "OnlyGetValue": true,
+          "TableValueType": 0,
+          "BindingInfos": {
+            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon]], System.Private.CoreLib",
+            "$values": [
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "aa89604a-06eb-43f1-87c1-3ba2b0d749b3",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "盘点表",
+                  "ColumnName": "单号",
+                  "GUID": "1f7448ed-6ab5-4fd8-b8ce-66a3222aa7ea"
+                },
+                "ColumnName": "单号"
+              }
+            ]
+          },
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+              "TableName": "盘点表",
+              "ColumnName": "ID",
+              "GUID": "c83f0a25-df18-4f02-b1e5-bb681fc210c6"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=盘点单ID"
+            }
+          }
+        },
+        "ID": "d09a2e3c760a4feabf2f6e8c06f52eb0"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "盘盈入库物品数组",
+        "TableValue": {
+          "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+          "TableName": "盘点详情表",
+          "BindingInfos": {
+            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon]], System.Private.CoreLib",
+            "$values": [
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "1eec8776-2147-4b9c-ae91-d5366be50df8",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "盘点详情表",
+                  "ColumnName": "ID",
+                  "GUID": "47bba699-3595-479c-8813-42c0aa5d3104"
+                },
+                "ColumnName": "ID"
+              },
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "209a110b-6829-4762-8446-3f40bcf2732f",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "盘点详情表",
+                  "ColumnName": "物品ID",
+                  "GUID": "d69920eb-7bce-41f3-b163-8dc288079875"
+                },
+                "ColumnName": "物品ID"
+              },
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "eb663f35-d7d6-48d9-8432-59a8c793531c",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "盘点详情表",
+                  "ColumnName": "变更数",
+                  "GUID": "81a791cd-b10b-4f62-93ac-d8ba25946f90"
+                },
+                "ColumnName": "数量"
+              },
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "d0c6eafb-9607-48a8-9fd3-2912afa06f81",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "盘点详情表",
+                  "ColumnName": "物品ID",
+                  "GUID": "6b274064-5fa1-4879-b82c-4304327c08c7",
+                  "RelationBinding": {
+                    "$type": "ForguncyDataAccess.RelationBinding, ForguncyDataAccess",
+                    "RelatedTable": "物品表",
+                    "RelatedColumn": "ID",
+                    "DisplayColumn": "销售价"
+                  }
+                },
+                "ColumnName": "单价"
+              },
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "792d2ba8-742f-4905-98a5-9ab3f8db79ab",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "盘点详情表",
+                  "ColumnName": "备注",
+                  "GUID": "4015cebe-c611-455c-b5f6-5e935fbc1547"
+                },
+                "ColumnName": "备注"
+              }
+            ]
+          },
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+            "SubConditions": {
+              "$type": "System.Collections.Generic.List`1[[ForguncyDataAccess.ISqlCondition, ForguncyDataAccess]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                    "TableName": "盘点详情表",
+                    "ColumnName": "盘点ID",
+                    "GUID": "a02f10dd-5142-4352-9f30-ef67c30ec8c4"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=盘点单ID"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                    "TableName": "盘点详情表",
+                    "ColumnName": "盘亏盘盈",
+                    "GUID": "deb431d1-f683-401d-8959-511ef16f1591"
+                  },
+                  "Value": "盘盈"
+                }
+              ]
+            }
+          }
+        },
+        "ID": "d1fd1438b0094427a1141ec1956ce7fc"
+      },
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=盘盈入库物品数组.Count"
+                  }
+                },
+                "value": "0",
+                "compareType": 2
+              },
+              "CommandList": {
+                "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                    "ParameterName": "盘盈总金额",
+                    "ParameterValue": "0",
+                    "ID": "96f2cd00244c43a185560cb361902d83"
+                  },
+                  {
+                    "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+                    "LoopInfo": {
+                      "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                      "LoopCount": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=盘盈入库物品数组"
+                      },
+                      "LoopItemParamName": "Item"
+                    },
+                    "CommandList": {
+                      "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                          "ParameterName": "盘盈总金额",
+                          "ParameterValue": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=盘盈总金额+Item.数量*Item.单价"
+                          },
+                          "ID": "9821e2248c634878a6cc2eb7beb345f8"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                    "ServerCommandName": "新建出入库单_私有",
+                    "Parameters": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.Model.RequestServerCommandParamBase, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "出入库",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=6"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "日期",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=TODAY()"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "类型",
+                          "Value": "8"
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "客户ID"
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "其他出入库对象",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=盘点单单号"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "联系人"
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "联系电话"
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "总金额",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=盘盈总金额"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "项目ID"
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "备注",
+                          "Value": "由盘点单自动生成的入库单"
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "详情表",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=盘盈入库物品数组"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "是否提交审核",
+                          "Value": "是"
+                        }
+                      ]
+                    },
+                    "ReturnPropertiesTo": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ReturnPropertyTo, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.ReturnPropertyTo, ServerDesignerCommon",
+                          "ResultPropertyName": "出入库单ID"
+                        }
+                      ]
+                    },
+                    "RefreshAfterFinish": true,
+                    "CheckDataValidation": true,
+                    "Comments": "盘盈入库"
+                  }
+                ]
+              },
+              "ID": "4d526feb-61cb-4c33-9399-a1daf20283f5"
+            }
+          ]
+        }
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "盘亏出库物品数组",
+        "TableValue": {
+          "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+          "TableName": "盘点详情表",
+          "BindingInfos": {
+            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon]], System.Private.CoreLib",
+            "$values": [
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "597abb68-1918-4256-83e5-90d7278f8c44",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "盘点详情表",
+                  "ColumnName": "ID",
+                  "GUID": "722794a5-80fd-433e-94a3-8425112ca060"
+                },
+                "ColumnName": "ID"
+              },
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "3d6e500b-a967-41da-affa-dd077e52493d",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "盘点详情表",
+                  "ColumnName": "物品ID",
+                  "GUID": "3bda3077-18b1-42e0-a6a4-75bcce87e960"
+                },
+                "ColumnName": "物品ID"
+              },
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "fcd8dc5e-aa1f-4a4c-bedd-b3bb51477bca",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "盘点详情表",
+                  "ColumnName": "变更数",
+                  "GUID": "ba0f486b-2c33-41c4-b9d3-a3cfd2c2e5e8"
+                },
+                "ColumnName": "数量"
+              },
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "3dff39a7-0215-4a7b-a5dc-db9b1789441e",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "盘点详情表",
+                  "ColumnName": "物品ID",
+                  "GUID": "90257510-0c50-4123-8d21-b4cea0c2cb9f",
+                  "RelationBinding": {
+                    "$type": "ForguncyDataAccess.RelationBinding, ForguncyDataAccess",
+                    "RelatedTable": "物品表",
+                    "RelatedColumn": "ID",
+                    "DisplayColumn": "销售价"
+                  }
+                },
+                "ColumnName": "单价"
+              },
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "6997f61d-843c-4194-8d73-d40fc4c4842d",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "盘点详情表",
+                  "ColumnName": "备注",
+                  "GUID": "51eec89a-977f-4be5-b397-d3d97b3049c0"
+                },
+                "ColumnName": "备注"
+              }
+            ]
+          },
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+            "SubConditions": {
+              "$type": "System.Collections.Generic.List`1[[ForguncyDataAccess.ISqlCondition, ForguncyDataAccess]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                    "TableName": "盘点详情表",
+                    "ColumnName": "盘点ID",
+                    "GUID": "4bea3c0f-e479-4ba2-9124-e5430112152f"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=盘点单ID"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                    "TableName": "盘点详情表",
+                    "ColumnName": "盘亏盘盈",
+                    "GUID": "3599b72d-9030-4ecf-bcd9-0be100dfe9fb"
+                  },
+                  "Value": "盘亏"
+                }
+              ]
+            }
+          }
+        },
+        "ID": "79c517bef95d487491d3d0bfa6aef13f"
+      },
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=盘亏出库物品数组.Count"
+                  }
+                },
+                "value": "0",
+                "compareType": 2
+              },
+              "CommandList": {
+                "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                    "ParameterName": "盘亏总金额",
+                    "ParameterValue": "0",
+                    "ID": "d49c153d32484e01979fe1d6653492c5"
+                  },
+                  {
+                    "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+                    "LoopInfo": {
+                      "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                      "LoopCount": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=盘亏出库物品数组"
+                      },
+                      "LoopItemParamName": "Item"
+                    },
+                    "CommandList": {
+                      "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                          "ParameterName": "盘亏总金额",
+                          "ParameterValue": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=盘亏总金额+Item.数量*Item.单价"
+                          },
+                          "ID": "44fafc0b2aa247a98f335eb013c2a2a0"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                    "ServerCommandName": "新建出入库单_私有",
+                    "Parameters": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.Model.RequestServerCommandParamBase, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "出入库",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=5"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "日期",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=TODAY()"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "类型",
+                          "Value": "7"
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "客户ID"
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "其他出入库对象",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=盘点单单号"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "联系人"
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "联系电话"
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "总金额",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=盘亏总金额"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "项目ID"
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "备注",
+                          "Value": "由盘点单自动生成的出库单"
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "详情表",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=盘亏出库物品数组"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "是否提交审核",
+                          "Value": "是"
+                        }
+                      ]
+                    },
+                    "ReturnPropertiesTo": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ReturnPropertyTo, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.ReturnPropertyTo, ServerDesignerCommon",
+                          "ResultPropertyName": "出入库单ID"
+                        }
+                      ]
+                    },
+                    "RefreshAfterFinish": true,
+                    "CheckDataValidation": true,
+                    "Comments": "盘亏出库"
+                  }
+                ]
+              },
+              "ID": "1b64b5cc-f66c-4442-a581-d2ebad5482c4"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

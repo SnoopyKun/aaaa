@@ -1,0 +1,112 @@
+{
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
+  "Name": "删除出入库单",
+  "Enabled": true,
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+        "Permission": {
+          "$type": "Forguncy.SaveLoad.ServerCommandPermissionSaveData, ServerDesignerCommon",
+          "PermissionData": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+            "permissionResource": {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+            },
+            "permissionBindings": {
+              "$type": "System.Collections.Generic.List`1[[Forguncy.RbacPermission.Core.Impl.ServerCommand.IServerCommandPermissionBinding, Forguncy.RbacPermission.Core]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": [
+                      "库存管理员",
+                      "仓库主管",
+                      "采购主管",
+                      "销售主管",
+                      "采购员",
+                      "销售员",
+                      "Administrator",
+                      "FGC_LoginUser"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Parameters": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "出入库单ID",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+        "CommandList": {
+          "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "出入库详情表",
+              "UpdateType": "delete",
+              "ShowConfirm": true,
+              "ConfirmText": "您确定要删除吗？",
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "出入库详情表",
+                  "ColumnName": "出入库ID",
+                  "GUID": "8ce74966-f32a-498f-9698-28bdb54a756c"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=出入库单ID"
+                }
+              },
+              "Comments": ""
+            },
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "出入库表",
+              "UpdateType": "delete",
+              "ShowConfirm": true,
+              "ConfirmText": "您确定要删除吗？",
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "出入库表",
+                  "ColumnName": "ID",
+                  "GUID": "328789b5-5947-43b2-8602-a5a1dfbdd3fc"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=出入库单ID"
+                }
+              },
+              "Comments": ""
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

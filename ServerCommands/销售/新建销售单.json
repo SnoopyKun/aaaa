@@ -1,0 +1,488 @@
+{
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
+  "Name": "新建销售单",
+  "Enabled": true,
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+        "Permission": {
+          "$type": "Forguncy.SaveLoad.ServerCommandPermissionSaveData, ServerDesignerCommon",
+          "PermissionData": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+            "permissionResource": {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+            },
+            "permissionBindings": {
+              "$type": "System.Collections.Generic.List`1[[Forguncy.RbacPermission.Core.Impl.ServerCommand.IServerCommandPermissionBinding, Forguncy.RbacPermission.Core]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": [
+                      "销售员",
+                      "销售主管",
+                      "Administrator",
+                      "FGC_LoginUser"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Parameters": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "销售日期",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "客户ID",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "联系人",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "联系电话",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "交货日期",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "项目ID",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "销售员",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "销售部门",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "总金额",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "备注",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Type": 1,
+              "ArrayParamItems": {
+                "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.ParameterItemSaveData, ServerDesignerCommon]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.SaveLoad.ParameterItemSaveData, ServerDesignerCommon",
+                    "Name": "物品ID",
+                    "DataValidationInfo": {
+                      "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.SaveLoad.ParameterItemSaveData, ServerDesignerCommon",
+                    "Name": "数量",
+                    "DataValidationInfo": {
+                      "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.SaveLoad.ParameterItemSaveData, ServerDesignerCommon",
+                    "Name": "单价",
+                    "DataValidationInfo": {
+                      "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.SaveLoad.ParameterItemSaveData, ServerDesignerCommon",
+                    "Name": "备注",
+                    "DataValidationInfo": {
+                      "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+                    }
+                  }
+                ]
+              },
+              "Name": "销售详情",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "是否提交申请",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+        "CommandList": {
+          "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "销售订单表",
+              "UpdateType": "add",
+              "ShowConfirm": false,
+              "UpdateBindingValues": {
+                "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                    "BindingInfo": {
+                      "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                      "TableName": "销售订单表",
+                      "ColumnName": "销售日期",
+                      "GUID": "1a9b1d02-8eb2-4301-b3bb-fbcb7fa7c05b"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=销售日期"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                    "BindingInfo": {
+                      "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                      "TableName": "销售订单表",
+                      "ColumnName": "客户ID",
+                      "GUID": "11139b56-8166-4ca2-8639-decdb3c425e5"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=客户ID"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                    "BindingInfo": {
+                      "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                      "TableName": "销售订单表",
+                      "ColumnName": "联系人",
+                      "GUID": "218744c3-3b39-41c9-9d24-a52cca16ed34"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=联系人"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                    "BindingInfo": {
+                      "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                      "TableName": "销售订单表",
+                      "ColumnName": "联系电话",
+                      "GUID": "b43af7df-2bb1-4316-9f92-02c4de556892"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=联系电话"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                    "BindingInfo": {
+                      "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                      "TableName": "销售订单表",
+                      "ColumnName": "交货日期",
+                      "GUID": "f2cdadbd-78bd-43e5-aabd-cad88e9c6c0d"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=交货日期"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                    "BindingInfo": {
+                      "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                      "TableName": "销售订单表",
+                      "ColumnName": "项目ID",
+                      "GUID": "5a4ae118-4d6e-4c7c-9b2a-432b10c69cf7"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=项目ID"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                    "BindingInfo": {
+                      "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                      "TableName": "销售订单表",
+                      "ColumnName": "销售员",
+                      "GUID": "5f8821bb-a0fb-455f-a8f4-faf4dcd99e50"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=销售员"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                    "BindingInfo": {
+                      "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                      "TableName": "销售订单表",
+                      "ColumnName": "销售部门",
+                      "GUID": "e9d8bd18-01a5-4220-a9a4-dea83290a3ba"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=销售部门"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                    "BindingInfo": {
+                      "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                      "TableName": "销售订单表",
+                      "ColumnName": "备注",
+                      "GUID": "40a670a3-79cb-48ff-a6a9-ec83d04cb538"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=备注"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                    "BindingInfo": {
+                      "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                      "TableName": "销售订单表",
+                      "ColumnName": "出库状态",
+                      "GUID": "e1cd385a-e29c-45ea-b9f1-7320944b3632"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=8"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                    "BindingInfo": {
+                      "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                      "TableName": "销售订单表",
+                      "ColumnName": "总金额",
+                      "GUID": "cfee1267-1499-4a5d-b6f9-3222fa6c2fc4"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=总金额"
+                    }
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                    "BindingInfo": {
+                      "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                      "TableName": "销售订单表",
+                      "ColumnName": "审核状态",
+                      "GUID": "db8a89a2-bdb5-41b1-861a-31d8ee3c9f73"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=1"
+                    }
+                  }
+                ]
+              },
+              "ParamNameToSaveNewRowValue": "销售单"
+            },
+            {
+              "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+              "LoopInfo": {
+                "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                "LoopCount": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=销售详情"
+                },
+                "LoopItemParamName": "Item"
+              },
+              "CommandList": {
+                "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "销售订单详情表",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "UpdateBindingValues": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "销售订单详情表",
+                            "ColumnName": "销售订单ID",
+                            "GUID": "c3b79e15-4f65-4e64-a25f-b3d26c61f94e"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=销售单.ID"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "销售订单详情表",
+                            "ColumnName": "物品ID",
+                            "GUID": "932905f7-1149-45c9-a26d-30f950a9c45a"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.物品ID"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "销售订单详情表",
+                            "ColumnName": "销售数量",
+                            "GUID": "35b34520-0752-4e88-a30d-49ad9b1ab65a"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.数量"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "销售订单详情表",
+                            "ColumnName": "单价",
+                            "GUID": "d3e0db58-d4cd-48c4-bdec-ccc4d347c291"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.单价"
+                          }
+                        },
+                        {
+                          "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                          "BindingInfo": {
+                            "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                            "TableName": "销售订单详情表",
+                            "ColumnName": "备注",
+                            "GUID": "63bd8635-1563-4052-9c8f-21d6e37f027c"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=Item.备注"
+                          }
+                        }
+                      ]
+                    },
+                    "ParamNameToSaveNewRowValue": "NewRow"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=是否提交申请"
+                  }
+                },
+                "value": "是"
+              },
+              "CommandList": {
+                "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                    "ServerCommandName": "提交审核申请",
+                    "Parameters": {
+                      "$type": "System.Collections.Generic.List`1[[Forguncy.Model.RequestServerCommandParamBase, ServerDesignerCommon]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "审核类型",
+                          "Value": "销售"
+                        },
+                        {
+                          "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                          "ParamName": "业务单ID",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=销售单.ID"
+                          }
+                        }
+                      ]
+                    },
+                    "RefreshAfterFinish": true,
+                    "CheckDataValidation": true
+                  }
+                ]
+              },
+              "ID": "b31b797e-bda2-4088-8392-f1fe465b2772"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -13,6 +13,16 @@
           }
         }
       },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
       "30": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0,
@@ -87,7 +97,11 @@
         "Foreground": 2,
         "Formatter": 3,
         "HorizontalAlignment": 4,
-        "VerticalAlignment": 5
+        "VerticalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
@@ -95,13 +109,21 @@
         "Foreground": 6,
         "Formatter": 3,
         "VerticalAlignment": 7,
-        "WordWrap": true
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 16.0,
         "Foreground": null,
-        "Formatter": 3
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -125,7 +147,11 @@
     "SheetStyle": {
       "FontFamily": 0,
       "FontSize": 13.333333015441895,
-      "Foreground": 8
+      "Foreground": 8,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
@@ -136,6 +162,20 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "重置密码邮件发送成功",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -147,10 +187,27 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "cd1e2a47-c776-4505-bf77-dea6447289f9.png",
+      "Name": "f92c33f5-8de5-42d2-a9b5-cb97aacf913f",
+      "DisplayName": "背景图2",
+      "ForguncyPictureName": "MobileLoginBackground",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 3,
+      "StyleInfo": {
+        "Fill": "Background 1 0",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Size": "380,628"
+    },
+    {
+      "Name": "065be435-1fe0-4f72-ae10-7d67638054c8",
+      "DisplayName": "背景图1",
       "StyleInfo": {
         "CornerRadius": 20.0,
-        "Fill": "#FFF6F6F8",
+        "Fill": "Background 1 0",
         "StrokeDashType": 8,
         "Stroke": "black",
         "StrokeThickness": 0.0
@@ -158,7 +215,7 @@
       "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
       "Location": "20,120",
-      "Size": "340,360"
+      "Size": "340,368"
     }
   ]
-}//9ieAG//ZpD5f/WXlBuVvjT6k/gLRMXWQHpAZx55ju8TFVn+fG/xlMrkVeW4dM0b33sOp2G4EEUy1VqGfF9mh2HYH2VTahHGbPvwkg/2Hnc9ba/9RSTwh2emyqQ8ZPaz3orPqlN7F6kuqOt+bhNDJADoh3vx9Lkuf/Rueq6g6rFamL5y1mg30nfm2h0lyGQWd1iKXaU8fA0RDuj07kkDOO84kgJD9sAP5G1+Tmbj0rzZnPZDCdKg4p/54GO5pwB25ednQ/XBKcq3CtYSy8kZygwPbLlWzBk/gacA7wpmY8xewjZatK1FGzDlQgJAaZXIqk8gpDF/oZFGFRLprM6URIt+ROWvJn8GhDpjiDJ+D2QR8Vfk85cv87E1cXIrKRHPDeOfWqkIXyS8hyoZRv6uei2hsbnM+aEX2QQFCWX/nw79eSwAv18yNdJTjHjc/lz5dOjObWHvaTYXjw/Ce6NMqFK2iBCvaD3He8Lmlk3y8H8dMWzMky2Tid7H3PWAty8fFynuvgpGQ9ZNM24pW5Bgv+x55AhLaw/wmExWMnyYmOarGOBSYIXjCIhV6In+detGj7UldsYQ2ShlY7met1saQ8KxmpihTRTNz/BMpNK9/sw3Z3lw0w7CS8phvYbXRaXSWG/100nR4Eoa7bcSTkhmrjnrMFdyQsU9oNQRZuGuPTuh+sEtM5hI0/UXMvwpAgFHtw+J5Qvz6cKlxNnAPX2jsmTkw+pmKHcMTFsXPBbOkNtKRR34DRusuuTkwWpGYRiyiOQCHkZy6qX5aGI5O9+B6F2RRA/7kBSvaNNk1UOZyVQ5t2ZSMKXTzTSfWk+pncalSkvoOu/g7VWTqQT07uC9cI0TBnpieK0XIrSeSa7dNK8IqQiAHQxUHINXKhuJhb5kVzwwIhMsZdAppHSiquH3xeQ==|920
+}//Yeh5c6pbve9Y5FsrjOtf0tsadCcJPaXcytvVF7rC9u+w16EU5EZCuPleG6EYkWypws4yIpN7IhLoMIotCqy71si9h4jEg67gt5JO12iffLOF24KrLyQExp8x5DbLy4cl/keyM+Iw134v18sLl0JHE9BM01bk/i7cSqj9/sY+G5FIlnQYOQLfZh0f/2SAOLbJPvQVuaw9abAjUqqgL6lh0kkl0xQa3ENA8Q8SjKmcUwXnLnwRk39Yl8ts2lyZVu6ZMlgUAXwnOD1+TZn911evqShFjGJ0Yct+kToPGB/jFoGn8vLuRRBsdupc3y2Pw4iN+CdYzfUyeiKrnoapn7o5+m/ZUzy0SqkbBcSgwODVEuPHY8x7B7pr3IBri6iWuSHCpSkFCWB9X3aGkyuqe+WCd1W0xLoy3PHqYSluMoePt0SXSV0OepW7I3uwIv1/E17g/6+206+0K+eFBxVF+s8yeI7/NrPeHCuu/MGLYqMYCaAc0e8FzeFwdBMz4w8XdLqqq2ECfAYNpJjYZ6z7cNjSVX1uTZt9RpOkjf33CuSb+klqRIvK/JjDMqJqH3BQEEU/4XtGHQaWpFY+1qKcX+O/AZTu0xTtEHtVJ6K1TUHZQa59V1aZnBeRnpfPDGlcFXnlmw+h9gNGZGmt9YYJ0QOAL+Pv8NTw4BxLmsjUpsVE0A9AToOzWKbqgpvMvrFarcbP/xcrMRMRhBr+yZlHyhsWKrvjktD32tzN3gKgJNenozAbTXPiuX07gVYx71QROyUQtzTHXqC0OHPjMzAB/sShdIemGayEMOVgK2fwjXm3cFeZ2+KHHAN0FzuZajn5wK0Uw+f9JtP4s+XVqWe/g3aZ00J+pSIxYy24QsrHnhy1/0OBdsBFp/Sk1zBKS6istlvSGrNE5VzkWlKQq1ozpg6WXA==|920

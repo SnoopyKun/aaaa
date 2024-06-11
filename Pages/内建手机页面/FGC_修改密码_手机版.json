@@ -13,6 +13,21 @@
           }
         }
       },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
       "30": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0,
@@ -155,39 +170,63 @@
         "Foreground": 2,
         "Formatter": 3,
         "HorizontalAlignment": 4,
-        "VerticalAlignment": 5
+        "VerticalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "Foreground": 6,
         "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 14.666666984558105,
         "Foreground": 7,
-        "Formatter": 3
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 14.666666666666666,
         "Foreground": 8,
-        "Formatter": 9
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 16.0,
-        "Foreground": null,
-        "Formatter": 3
+        "Formatter": 9,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 16.0,
         "Foreground": null,
         "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": null,
+        "Formatter": 3,
         "HorizontalAlignment": 10,
-        "Underline": false
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -223,20 +262,38 @@
     "SheetStyle": {
       "FontFamily": 0,
       "FontSize": 13.333333015441895,
-      "Foreground": 11
+      "Foreground": 11,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
     "5,3,2,14",
-    "22,3,2,14",
-    "25,3,1,14",
-    "18,3,2,14",
+    "10,3,2,14",
     "14,3,2,14",
-    "10,3,2,14"
+    "18,3,2,14",
+    "22,3,2,14",
+    "25,3,1,14"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "修改密码",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -248,10 +305,19 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "469b2a00-3c73-4c59-bcf4-8ed45845ba8b.png",
+      "Name": "a40dd638-6bf2-4501-81aa-68b0d78c2029",
+      "DisplayName": "背景图2",
+      "ForguncyPictureName": "MobileLoginBackground",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 3,
+      "Size": "380,640"
+    },
+    {
+      "Name": "829f12ce-fae0-4c2c-8390-dd1a8371447f",
+      "DisplayName": "背景图1",
       "StyleInfo": {
         "CornerRadius": 20.0,
-        "Fill": "#FFF6F6F8",
+        "Fill": "Background 1 0",
         "StrokeDashType": 8,
         "Stroke": "black",
         "StrokeThickness": 0.0
@@ -259,7 +325,7 @@
       "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
       "Location": "20,60",
-      "Size": "340,500"
+      "Size": "340,520"
     }
   ]
-}//jFGA+gDGOXybfj2ZJ9z1UeE3Y56kHDpsmQWEbAZCHoflixKoW7SZBWyS+HRr7rMnaVX1Oa0lL1yavbCZQFMhEQBLTEtlL27VJu3TEh1DXvNZ/A+VX7AyuAzpnoc/nRijieD06B1ABvvDJpjBioCj/Vp/NrMa6JSb52sxngglLTnxOnF4VtOqp+9q9428LUNWTOLr5m5jtRtBdAB4H+86C1yG1WcFfT3icTgRb/8ajCeCP3sSByrtrgkfkBiRjUaCI4bI9MzfgIs6CaVL54BN2wNoSWdgeEEgpaLZOsBy1urdB7WhR1r3twuvbGBBCQV9NH4ZNkkx+hB7nchKROnLUpI5xLuy+WBpmy/4QxYo6W1kvYFh16qvEYS+Y+P+djfNFPmPSqUmLheiD5tAshRZuBa7CUxIulPHDMsGpn2CeEqGhINVxoPcDsbZTsqRvFQXT09H4015uSqw0/BUbPVF/nM1w+0kU/dyfOFguiWyXV2POKszdGo6tPsJeNexbdbFBmQKLSd0eCCvyUVeB/P+I8nodzJOdjk7ySJnSd9j5mDrGAbn4ycucT/cKSy90UoVTOvfVizkX7bWfvYuvB+VhBfzweiVaFy6uHLxfAOWfXDOSdId9s/rkQFdjPtggTNFTN/+kg0qvYFwLHcXRriZaNT1Pp5MXzGbKu+HJBSFE6Tu5xixECD7Qv47F5zaSiltrtobAKOPMs61/6nyXLt4/fDJFIzuZz+zGHEmXpDLO5Ak0epBVloOsjcAjXqBf6NAt3hk43gtZIBy0TjPFsqSOIi28spFt/+U82sCCIw8eXc6mSEuOTPEEgA6Wz673JfyZd/kmawx4D481YzS0pX/pjfHmOMKJw5o7W5R2esQLYWyPKObABWhmgxTGlCwRI9EG6xNHMH9RWPk6yUaU47JiQ==|920
+}//HBf+gcDrbiVhHMHzAG/Qk5N4K+C2p8LGMRjjui58WR0iGe+5CoHO5TPCj2wyuxl0DihbWWMepOL0PBLNCP1m132m8KCtlL5Sp1ca6wMjVZI+puIX5GMkocNNO1wAgp4mJo9RP2MZQ8UU9Eh3SO8A3yGlPv8yPlfkoZIc3POcFji85bgs7/Gp62AMF4uZc3VBLEfnGpvk7fQ4oxJq1SUq11The10hOyJk+Mg7eA0to11BauQXC+1S2sZZEKLtVf5L54S8gqKkai+pwjBkFjn0l6X3zVgbTRUCzmOdSg/1NBzp5ZFEVoA9GKq4C0ZFA+q90SlDtSo3GMbMEYlaHp+eOISEtx120/0grOSBFjDecW4twrj4qtXcWADotuEPnZLqspVPT9ileBe71VRRhJ/gcl19LL5aM+d+Tq7pnCZfC96xKpNuOKWbDwwa/jBjiR8ZNiu0ttddlSqsZEIFu5I5Bo5ApNm4lPUQ7+VUZspJC2489jxgvn0VIWxsI2cgo2r6lHo6m3eccg/Z4qI+hkb4U6IQFiwn1AN07lFT0Zzznq8Uyae6etEAzKp9bgHS/oIh3onK21gyOyOfFz2QdoH5qsEeWyBSrwu7stQGiFtVsQCVH7QPdXP7rOBAJbWTVmz3s4xI1rwB/vEvtzvFDV+6uBdNMfbIa4vzfJ58YKlIIuJ0DsHIbNsIyskghrpudIgla7froXtuQ1dOE6o+7eKU1X4NOm4q15tzs2OFG2RrB5GbuaDUR696Z+BVdyirmjmJYJFCugEgpIbCKRKBA1M7lhZAKM7P8S7yIfav2v9TeS0hMCYuI+jEYCqYKrduYDHCPgZdbXXhbZsGJ8W5hkQ+BjoMvqjMK10fbbVQuF77loaf9rXneD3VydG1f46GM9NWgj7C/wEtZB8vogeI2zALVg==|920

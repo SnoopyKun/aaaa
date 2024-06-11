@@ -102,65 +102,114 @@
         "FontWeight": 1,
         "Foreground": 2,
         "Formatter": 3,
-        "HorizontalAlignment": 4
+        "HorizontalAlignment": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
-        "Foreground": 5,
+        "Foreground": 2,
         "Formatter": 3,
-        "HorizontalAlignment": 6,
-        "VerticalAlignment": 7,
-        "WordWrap": true
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 6,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 16.0,
         "FontWeight": 1,
         "Foreground": 2,
-        "Formatter": 3
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333333333332,
-        "Foreground": 5,
-        "HorizontalAlignment": 6,
-        "VerticalAlignment": 7,
+        "Foreground": 7,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 6,
         "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
-        "Foreground": null,
+        "Foreground": 8,
         "Formatter": 3,
-        "Underline": false
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 2,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 6,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
-        "Foreground": 5,
+        "Foreground": 2,
         "Formatter": 3,
-        "VerticalAlignment": 7,
-        "WordWrap": true
+        "VerticalAlignment": 6,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Foreground": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
-        "Foreground": 5,
-        "Formatter": 3
+        "Foreground": 2,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
       "Strs": [
         "Body",
         "Bold",
-        "Text 1 25",
+        "Background 1 0",
         "[AUTO]General",
         "Center",
-        "Text 1 50",
         "Left",
         "Top",
+        "Text 1 50",
+        "#FFFFC000",
         "#FF000000"
       ]
     },
@@ -170,15 +219,47 @@
       "20,2": 2,
       "22,2": 3,
       "22,3": 4,
-      "24,2": 3,
-      "24,3": 5,
-      "27,2": 3,
-      "27,3": 6
+      "24,2": 5,
+      "24,3": 6,
+      "26,2": 7,
+      "26,3": 7,
+      "26,4": 7,
+      "26,5": 7,
+      "26,6": 7,
+      "26,7": 7,
+      "26,8": 7,
+      "26,9": 7,
+      "26,10": 7,
+      "26,11": 7,
+      "26,12": 7,
+      "26,13": 7,
+      "26,14": 7,
+      "26,15": 7,
+      "26,16": 7,
+      "27,2": 5,
+      "27,3": 8,
+      "27,4": 7,
+      "27,5": 7,
+      "27,6": 7,
+      "27,7": 7,
+      "27,8": 7,
+      "27,9": 7,
+      "27,10": 7,
+      "27,11": 7,
+      "27,12": 7,
+      "27,13": 7,
+      "27,14": 7,
+      "27,15": 7,
+      "27,16": 7
     },
     "SheetStyle": {
       "FontFamily": 0,
       "FontSize": 13.333333015441895,
-      "Foreground": 8
+      "Foreground": 9,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
@@ -187,13 +268,27 @@
     "16,2,3,15",
     "20,2,2,15",
     "22,2,2,1",
+    "22,3,1,14",
     "24,2,2,1",
-    "24,3,2,14",
-    "22,3,1,14"
+    "24,3,2,14"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "401页面",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -202,5 +297,15 @@
   "PrintInfo": {
     "PaperSize": {},
     "Margin": {}
-  }
-}//W7nr4ITi5JT9RVOIzJmSYmL8Z6c/pczcYhHG5w+49+W993Vm3JsaD2/pqYu1WlfXTk5o75ixwqx02l1MxhX853uqYyx8ERXX+Oqk/LDpiRSOAwR3qAS2O51Tu/Enyvdzsk30tloVU260zsApnyyNW1jPF65PzKEF1LjB3aNYayvc3GOATbFmkh0/JKZv6JzRKvu1Nj6OIKUOuo/U9pcdWNs6zqHAsB60/wopKb3x4auNj34ggXFg5VZdtlr2bPb+/0fMaPuieXBFSdhc7MLGJ86luAZq0Sjro5hwGbOvVhfLQ/Og6JZzjSX6xZZ/JNHvt5DOaqWZY6F6R7Cj+0y2HB60rN3EQAU0EESAJ4wyyL63hGagNaRolKy68ToNCzwQL+F5PbfkPU+G29150KCXLJ1YHHDEBxaK6CpwpOETrC6HKTX9m/szkf5KimDgNtJSWbEiIuPSQXxmMlXeWoruJGWSyUqmpqnJhknIuVZOO2DUXOUNAWd7wWK7qOjn4vjwp+MWSr35Z5ZA9d/5K90/NnL0Ve40p62b88wz84keUkFAboVWfWwMPrGnGF8v41FQg2ES5FDdPTfKXm8g7W1EyozLD/vvpZ+gGfgP6lO/S5h1o/6Q3obEJCDKWCWx9xzIeAXjY0EoUSpfcQtVXO86VwZFsyF1rJvc9evhWXfl9yqWJFPFtpJIvlmd77i+en9sUq9ZtrRTZGaskp+dAdE7C8zYOiG/T84gF+RBx90ZnW2Ci/2aW2r69woLeupPkV6wzuuk/EivleLeIAygvCaDja0Nahn6SIcb3dvlDFeePk1fSMNoTLAuhUE39IwL+J8Z7CyFLyDKZt3dDlhts18Pn3ArWvP2lXSz9dU6qJ/OiTduMCOKBxVI4xEVFC6zLSFYmPfN+XzuvgilXhN6MzDp4g==|920
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "bad4d052-cdc9-4a5c-9876-d8ebb777de35",
+      "DisplayName": "背景图1",
+      "ForguncyPictureName": "MobileLoginBackground",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 3,
+      "Size": "380,620"
+    }
+  ]
+}//Dyt2lCQKBP1efNNzcZDyYDCtw3tEH3XTJB4q7CCs2KroCyPX89fAmJ1Utqz/9UOYa0BydrUNjHrDXf9xot2t1EHKuIlfB+f7rCTN61Clk1wtM1XNSmBSHWpfMdu/eVG60aZGrYducCPyx5erVi5vRWCLexBInHOxtKMxTJ3Pxm1mua40WT041KKlgc+ixjNeYjk6JaI5o8f2pOGg7u5olRyMxMZ9BqpVcHo8ad8uK5wxZi4egapopG0qVy3KP9aOR2Z6ayu4QhL+HcO2vUsDUH0yFaKJIw6Bkf+1DIvpqjwcahdD6VbgDkkoYZtDg7cW7SgMqv7wQbgKhg7o/BJBA/E0+PcLBxfb+CuVtfxxMwpzLMCGikjmecGLKz+LlGJBZzraAQ28VUyifrUH7BZ7SQwtbgDMN7KJ7rFKAf60RXpTqYrtYATnyooq/ZE1SMl3JoMijk6Mtrd+a5lXzLw43TwuiB+g7X7ltoLxd57pQRrOrtsmavNPOq/NJwscYyShWgkxEwreqNERagK+y15vchzuOavdNL7MFB6QVQyyBfa6yjDEftigRWYr7Fbo7w/jARZgbIWMRWWEpAB7ntXww30TQG5VDx7u9a1lzu0uOuAvoQQCwFQxBUQAWD/Tw9u7cRdoB9UdmXU5fjbKX/OFs0+g+qCVNM6DiV0oB1XF1dnZhzsfIXqwogeIMifHgVXjeRHzmkCQ74JI0sMNWkSPCmOgDUOTbzqLUVkdSYuam6OLEZuYlrmuh9w7gadsiWDa8qlFtL0pwD4AQ/ngcJQtYlrQO2PPIolK6hnzOxzczz9pdB83oyHFauGCu9B8A95n5UigEyMw5JwlXLdzvJ7tMf0h/0Kzz311krSIirz3KYb5waweaeVMGaE6dmHtaOXiaTqZZu+PqSg3UDb97S9dmA==|920
