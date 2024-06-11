@@ -1,0 +1,169 @@
+{
+  "Name": "销售信息",
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
+      "Unique": true,
+      "AutoIncrement": true,
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "销售编号",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Double",
+      "MaxLength": -1,
+      "Name": "销售日期",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "店铺编号",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "员工编号",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "会员编号",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Double",
+      "MaxLength": -1,
+      "Name": "折扣",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "产品编号",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "购买数量",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Double",
+      "MaxLength": -1,
+      "Name": "单价",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Double",
+      "MaxLength": -1,
+      "Name": "成交价",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.FormulaColumnSaveData, ServerDesignerCommon",
+      "Formula": "YEAR([销售日期])&\"-\"&IF(MONTH([销售日期]) < 10, \"0\" &MONTH([销售日期]),MONTH([销售日期])",
+      "Name": "销售年月",
+      "ColumnType": "System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.FormulaColumnSaveData, ServerDesignerCommon",
+      "Formula": "[单价]*[购买数量]-[成交价]",
+      "Name": "优惠金额",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.StatisticColumnSaveData, ServerDesignerCommon",
+      "AggregateFunction": 4,
+      "DataColumnName": "成交价",
+      "Name": "销售总计",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.StatisticColumnSaveData, ServerDesignerCommon",
+      "AggregateFunction": 4,
+      "DataColumnName": "购买数量",
+      "Name": "销量合计",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.UserExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_Creator"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.DateExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_CreateDate"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.UserExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_LastModifier"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.DateExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_LastModifyDate"
+    }
+  ],
+  "PrimaryKey": [
+    "销售编号"
+  ],
+  "Relations": [
+    {
+      "PrimaryTable": "产品信息",
+      "PrimaryColumn": "产品编号",
+      "ForeignTable": "销售信息",
+      "ForeignColumn": "产品编号",
+      "IsDetailTableRelation": true
+    },
+    {
+      "PrimaryTable": "店铺信息",
+      "PrimaryColumn": "门店编号",
+      "ForeignTable": "销售信息",
+      "ForeignColumn": "店铺编号",
+      "IsDetailTableRelation": false
+    },
+    {
+      "PrimaryTable": "员工信息",
+      "PrimaryColumn": "员工编号",
+      "ForeignTable": "销售信息",
+      "ForeignColumn": "员工编号",
+      "IsDetailTableRelation": false
+    },
+    {
+      "PrimaryTable": "会员信息",
+      "PrimaryColumn": "会员编号",
+      "ForeignTable": "销售信息",
+      "ForeignColumn": "会员编号",
+      "IsDetailTableRelation": false
+    }
+  ],
+  "Indexes": [
+    {
+      "IndexName": "销售信息_索引1",
+      "IndexColumns": [
+        {
+          "ColumnName": "产品编号",
+          "TableName": "销售信息"
+        }
+      ],
+      "TableName": "销售信息"
+    }
+  ]
+}

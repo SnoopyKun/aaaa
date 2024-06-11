@@ -1,80 +1,78 @@
 {
   "Rows": {
     "RowColumnAttachedInfos": {
-      "1": {
+      "16": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
+          "DesignLengthInPixel": 10.0
         }
       },
-      "29": {
+      "28": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
+          "DesignLengthInPixel": 15.0
         }
       }
     },
-    "Count": 31
+    "Count": 35
   },
   "Cols": {
     "RowColumnAttachedInfos": {
-      "1": {
+      "21": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
+          "DesignLengthInPixel": 10.0
         }
       },
-      "52": {
+      "22": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
         }
       }
     },
-    "Count": 54
+    "Count": 57
   },
   "Values": {
-    "5,20": "两步验证",
-    "8,20": "请使用您手机上的身份验证器APP添加账户并扫描二维码。",
-    "22,20": "下一步"
+    "12,22": "两步验证",
+    "14,21": "请使用您手机上的身份验证器APP添加账户并扫描二维码。",
+    "27,21": "下一步"
   },
   "AttachInfos": {
-    "11,22": {
+    "5,21": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_light.png"
+      }
+    },
+    "17,24": {
       "CellType": {
         "$type": "Forguncy.BarcodeCellType, ServerDesignerCommon",
         "CodeType": "QRCode",
         "ForguncyAttribute": "MFA_Secret_Barcode"
       }
     },
-    "22,20": {
+    "27,21": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "下一步",
-        "TemplateKey": "_RS_Main1",
+        "TemplateKey": "样式13",
         "ForguncyAttribute": "MFA_Secret_Next_Button"
       }
     }
@@ -83,73 +81,52 @@
     "Styles": [
       {
         "FontFamily": 0,
-        "FontSize": 24.0,
+        "FontSize": 18.666666666666664,
         "FontWeight": 1,
         "Foreground": 2,
-        "HorizontalAlignment": 3,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "HorizontalAlignment": 3
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333333333332,
         "Foreground": 4,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 5,
-        "WordWrap": true,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 6,
+        "WordWrap": true
       }
     ],
     "Types": {
       "Strs": [
         "Body",
         "Bold",
-        "Text 1 25",
+        "Text 1 15",
+        "Center",
+        "Text 1 35",
         "Left",
-        "Text 1 50",
         "Top"
       ]
     },
     "CellStyles": {
-      "5,20": 0,
-      "8,20": 1
+      "12,22": 0,
+      "14,21": 1
     },
     "SheetStyle": {
-      "FontFamily": 0,
-      "BorderBottom": null,
-      "BorderTop": null,
-      "BorderLeft": null,
-      "BorderRight": null
+      "FontFamily": 0
     }
   },
   "Spans": [
-    "5,20,2,13",
-    "8,20,2,14",
-    "11,22,10,10",
-    "22,20,2,14"
+    "5,21,4,15",
+    "27,21,2,15",
+    "17,24,9,9",
+    "12,22,2,13",
+    "14,21,2,15"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MobilePageName": "FGC_两步验证_扫码页面_手机版",
     "Title": "两步验证",
-    "PermissionData": {
-      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
-      "permissionResource": {
-        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
-      },
-      "permissionBindings": [
-        {
-          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
-          "roleNames": [
-            "FGC_LoginUser"
-          ]
-        }
-      ]
+    "AuthorizeInfo": {
+      "VisitMode": 2
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
@@ -161,31 +138,23 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "57be15ca-a4f7-410f-90b6-61faafa9a458",
-      "DisplayName": "背景图1",
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Name": "BackgroundPicture0",
       "ForguncyPictureName": "PCLoginBackground",
       "ForguncyPictureSourceType": 2,
       "Stretch": 3,
-      "StyleInfo": {
-        "Fill": "Background 1 0"
-      },
-      "IsAutomaticFill": false,
-      "Size": "1080,620"
+      "Size": "1120,685"
     },
     {
-      "Name": "673c3e7c-0e68-42ee-8d05-67baf44b3cb7",
-      "DisplayName": "背景图2",
+      "Name": "BackgroundPicture1",
       "StyleInfo": {
-        "CornerRadius": 20.0,
-        "Fill": "Background 1 0",
-        "StrokeDashType": 8,
-        "Stroke": "black",
-        "StrokeThickness": 0.0
+        "CornerRadius": 8.4375,
+        "Fill": "#FFFFFFFF"
       },
-      "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
-      "Location": "340,60",
-      "Size": "400,460"
+      "Location": "380,220",
+      "Size": "360,385"
     }
   ]
-}//VFSVKqs7udQSXIjgqXLb0v27kVOab9YZ22lvs0y2JAbW3QWMg70JTg8T/LMHevOS5FZvdayvpt1dhpcPATjsRsorG8gH9NFzmpU3SzhMtK4H4HmHmBti2uJKugQDveobftckhhQ8/U+Rm+ensGdDMTltR+KcKqgDmWM1IRTLprP3MisNi8RxvA3iLdlc6MNeZQVtdaXVSnUZmjNo+m1MC/likid0t+1KeUmwEYg2965Uxr3UyWyDg0ieqiUJI93QlYjqzIqO3Eo0bISAIcyJmWxFWEEOSRI6/NEHjnZ35Hn+BlJhFN9fN7k/C7WfB6mg/Y1dEmC6IlRVLEvgSOCws4JxxrE+7RWqB/QV3g8NIxqP+fNnUtRorzIccaE9JkSkpB7dJ8kXUKZiOFCpzyvMjVNawGoA6OIZD6oLtU9xUQZA1cZCPqYTgABjyXSxh0o0ZZaE9VgLeyu4/fg2bQ9hZVOeq33zXHveNLN/ly/7Jloxee6yEU/v1uy4OkR7H7XmaF7PMLr+jmAyqtgk68RUZpPTXbHxN0TyhxThXKDg8I1TXePsFBpSHKmU1eaus5y5OKaH2P4YixPyAEiApavfsRAeKDTAdkGIDKhjEqg+NBbkBmttsrV/gMUiuHH4Dj55bthyj84zHyjpnA6uAZVY+LyVWI4dUbZgEMjKOYI6q2VcJFbZ+PCDBzzXCp6uOKOc52rbMspfPZlNhduqzgTaWQaD3gnz8IiOiQ2vQzVPlN1r0W8KTRqASAkEMRm8cE0UoPjMMPJ1RPzZeEpWaiVDfpu+/gr8sPGCt7l32MxkSUgTG3WD/lI1yK1GyaiYSleN3/nJsvtDoMGnCQkhXfkzRUoZc9aqv3qZzUCGlVmvOiAt0/iGBessl8AeSKwSVtKOj6C7uxYgzBHXnVJr8+xsbw==|920
+}//jwV8cV1x3NiQxpi2j440wH5QxMnsESRLpczlbjC1pkgmnOIhc8Xi8xzqYMQieuLO59CpYaPgvzAxWh2RQfugvsZYFg4SWylad74f0AZBYED776+STp1LCB7M/k57EKySUZUH0+k68tswYRO3Qrl3kYitBkcc6/Sw/ye/dpKga4yLmpgNthtFuWeJ5Vq5ua0ASPUBxVhwof4iQUE712Oo9YpBb1GaAVmJPxv4N25aFrcqcNDOrcDyL2qCiDKOY0/WAbqLYTWd3Ur/RPh7NIgH6d19j162aWcOVIrrwItmLvsqetDxKBhqBNcEuJs6cpRsqYOeZ/aVJV0MSm3i8guRvtObs8+MFrT5M9+Zj/ThWhAoAMCGGo2gA9aQ4rZGgdIpCvySl6Fwl+pReZF3AVitIeXGpy/q6CZITrGN+Gje5CNVYGhALKK/HT0J60hYriohP1cGPiFZuhJ82tzmhTutKy1YdAZhbqyDU20Jajh+k4k95we2Gxm1OWBaPx0bVUejce68obU3UEUGeFtvfVMbFblxLcUizXg/ZTZ9EO+K+qiYUrA658A7vrP7X5fqvtIDHkyFIfSFnlK22Tvv7aSKtrYzeWGo60XmSHB9XnKVUFT32mzK0+5Xduc/TO1vkE8yRLMDYKXE1VyZ25kdoQGvOCDLCzmNr0PgoCfSIC/pIOBQlgSzt0QHrphYZYEICpfyzVfzwKgtdfY3+Gb2onOqrB0nnamSR/IvaIOi4v8WvpCLOQbvIpDgZ74DF/YGXnQkBj+6TBs0ZEnKdSikk1ooMwlQ3K8/202IFArMDwnQvEf/sx72aKl5H2nhzfSkFqU/9pD6RDLtEHiOhMVQakmpmHKKJBqWR6ycQDfsGbVQwyqsxngbfmlaA/akquqaf6Q2ReH+ntCtb9kOhJ3tKmY0QA==|920

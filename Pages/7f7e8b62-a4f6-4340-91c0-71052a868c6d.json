@@ -1,0 +1,123 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 10.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 11
+  },
+  "Values": {
+    "1,5": "销售额"
+  },
+  "AttachInfos": {
+    "1,3": {
+      "TemplateCellSource": "大区"
+    },
+    "2,2": {
+      "TemplateCellSource": "销售总计"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "HorizontalAlignment": 2
+      },
+      {
+        "Foreground": 1
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 18.666666666666664,
+        "Foreground": 3,
+        "Formatter": 4,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 5
+      },
+      {
+        "FontFamily": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "#FF55DEFF",
+        "Center",
+        "#FFFFC000",
+        "#,##0",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "1,3": 0,
+      "1,5": 1,
+      "2,2": 2,
+      "3,8": 3,
+      "3,9": 3
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "1,3,1,2",
+    "2,2,2,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "大屏(销售信息)",
+    "PageResponsiveMode": 2
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserHeight": true,
+      "Name": "13389a1f-99e5-496d-8f13-58ac03367bfd.png",
+      "ForguncyPictureName": "图片资源.png",
+      "ForguncyPictureSourceType": 0,
+      "StyleInfo": {
+        "Fill": null
+      },
+      "IsAutomaticFill": false,
+      "Size": "180,70"
+    }
+  ]
+}//gMMRni2iSH8vQJOtthdjnYqdJP8agJiADQS0Fu/tvdrCzEvzt5B6iLoOcXl7U5a8gFhtfw+2RwxPr6FMnLYXl2M7676purVXgQWU3Agn+thdDTz9yDqYeaTjF5Kr1bPYLmQlB1m92Q4OsFwU3UAM2SjDvnR04+Vaxjs6pmn4jEudhb47S/IfJ3ddfrii1mY7FnKImGFBZHLOXIxle9hd51In26HHh1+QMc7JhmroPf3ZzxVyIVlhtFidyKs/cBmR4LThIjEe/jly+podRJjEaHZx4ZTdEpc/huL1pPfoMvY5vk/3fZi3Tjn6S+FsUnqMvDTxqJQ7TN4fSseMWLdbfmEBGKR045whXrD30AefHzufTihLotMiXVk21iMC//XdmkGNVSaS189QMpbb7PUWXhOyEoeiUZVd6uqPFdLYy7uP+/YOXhmkc9wccFAceYS7xHAvdZz1MT846n5npGiqGPenyAYUy5D7+qkogXZG9yeQG7hSgyEe2vSdy/CXjHeiRDdq0H9bx3fhWDbjMTBk5huBZOOkNXmwQ9IdcAnYQ7Vog0dEr3Q8baDuHM8cc4CMCIqtc93IRsKz15J2jmrusVrvxAYjFREqvCSMtb5Bi69UoFtY3Dlte21N7Od8wKXBR/NzIrXB5SguM7oZ+4tPTw+ejsdeZKLWXMjCJcOkIdhSC8PLTwSr6q7BK7ipAtUWh+nYYTZVrM9rU4/ltgBpzZ4NN1pN2Xq16eIG6Vnq4e6YycX3744lcKE3VYi0JV+lpkc9KRZ7bucUoxAT42hteXFRpf9HrPByhAGaZJZPKYl2lxF8Pp8UDOlxdwSAsbuCZzvqeMLbIE+u2s7qYLUIaEPUsQogBn8/qGenlvgfXSdNfT5b4z55C0EgqpI6t3vMJBU6o5ZA5/0o3JA9n5OmvQ==|920

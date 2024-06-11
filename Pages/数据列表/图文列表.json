@@ -1,0 +1,905 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 30
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "43": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 51
+  },
+  "Values": {
+    "1,1": " 企业徽标物品列表",
+    "1,43": "高级查询"
+  },
+  "AttachInfos": {
+    "1,43": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "ServerDesignerCommon.Command.RuntimeQueryCommand, ServerDesignerCommon",
+            "ListviewName": "图文列表表格1",
+            "Columns": [
+              {
+                "BindingInfo": {
+                  "TableName": "徽标物品信息表",
+                  "ColumnName": "名称",
+                  "GUID": "457745b6-e09d-49fd-9531-a1d1d43a8847"
+                },
+                "Name": "名称"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "徽标物品信息表",
+                  "ColumnName": "最终库存数",
+                  "GUID": "0c07803b-3e77-40a8-a405-b3645dafeb30"
+                },
+                "Name": "最终库存数"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "徽标物品信息表",
+                  "ColumnName": "临界剩余数量",
+                  "GUID": "fa2888b8-887a-452f-936b-2117bb6b6d5e"
+                },
+                "Name": "订购时剩余数量"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "徽标物品信息表",
+                  "ColumnName": "入库日期",
+                  "GUID": "31eca33a-88c9-4fc3-8617-6a2ef9418010"
+                },
+                "Name": "最后交货日期"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "徽标物品信息表",
+                  "ColumnName": "最近订购数量",
+                  "GUID": "c5e5c0c4-a0cd-4820-8f12-decae5202029"
+                },
+                "Name": "最近订购数量"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "徽标物品信息表",
+                  "ColumnName": "订购日期",
+                  "GUID": "1a026df3-3b8b-4b62-8b48-1ee679973986"
+                },
+                "Name": "上次订购日期"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "徽标物品信息表",
+                  "ColumnName": "订购负责人",
+                  "GUID": "29e19ba1-5299-4742-a5c0-d9be3d6c98d5"
+                },
+                "Name": "订购负责人"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "徽标物品信息表",
+                  "ColumnName": "入库数量",
+                  "GUID": "b1ce9729-ad73-4103-bff2-ea86dae8f3a1"
+                },
+                "Name": "上次订购数量"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "徽标物品信息表",
+                  "ColumnName": "入库负责人",
+                  "GUID": "58517a0a-79d9-4e20-a698-e05e1fe09e27"
+                },
+                "Name": "入库负责人"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "徽标物品信息表",
+                  "ColumnName": "单价",
+                  "GUID": "8c9768a5-0ed7-48e5-a5e3-11ae2250d176"
+                },
+                "Name": "单价"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "徽标物品信息表",
+                  "ColumnName": "包装单位",
+                  "GUID": "7b44ebb8-643a-4f96-95b1-46d83bcaa3be"
+                },
+                "Name": "包装单位"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "徽标物品信息表",
+                  "ColumnName": "购买时是否需要提出申请",
+                  "GUID": "05e3c220-1756-42f6-8706-a845767ed8d2"
+                },
+                "Name": "购买时是否需要提出申请"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "徽标物品信息表",
+                  "ColumnName": "在印刷信息确认",
+                  "GUID": "c830eb7a-3b7c-4f12-8ac9-a5c81d9bcf16"
+                },
+                "Name": "在印刷信息确认"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "徽标物品信息表",
+                  "ColumnName": "通知",
+                  "GUID": "9d68de97-76cb-4e48-b2e3-4c9b591126c3"
+                },
+                "Name": "通知"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "徽标物品信息表",
+                  "ColumnName": "库存与临界数量差",
+                  "GUID": "9c00592e-c1d3-4c54-8433-b2e5c91d4470"
+                },
+                "Name": "库存与临界数量差"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "徽标物品信息表",
+                  "ColumnName": "入库金额",
+                  "GUID": "332ff05a-f740-4969-abb9-22a2e4bf26ef"
+                },
+                "Name": "入库金额"
+              }
+            ],
+            "DefaultViewId": "all",
+            "QueryDialogTitle": "高级查询",
+            "ID": "ca43979b0b684a53a4aaea9a698f39a2"
+          }
+        ],
+        "Text": "高级查询",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "4,0": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "TemplatePageName": "09243fe9-f84e-47b7-be29-1953afe8494a",
+        "DataSourceType": 1,
+        "ListviewName": "表格1",
+        "DataSource": {
+          "$type": "ServerDesignerCommon.Model.BindingDataSourceModel, ServerDesignerCommon",
+          "TableName": "徽标物品信息表",
+          "BindingInfos": [
+            {
+              "GUID": "2b7f59ea-01e0-493d-a6d7-dd047427b57e",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "ID",
+                "GUID": "61afc11a-2ce1-4769-9c46-ce2e554a364b"
+              },
+              "ColumnName": "ID"
+            },
+            {
+              "GUID": "e09e047f-33cf-4bdd-bcac-09ae7a565e8c",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "名称",
+                "GUID": "457745b6-e09d-49fd-9531-a1d1d43a8847"
+              },
+              "ColumnName": "名称"
+            },
+            {
+              "GUID": "7c2398f8-9700-4099-8bef-bc218d7356d9",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "最终库存数",
+                "GUID": "0c07803b-3e77-40a8-a405-b3645dafeb30"
+              },
+              "ColumnName": "最终库存数"
+            },
+            {
+              "GUID": "713529f4-25cb-4068-a565-f016886b755b",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "临界剩余数量",
+                "GUID": "fa2888b8-887a-452f-936b-2117bb6b6d5e"
+              },
+              "ColumnName": "订购时剩余数量"
+            },
+            {
+              "GUID": "6c6ab7d8-6e84-4a67-9e0e-47a685f4e3fd",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "入库日期",
+                "GUID": "31eca33a-88c9-4fc3-8617-6a2ef9418010"
+              },
+              "ColumnName": "入库日期"
+            },
+            {
+              "GUID": "ce3cb91a-de4b-491d-9930-cb3d7f113f82",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "最近订购数量",
+                "GUID": "c5e5c0c4-a0cd-4820-8f12-decae5202029"
+              },
+              "ColumnName": "最近订购数量"
+            },
+            {
+              "GUID": "8a26ae8e-2a73-4844-8cf8-0370eea6687b",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "订购日期",
+                "GUID": "1a026df3-3b8b-4b62-8b48-1ee679973986"
+              },
+              "ColumnName": "订购日期"
+            },
+            {
+              "GUID": "cec9931c-afbc-46b5-871b-9e45e64df0b8",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "订购负责人",
+                "GUID": "29e19ba1-5299-4742-a5c0-d9be3d6c98d5"
+              },
+              "ColumnName": "订购负责人"
+            },
+            {
+              "GUID": "2fd8a924-fcc9-42ea-b11b-609093751d8f",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "入库数量",
+                "GUID": "b1ce9729-ad73-4103-bff2-ea86dae8f3a1"
+              },
+              "ColumnName": "入库数量"
+            },
+            {
+              "GUID": "ca1b545a-1ff7-4514-8bbd-4ad4c9debbb1",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "入库负责人",
+                "GUID": "58517a0a-79d9-4e20-a698-e05e1fe09e27"
+              },
+              "ColumnName": "入库负责人"
+            },
+            {
+              "GUID": "41e99867-68fe-4270-9eb2-1322fedefeeb",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "单价",
+                "GUID": "8c9768a5-0ed7-48e5-a5e3-11ae2250d176"
+              },
+              "ColumnName": "单价"
+            },
+            {
+              "GUID": "d39b5b30-79b7-49d2-b7b7-174ad6f94938",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "包装单位",
+                "GUID": "7b44ebb8-643a-4f96-95b1-46d83bcaa3be"
+              },
+              "ColumnName": "包装单位"
+            },
+            {
+              "GUID": "a5dddf96-36c4-47f2-a624-1e50af69c7c2",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "购买时是否需要提出申请",
+                "GUID": "05e3c220-1756-42f6-8706-a845767ed8d2"
+              },
+              "ColumnName": "购买时是否需要提出申请"
+            },
+            {
+              "GUID": "f2db6c0b-e292-4b43-b115-e56a5fca2421",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "在印刷信息确认",
+                "GUID": "c830eb7a-3b7c-4f12-8ac9-a5c81d9bcf16"
+              },
+              "ColumnName": "在印刷信息确认"
+            },
+            {
+              "GUID": "4af81c96-8c82-4d3f-a51f-c16fe911d17b",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "通知",
+                "GUID": "9d68de97-76cb-4e48-b2e3-4c9b591126c3"
+              },
+              "ColumnName": "通知"
+            },
+            {
+              "GUID": "97812fb3-058a-4665-a322-5dad011c7b5c",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "图片",
+                "GUID": "cf4f9cc5-75e2-4236-9c02-fa3c935e9009"
+              },
+              "ColumnName": "图片"
+            },
+            {
+              "GUID": "0ac06d8e-109e-461a-af3d-580d84171aba",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "库存与临界数量差",
+                "GUID": "9c00592e-c1d3-4c54-8433-b2e5c91d4470"
+              },
+              "ColumnName": "库存与临界数量差"
+            },
+            {
+              "GUID": "df538fe7-c3f9-40ab-9e6c-4b526b254481",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "入库金额",
+                "GUID": "332ff05a-f740-4969-abb9-22a2e4bf26ef"
+              },
+              "ColumnName": "入库金额"
+            },
+            {
+              "GUID": "02296d8e-290a-4d91-b869-9f4c6445f477",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "FGC_Creator",
+                "GUID": "eac1ee58-d0b9-40a2-843c-b380ef215e38"
+              },
+              "ColumnName": "创建者"
+            },
+            {
+              "GUID": "c3c511a3-c8e2-4250-a220-a710c5003bf7",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "FGC_CreateDate",
+                "GUID": "6de93bfd-1c16-412e-b320-862fd8529f99"
+              },
+              "ColumnName": "创建日期"
+            },
+            {
+              "GUID": "ad2997e6-2386-4541-b01a-3be1583a0ce8",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "FGC_LastModifier",
+                "GUID": "ccf44f8b-35ef-4312-9988-869c35c69001"
+              },
+              "ColumnName": "最后更新者"
+            },
+            {
+              "GUID": "27a2ef0c-2ac7-4387-88da-9b14e8809f4d",
+              "BindingInfo": {
+                "TableName": "徽标物品信息表",
+                "ColumnName": "FGC_LastModifyDate",
+                "GUID": "cfb5b976-d011-4c66-a035-4ae1f5b2969c"
+              },
+              "ColumnName": "最后更新日期"
+            }
+          ],
+          "IsListviewDataSource": true,
+          "CustomColumns": []
+        },
+        "DataSourceListviewName": "图文列表表格1",
+        "NoItemSetting": {
+          "ImageForNoItem": {
+            "Name": "Application/046_search_7.svg",
+            "BuiltIn": true,
+            "Color": "Background 1 -25"
+          },
+          "NoItemImageSize": 100.0,
+          "TextForNoItem": "没有符合条件的物品",
+          "Orientation": 1
+        }
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0
+      },
+      {
+        "FontSize": 24.0,
+        "Foreground": 1,
+        "Formatter": 2
+      },
+      {
+        "FontSize": 24.0,
+        "Foreground": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 3,
+        "Formatter": 2
+      },
+      {
+        "FontFamily": 3
+      },
+      {
+        "FontSize": 24.0,
+        "Foreground": 1
+      },
+      {
+        "BorderBottom": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 3,
+        "FontSize": 21.33333396911621,
+        "FontStretch": 4,
+        "FontStyle": 4,
+        "FontWeight": 4,
+        "Foreground": 5,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 6,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "Background": null,
+        "FontFamily": 3,
+        "FontStretch": 4,
+        "FontStyle": 4,
+        "FontWeight": 4,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 7,
+        "VerticalAlignment": 6,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FFF1F1F1",
+        "Text 1 25",
+        "[AUTO]General",
+        "Body",
+        "Normal",
+        "Background 1 -25",
+        "Center",
+        "General"
+      ]
+    },
+    "CellStyles": {
+      "0,40": 0,
+      "1,1": 1,
+      "1,11": 2,
+      "1,12": 2,
+      "1,13": 2,
+      "1,14": 2,
+      "1,15": 2,
+      "1,16": 2,
+      "1,43": 3,
+      "1,44": 4,
+      "1,45": 4,
+      "1,46": 4,
+      "1,47": 4,
+      "1,48": 4,
+      "2,1": 1,
+      "2,2": 1,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "2,6": 1,
+      "2,7": 1,
+      "2,8": 1,
+      "2,9": 1,
+      "2,10": 1,
+      "2,11": 5,
+      "2,12": 5,
+      "2,13": 5,
+      "2,14": 5,
+      "2,15": 5,
+      "2,16": 5,
+      "2,43": 4,
+      "2,44": 4,
+      "2,45": 4,
+      "2,46": 4,
+      "2,47": 4,
+      "2,48": 4,
+      "3,1": 6,
+      "3,2": 6,
+      "3,3": 6,
+      "3,4": 6,
+      "3,5": 6,
+      "3,6": 6,
+      "3,7": 6,
+      "3,8": 6,
+      "3,9": 6,
+      "3,10": 6,
+      "3,11": 6,
+      "3,12": 6,
+      "3,13": 6,
+      "3,14": 6,
+      "3,15": 6,
+      "3,16": 6,
+      "3,50": 6,
+      "4,0": 7
+    },
+    "RowStyles": {
+      "3": 8
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "1,1,2,10",
+    "4,0,26,51",
+    "1,43,2,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "母版页",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "aa728773-5ab0-41c2-ab50-fbfc7df5d8cb.png",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "#FFF0F4F7"
+      },
+      "IsAutomaticFill": false,
+      "Size": "1040,580"
+    }
+  ]
+}//MSHgjRpiakq+bSbAMwtVoWfyAL+z+u+jjR0JodFVIGPzRx9xq97N98bmJgxkiRK7NAigo0K5Pt50zT+QSsweMcGnhZnFx4OrfZRxUDP1WEmy5Bxy2sM8IY6qpIX5+kHRfiwsnqOHuFDyqet5BTRHcbsnX2QKfOHRg9wPsvdcr1pqXsPDQNlossoa21rpp+6TAxEWBrzxtewcdrNS3Bn3EOYN5S/d9acwbJVrhW1Q29W1PBenYcAyCNaS7Y/sD0QWVkhfDfs71b7YqfmBTC5cdIn6oyjwdiLNDATKW6PSJ3FVi++EeJ7AnjDKfsi8cOL2NL23C1lwwZH331uUKNLKj9aFLwgxJ99Vk+u08Yx84CkRlvawCA8IXd0EJ/K2Vp4kcQNoSVi2Qv1+HHB2dTY9YbaaoFLMOXZZY5sUdx0yNTQdj2ZtdZw4Y60uHDHiDETLtmTMWvinQeMZLWrGibJSB3q8mBxMYswI1QziZ9ldt3s8xHlXkKic6osdgrAl5DHaAThmXXTlIuGSm2hrDmAGXGy3FHmLU2E0GutJgAIEzjWGfss24jYBoYdIvrilY+iNPta3aAVNv0Sz6amqwnpKiCEmXZsNmcp85R0mrfN6R0EpReEt+N2C1lblAu0t4zu+3V8cT6tmm6oKrKPAJh9KocexvpPQ3cR6JsLe1dv4bV1z3moTPCSEs6EUcGpN0AjNy4QVk0FrzlnvOWh65O0Og0qM6faPyBcswPK90PLjYVTMw5aqa0tgD3HuJzXmYhGrMgAjPKgksEDfgMJLJCXiDWdgy8A6szbSdbw0KxVS/ykfGfWPJ+HRwbab/3yTvoUyv0I5Rqag3janLdxM+mW2kt5FVURTe2fws/ngI/Uzk+tzy7f3e+OWD10i8/ghGpYIaC/v1GXRQWm9lnNP3wzJcg==|920

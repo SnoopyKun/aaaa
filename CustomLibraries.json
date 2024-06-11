@@ -1,15 +1,11 @@
 {
   "UserJSFileList": [
     {
-      "Name": "ga.js"
+      "Name": "CustomizeMapStyle.js"
     },
     {
-      "Name": "clearMenuCache.js"
+      "Name": "ga.js"
     }
   ],
-  "UserCSSFileList": [
-    {
-      "Name": "ims.css"
-    }
-  ]
+  "UserCSSFileList": []
 }

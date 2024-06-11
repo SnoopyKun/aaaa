@@ -1,0 +1,174 @@
+{
+  "Name": "店铺信息",
+  "Columns": [
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "Required": true,
+      "Unique": true,
+      "AutoIncrement": true,
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "门店编号",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "门店名称",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Int64",
+      "MaxLength": -1,
+      "Name": "地区编号",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Double",
+      "MaxLength": -1,
+      "Name": "开店时间",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Double",
+      "MaxLength": -1,
+      "Name": "规模",
+      "ColumnType": "System.Double, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "门店分类ID",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.Double",
+      "MaxLength": -1,
+      "Name": "关店时间",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "关店原因",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.BindingColumnSaveData, ServerDesignerCommon",
+      "DatabaseColumnType": "System.String",
+      "MaxLength": -1,
+      "Name": "备注",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.FormulaColumnSaveData, ServerDesignerCommon",
+      "Formula": "IF(ISBLANK([关店时间]), \"正常\", \"关闭\")",
+      "Name": "门店状态",
+      "ColumnType": "System.Object, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.StatisticColumnSaveData, ServerDesignerCommon",
+      "AggregateFunction": 1,
+      "DataColumnName": "门店编号",
+      "Name": "店铺数",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.StatisticColumnSaveData, ServerDesignerCommon",
+      "BindingInfo": {
+        "TableName": "员工信息",
+        "ColumnName": "员工编号",
+        "GUID": "62b84c69-ad2f-4663-a7e0-6e3ed05a04b4"
+      },
+      "AggregateFunction": 1,
+      "DataColumnName": "员工编号",
+      "DetailTableName": "员工信息",
+      "Name": "员工人数",
+      "ColumnType": "System.Int32, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.StatisticColumnSaveData, ServerDesignerCommon",
+      "BindingInfo": {
+        "TableName": "员工信息",
+        "ColumnName": "姓名",
+        "GUID": "60aaadcc-033d-433d-b0db-4ee32ef0b674"
+      },
+      "AggregateFunction": 5,
+      "DataColumnName": "姓名",
+      "DetailTableName": "员工信息",
+      "Name": "员工列表",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.StatisticColumnSaveData, ServerDesignerCommon",
+      "BindingInfo": {
+        "TableName": "员工信息",
+        "ColumnName": "年龄",
+        "GUID": "ad0cde63-16d0-4fd5-8dd5-bc7be103d212"
+      },
+      "DataColumnName": "年龄",
+      "DetailTableName": "员工信息",
+      "Name": "员工平均年龄",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.StatisticColumnSaveData, ServerDesignerCommon",
+      "BindingInfo": {
+        "TableName": "员工信息",
+        "ColumnName": "工龄",
+        "GUID": "c2f94b29-ebe7-4fe5-938e-d3bc59f0e18d"
+      },
+      "DataColumnName": "工龄",
+      "DetailTableName": "员工信息",
+      "Name": "员工平均工龄",
+      "ColumnType": "System.Int64, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.UserExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_Creator"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.DateExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_CreateDate"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.UserExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_LastModifier"
+    },
+    {
+      "$type": "Forguncy.SaveLoad.DateExtraBingingColumnSaveData, ServerDesignerCommon",
+      "ColumnType": "System.DateTime, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+      "Name": "FGC_LastModifyDate"
+    }
+  ],
+  "PrimaryKey": [
+    "门店编号"
+  ],
+  "Relations": [
+    {
+      "PrimaryTable": "门店分类",
+      "PrimaryColumn": "ID",
+      "ForeignTable": "店铺信息",
+      "ForeignColumn": "门店分类ID",
+      "IsDetailTableRelation": true
+    },
+    {
+      "PrimaryTable": "区域列表",
+      "PrimaryColumn": "地区编号",
+      "ForeignTable": "店铺信息",
+      "ForeignColumn": "地区编号",
+      "IsDetailTableRelation": false
+    }
+  ],
+  "Indexes": []
+}

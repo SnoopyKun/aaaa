@@ -1,110 +1,19 @@
 {
   "Rows": {
-    "RowColumnAttachedInfos": {
-      "0": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "23": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 24.0
-        }
-      },
-      "24": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 24.0
-        }
-      },
-      "26": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 32.0
-        }
-      },
-      "30": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      }
-    },
-    "Count": 31
+    "Count": 25
   },
   "Cols": {
-    "RowColumnAttachedInfos": {
-      "0": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "3": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 10.0
-        }
-      },
-      "4": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 10.0
-        }
-      },
-      "11": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "19": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      }
-    },
-    "Count": 20
+    "Count": 18
   },
   "Values": {
-    "4,3": "修改用户信息",
-    "14,3": "*",
-    "14,4": "显示名",
-    "18,3": "*",
-    "18,4": "电子邮箱",
-    "23,3": "保存",
-    "26,3": "取消"
+    "2,5": "修改用户信息",
+    "13,2": "显示名",
+    "17,2": "电子邮箱",
+    "21,2": "保存",
+    "21,10": "取消"
   },
   "AttachInfos": {
-    "8,8": {
+    "6,5": {
       "CellType": {
         "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
         "TemplateKey": "_RS_Shadow_EmptyText",
@@ -114,13 +23,10 @@
           "MaxHeight": 300.0,
           "AllowExtensions": ".art, .bmp, .cmx, .cod, .dib, .gif, .ico, .ief, .jfif, .jpe, .jpeg, .jpg, .pbm, .pgm, .png, .pnm, .pnz, .ppm, .ras, .rf, .rgb, .svg, .tif, .tiff, .wbmp, .xbm, .xpm, .xwd"
         },
-        "ImagePath": "Navigation/238_user_8.svg",
-        "BuiltIn": true,
-        "Color": "Accent 1 40",
         "ForguncyAttribute": "ChangeProfile_Picture"
       }
     },
-    "15,3": {
+    "14,2": {
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -128,14 +34,11 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_NewUnderline",
+        "TemplateKey": "样式5",
         "ForguncyAttribute": "ChangeProfile_FullName"
-      },
-      "DataValidationInfo": {
-        "IgnoreBlank": false
       }
     },
-    "19,3": {
+    "18,2": {
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "SavedValidators": [
@@ -143,100 +46,128 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_NewUnderline",
+        "TemplateKey": "样式5",
         "ForguncyAttribute": "ChangeProfile_Email"
-      },
-      "DataValidationInfo": {
-        "IgnoreBlank": false
       }
     },
-    "23,3": {
+    "21,2": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "Text": "保存",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Main1",
+        "TemplateKey": "样式8",
         "ForguncyAttribute": "ChangeProfile_Button"
       }
     },
-    "26,3": {
+    "21,10": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "NavigateType": "back"
+            "NavigateType": "back",
+            "IgnoreTargetPageCachedCurrentRowInfo": false
           }
         ],
         "Text": "取消",
-        "ClickMode": 1,
-        "TemplateKey": "_RS_Main"
+        "TemplateKey": "样式6"
       }
     }
   },
   "StyleDatas": {
     "Styles": [
       {
-        "FontFamily": 0,
-        "FontSize": 24.0,
-        "FontWeight": 1,
-        "Foreground": 2,
-        "Formatter": 3,
-        "HorizontalAlignment": 4,
-        "VerticalAlignment": 5,
+        "BorderBottom": null
+      },
+      {
+        "BorderRight": null
+      },
+      {
+        "FontSize": 21.33333396911621,
+        "Foreground": 0,
+        "Formatter": 1,
+        "TextIndent": 0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
       },
       {
-        "FontFamily": 0,
-        "Foreground": 6,
-        "HorizontalAlignment": 4,
-        "Underline": false,
-        "Strikethrough": false,
+        "BorderLeft": null
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": null
+      },
+      {
+        "BorderTop": null
+      },
+      {
+        "Background": null,
+        "Foreground": null,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
       },
       {
-        "FontFamily": 0,
+        "Foreground": 5
+      },
+      {
         "FontSize": 14.666666984558105,
-        "Foreground": 7,
-        "Formatter": 3,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "Foreground": 6,
+        "Formatter": 1,
+        "BorderBottom": null
       },
       {
-        "FontFamily": 0,
-        "FontSize": 14.666666666666666,
-        "Foreground": 8,
-        "Formatter": 9,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
+        "Background": null,
         "FontSize": 16.0,
         "Foreground": null,
-        "Formatter": 3,
+        "Formatter": 7,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
       },
       {
-        "FontFamily": 0,
-        "FontSize": 13.333333333333332,
+        "Formatter": 7,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null
+      },
+      {
+        "Background": null,
+        "FontSize": 16.0,
+        "FontWeight": 8,
         "Foreground": null,
-        "Formatter": 3,
-        "HorizontalAlignment": 10,
-        "Underline": false,
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 9,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -245,66 +176,245 @@
     ],
     "Types": {
       "Strs": [
-        "Body",
-        "Bold",
-        "Text 1 25",
+        "#FF09519D",
         "[AUTO]General",
-        "Left",
-        "Bottom",
-        "#FFFF0000",
-        "#FF7F7F7F",
-        "Text 1 15",
-        "@",
         "Center",
+        "Bottom",
+        "#FFA9BCD1",
+        "Accent 1 -50",
+        "#FF7F7F7F",
+        "@",
+        "Bold",
+        "#FFFFFFFF",
+        "Body",
         "#FF000000"
+      ],
+      "Borders": [
+        {
+          "Color": 4
+        }
       ]
     },
     "CellStyles": {
-      "4,3": 0,
-      "14,3": 1,
-      "14,4": 2,
-      "15,3": 3,
-      "18,3": 1,
-      "18,4": 2,
-      "19,3": 3,
-      "23,3": 4,
-      "26,3": 5
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "1,11": 0,
+      "1,12": 0,
+      "2,4": 1,
+      "2,5": 2,
+      "2,13": 3,
+      "3,1": 4,
+      "3,2": 4,
+      "3,3": 4,
+      "3,4": 5,
+      "3,13": 6,
+      "3,14": 4,
+      "3,15": 4,
+      "3,16": 4,
+      "4,1": 7,
+      "4,2": 7,
+      "4,3": 7,
+      "4,4": 7,
+      "4,5": 7,
+      "4,6": 7,
+      "4,7": 7,
+      "4,8": 7,
+      "4,9": 7,
+      "4,10": 7,
+      "4,11": 7,
+      "4,12": 7,
+      "4,13": 7,
+      "4,14": 7,
+      "4,15": 7,
+      "4,16": 7,
+      "6,5": 8,
+      "10,16": 9,
+      "13,2": 10,
+      "13,3": 0,
+      "13,4": 0,
+      "13,5": 0,
+      "13,6": 0,
+      "13,7": 0,
+      "13,8": 0,
+      "13,9": 0,
+      "13,10": 0,
+      "13,11": 0,
+      "13,12": 0,
+      "13,13": 0,
+      "13,14": 0,
+      "13,15": 0,
+      "14,1": 1,
+      "14,2": 11,
+      "14,3": 12,
+      "14,4": 12,
+      "14,5": 12,
+      "14,6": 12,
+      "14,7": 12,
+      "14,8": 12,
+      "14,9": 12,
+      "14,10": 12,
+      "14,11": 12,
+      "14,12": 12,
+      "14,13": 12,
+      "14,14": 12,
+      "14,15": 12,
+      "14,16": 3,
+      "15,1": 1,
+      "15,2": 12,
+      "15,3": 12,
+      "15,4": 12,
+      "15,5": 12,
+      "15,6": 12,
+      "15,7": 12,
+      "15,8": 12,
+      "15,9": 12,
+      "15,10": 12,
+      "15,11": 12,
+      "15,12": 12,
+      "15,13": 12,
+      "15,14": 12,
+      "15,15": 12,
+      "15,16": 3,
+      "16,2": 7,
+      "16,3": 7,
+      "16,4": 7,
+      "16,5": 7,
+      "16,6": 7,
+      "16,7": 7,
+      "16,8": 7,
+      "16,9": 7,
+      "16,10": 7,
+      "16,11": 7,
+      "16,12": 7,
+      "16,13": 7,
+      "16,14": 7,
+      "16,15": 7,
+      "17,2": 10,
+      "17,3": 0,
+      "17,4": 0,
+      "17,5": 0,
+      "17,6": 0,
+      "17,7": 0,
+      "17,8": 0,
+      "17,9": 0,
+      "17,10": 0,
+      "17,11": 0,
+      "17,12": 0,
+      "17,13": 0,
+      "17,14": 0,
+      "17,15": 0,
+      "18,1": 1,
+      "18,2": 11,
+      "18,3": 12,
+      "18,4": 12,
+      "18,5": 12,
+      "18,6": 12,
+      "18,7": 12,
+      "18,8": 12,
+      "18,9": 12,
+      "18,10": 12,
+      "18,11": 12,
+      "18,12": 12,
+      "18,13": 12,
+      "18,14": 12,
+      "18,15": 12,
+      "18,16": 3,
+      "19,1": 1,
+      "19,2": 12,
+      "19,3": 12,
+      "19,4": 12,
+      "19,5": 12,
+      "19,6": 12,
+      "19,7": 12,
+      "19,8": 12,
+      "19,9": 12,
+      "19,10": 12,
+      "19,11": 12,
+      "19,12": 12,
+      "19,13": 12,
+      "19,14": 12,
+      "19,15": 12,
+      "19,16": 3,
+      "20,2": 13,
+      "20,3": 13,
+      "20,4": 13,
+      "20,5": 13,
+      "20,6": 13,
+      "20,7": 13,
+      "20,8": 7,
+      "20,9": 7,
+      "20,10": 13,
+      "20,11": 13,
+      "20,12": 13,
+      "20,13": 13,
+      "20,14": 13,
+      "20,15": 13,
+      "21,1": 1,
+      "21,2": 14,
+      "21,3": 15,
+      "21,4": 15,
+      "21,5": 15,
+      "21,6": 15,
+      "21,7": 15,
+      "21,8": 3,
+      "21,9": 1,
+      "21,10": 14,
+      "21,11": 16,
+      "21,12": 16,
+      "21,13": 16,
+      "21,14": 16,
+      "21,15": 16,
+      "21,16": 3,
+      "22,1": 1,
+      "22,2": 15,
+      "22,3": 15,
+      "22,4": 15,
+      "22,5": 15,
+      "22,6": 15,
+      "22,7": 15,
+      "22,8": 3,
+      "22,9": 1,
+      "22,10": 16,
+      "22,11": 16,
+      "22,12": 16,
+      "22,13": 16,
+      "22,14": 16,
+      "22,15": 16,
+      "22,16": 3,
+      "23,2": 7,
+      "23,3": 7,
+      "23,4": 7,
+      "23,5": 7,
+      "23,6": 7,
+      "23,7": 7,
+      "23,10": 7,
+      "23,11": 7,
+      "23,12": 7,
+      "23,13": 7,
+      "23,14": 7,
+      "23,15": 7
     },
     "SheetStyle": {
-      "FontFamily": 0,
+      "FontFamily": 10,
       "FontSize": 13.333333015441895,
-      "Foreground": 11,
-      "BorderBottom": null,
-      "BorderTop": null,
-      "BorderLeft": null,
-      "BorderRight": null
+      "Foreground": 11
     }
   },
   "Spans": [
-    "4,3,2,14",
-    "8,8,5,5",
-    "15,3,2,14",
-    "19,3,2,14",
-    "23,3,2,14",
-    "26,3,1,14"
+    "2,5,2,8",
+    "14,2,2,14",
+    "18,2,2,14",
+    "21,2,2,6",
+    "21,10,2,6",
+    "6,5,6,8"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "修改用户信息",
-    "PermissionData": {
-      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
-      "permissionResource": {
-        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
-      },
-      "permissionBindings": [
-        {
-          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
-          "roleNames": [
-            "FGC_LoginUser"
-          ]
-        }
-      ]
-    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -313,38 +423,5 @@
   "PrintInfo": {
     "PaperSize": {},
     "Margin": {}
-  },
-  "BackgroundPictures": [
-    {
-      "Name": "b1ebbb49-ad93-4755-ae48-13a5074f25bf",
-      "DisplayName": "背景图2",
-      "ForguncyPictureName": "MobileLoginBackground",
-      "ForguncyPictureSourceType": 2,
-      "Stretch": 3,
-      "StyleInfo": {
-        "Fill": "Background 1 0",
-        "StrokeDashType": 8,
-        "Stroke": "black",
-        "StrokeThickness": 0.0
-      },
-      "IsAutomaticStroke": false,
-      "IsAutomaticFill": false,
-      "Size": "380,640"
-    },
-    {
-      "Name": "d407595e-943a-471c-8ad4-7e268cc395b7",
-      "DisplayName": "背景图1",
-      "StyleInfo": {
-        "CornerRadius": 20.0,
-        "Fill": "Background 1 0",
-        "StrokeDashType": 8,
-        "Stroke": "black",
-        "StrokeThickness": 0.0
-      },
-      "IsAutomaticStroke": false,
-      "IsAutomaticFill": false,
-      "Location": "20,40",
-      "Size": "340,560"
-    }
-  ]
-}//sTKK23rVtzI+Og3OL+Lq0zHFJsEYwCKDa3ZhIK/97/HSy44w2KN1dQcd237gBtsY+99veAlqVDCJsTyzhnoxyXJY2IIqiGKiCaO/RPZa9tva+QLvqumGd96B6XYXKOmz9mM6C2DaCdMNAhdw5QcJOvIw4S4PJ3cdNDqFOLqQn0h8K7QFiyXV50S4Xvkksul7ddNS4bpLRvw/LMeCCd/s+xDfIIG6sJA6W+/BzNdLJSgwTgTySWDUPpENnFJ3QC+ARlLAKIZ7R47yW+EqwgoeWAQAPaF2mlprSSeyJeQnwYP8m8RABx/9SMEGDyDvTvruYvKGF1sHTGSustHvPT9wnbXTxhqYRx8RQZMjUBojwcUidwkjvPVYywBZvrb3fmd/7j09ctugyjYSSnFZK+VS5GRiMPwbo3ayygh9vDfFHI5cGRT0pU6pFlQmqBmZOx2imAq5o7kxJi4xweUXRfqen5DoNfAeZTGteGCx9Qb9YBy0ZG1VHt8NlYAkubyI8LD+CBPsq8BRhvENNCVpuf8MBlvYLFAYhSfW7i7WZEROqgAfHmU8IMjePdOAStI16ZlsoeBmTGwycU9v16bPStXeX9ZKxKr1qgQJLFoL7EI4W+FvTri5wXpxlyYA87jnNmFrGfc3F0M3Ob2pQWOUrQZIf9qH5xP2jlPn7cZoxuAJRHdfo6hoL1Jp1b/K8wuATE6BS7kbYuApOQmPavv7gO19hfRVMRcFDpU1fwa8DUgHZl/7Y3xq1yTw8/zZTXHB/uOEeXq+D5at+2/LlhtcnHhp/xP+rd6XHmCzxfV5C4PWeN+IW2PzZVPA92yLRtLoDuMIopZhy0yXTXzxRIW5/T1RPi9mK2mq+xWujOrmPPrTrYViQ1uKuXimrAgvLHkH9Ov1IBc+q7TeCFOyFA1Il3uzmQ==|920
+  }
+}//UUAThzuRF87RsGUrwMqzQXPaozelaaP/oZtQ1RBFRPje09BjST5xjd1vLsmtp1gCrAyaessM6fa23RNFi4ERYb7uXRFG/Fbe/K489dZInE57/qCiehKURfoV09olQHunBAVaPC+RF0xSapawObT9/zI+dKQw5ihdaJr/aSWFW3iPZsJ44APpencrU7Ynm4nDc44yuqalEmYXMf8KvfTvjKpvLGDTbrLjjsGDP0KkzZYkmJOn2nQIEjvk3ONT3BD6XTuj8IbBma68nm1aSQPSEd+m/VbYurTNXnHORG0sUy8pFEGut9TC2HNKRvA32ZHtoR5SWqaD1+XCNtYrS9GUx7dKkci5VAYMrsuZycT8VtEusJbhJTg3l5JkhvPmsd8+743pGgy4KjnVW/TsWBqdMh+BEZ1n4jpRimjZP3Q5IXvfoWbtLlzlHPoQga9MokS5A/o44W6MY4pvdbemy+XcLs+MQvLWPydroNShhoWrUh4JkU8BAZvLK1M+qmMUAwRSZfO94qtAoecdvLzmH3o1UWbj8RACgTOKtBJ14AAEjHtfgTn/gBl+OSsWghd2gLSAwsNvLmbB9qbLHrg7cTI8sOh5C7hCb+keS5uBxxQhS56avqsgvGLz/fQEf79QYjQK38xOImJ+5ri5SRE0CjkmdUv+H64ILp8/BL4jPvHdWTSe3WeZgmbF6wcEPL8qV4kVgNfwL5qvUSU1HuVxqQG3l526oVl1rnJ5AvraDlJO78KlSa7Db5Hf6NCApSjwcSVofNO55pWJ3rGFAIAFT81cSklOI1DjkfYR3cl68GqOMCtgRdqhJwRD3cIHCaF6GapR9Lw7eFdofKS8mESH0NR9paexcMjqSrWtb5TQhdHrFljAdG8e5/jA7Q3W3oKUH8vtt3CQsF/DigGF3LYzFlHwCw==|920

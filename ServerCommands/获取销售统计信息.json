@@ -1,0 +1,181 @@
+{
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
+  "Name": "获取销售统计信息",
+  "Enabled": true,
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+        "Permission": {
+          "$type": "Forguncy.SaveLoad.ServerCommandPermissionSaveData, ServerDesignerCommon",
+          "PermissionData": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+            "permissionResource": {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+            },
+            "permissionBindings": {
+              "$type": "System.Collections.Generic.List`1[[Forguncy.RbacPermission.Core.Impl.ServerCommand.IServerCommandPermissionBinding, Forguncy.RbacPermission.Core]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": [
+                      "FGC_LoginUser"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "销售总金额",
+        "TableValue": {
+          "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+          "TableName": "销售信息",
+          "OnlyGetValue": true,
+          "TableValueType": 0,
+          "BindingInfos": {
+            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon]], System.Private.CoreLib",
+            "$values": [
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "190aa0a1-5930-4d64-b79d-7a1fe2cbf892",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "销售信息",
+                  "ColumnName": "销售总计",
+                  "GUID": "93be2716-c823-4020-934a-43e70d18e23f"
+                },
+                "ColumnName": "销售总计"
+              }
+            ]
+          }
+        },
+        "ID": "eb22ffba330d443fa8bb312eca7b838c"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "门店总数",
+        "TableValue": {
+          "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+          "TableName": "店铺信息",
+          "OnlyGetValue": true,
+          "TableValueType": 0,
+          "BindingInfos": {
+            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon]], System.Private.CoreLib",
+            "$values": [
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "7451c175-e243-4aae-83ea-d4c99fba8025",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "店铺信息",
+                  "ColumnName": "店铺数",
+                  "GUID": "65825b72-ed83-4bf1-a9c8-6f1afb2dcf94"
+                },
+                "ColumnName": "店铺数"
+              }
+            ]
+          },
+          "SqlCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+              "TableName": "店铺信息",
+              "ColumnName": "关店时间",
+              "GUID": "49ef4314-e845-470f-81cc-9a4284be3534"
+            },
+            "Value": "%Null%"
+          }
+        },
+        "ID": "a46aae36a9174e73af104f30b2b0011f"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "会员总数",
+        "TableValue": {
+          "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+          "TableName": "会员信息",
+          "OnlyGetValue": true,
+          "TableValueType": 0,
+          "BindingInfos": {
+            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon]], System.Private.CoreLib",
+            "$values": [
+              {
+                "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                "GUID": "519a88c8-a0d4-4421-8eee-e5e265a1c745",
+                "BindingInfo": {
+                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                  "TableName": "会员信息",
+                  "ColumnName": "人数",
+                  "GUID": "9e3aeed8-8e99-4859-9b98-f4e858373e8d"
+                },
+                "ColumnName": "人数"
+              }
+            ]
+          }
+        },
+        "ID": "10434a773ba24d1f9fd859e404a49645"
+      },
+      {
+        "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+        "CustomReturns": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.Model.CustomReturns, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.Model.CustomReturns, ServerDesignerCommon",
+              "ReturnPropertyName": "总销售额",
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=销售总金额"
+              }
+            },
+            {
+              "$type": "Forguncy.Model.CustomReturns, ServerDesignerCommon",
+              "ReturnPropertyName": "门店总数",
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=门店总数"
+              }
+            },
+            {
+              "$type": "Forguncy.Model.CustomReturns, ServerDesignerCommon",
+              "ReturnPropertyName": "会员总数",
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=会员总数"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "ReturnProperties": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "总销售额"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "门店总数"
+      },
+      {
+        "$type": "Forguncy.SaveLoad.ReturnPropertySaveData, ServerDesignerCommon",
+        "Name": "会员总数"
+      }
+    ]
+  }
+}

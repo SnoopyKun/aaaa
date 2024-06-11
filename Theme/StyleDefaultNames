@@ -1,6 +1,7 @@
 {
-  "DefaultListViewStyleName": "_RS_NewFashionListStyle2",
+  "DefaultListViewStyleName": "_RS_Medium2",
   "DefaultCellTypeStyleNames": {
-    "Forguncy.ProcessPanelCellTypeStyleTemplateSupportAttribute": "一般"
+    "Forguncy.ImageCellTypeStyleTemplateSupportAttribute": null,
+    "Forguncy.TextCellTypeStyleTemplateSupportAttribute": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
   }
 }
