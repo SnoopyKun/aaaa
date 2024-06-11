@@ -1,12 +1,12 @@
 {
   "IntegrateWithOtherApplication": {
-    "Password": "EfU(2FEC#0dl"
+    "Password": "8fysxwjLS&rO"
   },
   "ShareCommandContainers": [],
   "ListviewLoadingIndicatorSettings": {},
   "GlobalProperties": [],
-  "WebSitePort": 38333,
-  "UserServicePort": 14174,
+  "WebSitePort": 50419,
+  "UserServicePort": 64517,
   "StartDateFiscalYear": 1,
   "BaseOnStartingMonth": true,
   "MultipleLanguageSettings": {
